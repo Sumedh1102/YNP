@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function YNPTimeline() {
   const timelineData = [
     {
@@ -44,44 +42,40 @@ export default function YNPTimeline() {
       description:
         "As YNP continues to grow, the institution remains dedicated to shaping the future of pharmacy education—driven by scholarship, innovation, and a commitment to serve society through impactful healthcare solutions.",
     },
-  ];
+  ]
 
   return (
     <div className="min-h-fit bg-white">
-      <div className="py-16 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <div className="py-8 sm:py-12 md:py-16 px-4 sm:px-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-start">
           {/* Left Column - Sticky */}
-          <div className="sticky top-24 self-start">
-            <h1 className="text-4xl md:text-5xl font-medium text-gray-900 tracking-tight leading-tight mb-6">
+          <div className="lg:sticky lg:top-24 lg:self-start">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium text-gray-900 tracking-tight leading-tight mb-4 sm:mb-6">
               YNP College of Pharmacy: Our Journey
             </h1>
-            <p className="text-gray-600 text-xl leading-relaxed">
-              Established in 2022, YNP College of Pharmacy is a forward-looking
-              institution dedicated to academic innovation, professional
-              development, and community impact. Guided by excellence, research,
-              and service, we aim to shape the next generation of
-              healthcare-focused professionals.
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed">
+              Established in 2022, YNP College of Pharmacy is a forward-looking institution dedicated to academic
+              innovation, professional development, and community impact. Guided by excellence, research, and service,
+              we aim to shape the next generation of healthcare-focused professionals.
             </p>
           </div>
 
           {/* Right Column - Scrollable Timeline */}
-          <div className="space-y-8">
+          <div className="space-y-6 sm:space-y-8">
             {timelineData.map((milestone, index) => (
               <div
                 key={index}
-                className="bg-gray-100 rounded-3xl p-14 transition-all duration-300 hover:shadow-md hover:scale-[1.01]"
+                className="bg-gray-100 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-14 transition-all duration-300 hover:shadow-md hover:scale-[1.01]"
               >
-                <h2 className="text-3xl font-normal text-gray-800 mb-4">
+                <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-gray-800 mb-3 sm:mb-4">
                   {milestone.title} - ({milestone.year})
                 </h2>
-                <p className="text-gray-600 text-lg leading-relaxed">
-                  {milestone.description}
-                </p>
+                <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">{milestone.description}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }

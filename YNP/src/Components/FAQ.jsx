@@ -27,7 +27,7 @@ const FAQSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column */}
           <div className="space-y-8">
-            <h2 className="text-5xl font-normal leading-tight text-gray-900">
+            <h2 className="text-2xl lg:text-5xl  font-normal leading-tight text-gray-900">
               Frequently Asked Questions about YNP College of Pharmacy
             </h2>
             

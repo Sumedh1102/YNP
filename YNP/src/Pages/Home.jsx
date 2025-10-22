@@ -16,7 +16,6 @@ const Home = () => {
     <Grid/>
     <HContact/>
     <Desk/>
-    
     </>
   )
 }
