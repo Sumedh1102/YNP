@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function HealthcareTimeline() {
   const timelineData = [
     {
@@ -44,38 +42,40 @@ export default function HealthcareTimeline() {
       description:
         "YNP College offers personalized mentoring, digital learning tools including AI co-pilots, access to state-of-the-art laboratories, and a supportive peer network, ensuring holistic development and readiness for evolving healthcare challenges.",
     },
-  ];
+  ]
 
   return (
     <div className="min-h-fit bg-white">
-      <div className="py-16 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <div className="py-8 md:py-16 px-4 md:px-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
           {/* Left Column - Sticky */}
-          <div className="sticky top-24 self-start">
-            <h1 className="text-4xl md:text-5xl font-medium text-gray-900 tracking-tight leading-tight mb-6">
+          <div className="md:sticky md:top-24 self-start">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium text-gray-900 tracking-tight leading-tight mb-4 md:mb-6">
               The Diploma in Pharmacy (D.Pharm) program at YNP College of Pharmacy
             </h1>
-            <p className="text-gray-600 text-xl leading-relaxed">
-              The D.Pharm program at YNP is a 2-year comprehensive curriculum designed to prepare students for proficient pharmaceutical practice. It integrates theoretical knowledge with rigorous practical training, aligned with AICTE and PCI standards, and supported by industry and clinical partnerships.
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed">
+              The D.Pharm program at YNP is a 2-year comprehensive curriculum designed to prepare students for
+              proficient pharmaceutical practice. It integrates theoretical knowledge with rigorous practical training,
+              aligned with AICTE and PCI standards, and supported by industry and clinical partnerships.
             </p>
           </div>
 
           {/* Right Column - Scrollable Timeline */}
-          <div className="space-y-8">
+          <div className="space-y-4 md:space-y-8">
             {timelineData.map((milestone, index) => (
               <div
                 key={index}
-                className="bg-gray-100 rounded-3xl p-14 transition-all duration-300 hover:shadow-md hover:scale-[1.01]"
+                className="bg-gray-100 rounded-2xl md:rounded-3xl p-6 md:p-10 lg:p-14 transition-all duration-300 hover:shadow-md hover:scale-[1.01]"
               >
-                <h2 className="text-3xl font-normal text-gray-800 mb-4">
+                <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-gray-800 mb-3 md:mb-4">
                   {milestone.title} - ({milestone.year})
                 </h2>
-                <p className="text-gray-600 text-lg leading-relaxed">{milestone.description}</p>
+                <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">{milestone.description}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }

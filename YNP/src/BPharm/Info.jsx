@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function HealthcareTimeline() {
   const timelineData = [
     {
@@ -30,7 +28,7 @@ export default function HealthcareTimeline() {
       title: "Versatile Career Paths Post Graduation",
       year: "Post Graduation",
       description:
-        "Graduates qualify for roles in healthcare, pharmaceutical industry, clinical research, regulatory affairs, marketing, and government services, benefiting from YNP’s industry ties and comprehensive training.",
+        "Graduates qualify for roles in healthcare, pharmaceutical industry, clinical research, regulatory affairs, marketing, and government services, benefiting from YNP's industry ties and comprehensive training.",
     },
     {
       title: "Advanced Studies and Specializations",
@@ -42,42 +40,41 @@ export default function HealthcareTimeline() {
       title: "Contributing to Healthcare Innovation",
       year: "Lifelong Impact",
       description:
-        "YNP B.Pharm alumni contribute through drug development, public health initiatives, clinical service excellence, and pharmaceutical research, embodying the college’s ethos of innovation and ethical practice.",
+        "YNP B.Pharm alumni contribute through drug development, public health initiatives, clinical service excellence, and pharmaceutical research, embodying the college's ethos of innovation and ethical practice.",
     },
-  ];
+  ]
 
   return (
     <div className="min-h-fit bg-white">
-      <div className="py-16 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <div className="py-8 md:py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start">
           {/* Left Column */}
-          <div className="sticky top-24 self-start">
-            <h1 className="text-4xl md:text-5xl font-medium text-gray-900 tracking-tight leading-tight mb-6">
+          <div className="lg:sticky lg:top-24 lg:self-start">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium text-gray-900 tracking-tight leading-tight mb-4 md:mb-6">
               The Journey of a B.Pharmacy Student at YNP College of Pharmacy
             </h1>
-            <p className="text-gray-600 text-xl leading-relaxed">
-              Our B.Pharm program integrates pharmaceutical science, technology, clinical skills, and ethics, preparing students for dynamic careers dedicated to advancing healthcare and improving patient outcomes.
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed">
+              Our B.Pharm program integrates pharmaceutical science, technology, clinical skills, and ethics, preparing
+              students for dynamic careers dedicated to advancing healthcare and improving patient outcomes.
             </p>
           </div>
 
           {/* Right Column - Timeline */}
-          <div className="space-y-8">
+          <div className="space-y-4 sm:space-y-6 md:space-y-8">
             {timelineData.map((milestone, index) => (
               <div
                 key={index}
-                className="bg-gray-100 rounded-3xl p-14 transition-all duration-300 hover:shadow-md hover:scale-[1.01]"
+                className="bg-gray-100 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-14 transition-all duration-300 hover:shadow-md hover:scale-[1.01]"
               >
-                <h2 className="text-3xl font-normal text-gray-800 mb-4">
+                <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-gray-800 mb-3 md:mb-4">
                   {milestone.title} - ({milestone.year})
                 </h2>
-                <p className="text-gray-600 text-lg leading-relaxed">
-                  {milestone.description}
-                </p>
+                <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">{milestone.description}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
