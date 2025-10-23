@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function MedicalServicesGrid() {
   const services = [
@@ -7,31 +8,36 @@ export default function MedicalServicesGrid() {
       id: 1,
       title: 'Diploma in Pharmacy (D.Pharm)',
       image: 'https://ynpbpharm.in/assets/img/programs/dpharm.jpg',
-      hasIcon: true
+      hasIcon: true,
+      link: '/academics/dpharm-syllabus'  // 👈 route path
     },
     {
       id: 2,
       title: 'Bachelor of Pharmacy (B.Pharm)',
       image: 'https://ynpbpharm.in/assets/img/programs/bpharm.jpg',
-      hasIcon: true
+      hasIcon: true,
+      link: '/academics/bpharm-syllabus'
     },
     {
       id: 3,
       title: 'State of the art Laboratories',
       image: 'https://ynpbpharm.in/assets/img/labs/lab1.jpg',
-      hasIcon: false
+      hasIcon: false,
+      link: '/facilities'
     },
     {
       id: 4,
       title: 'Experienced Faculty',
       image: 'https://ynpbpharm.in/assets/img/faculty/faculty1.jpg',
-      hasIcon: false
+      hasIcon: false,
+      link: '/bpharm-faculty'
     },
     {
       id: 5,
       title: 'Workshops & Internships',
       image: 'https://ynpbpharm.in/assets/img/activities/workshop.jpg',
-      hasIcon: false
+      hasIcon: false,
+      link: '/studentlife'
     }
   ];
 
@@ -51,22 +57,23 @@ export default function MedicalServicesGrid() {
         {/* First row - 2 columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           {services.slice(0, 2).map((service) => (
-            <div
+            <Link
               key={service.id}
-              className="overflow-hidden bg-gray-50 group cursor-pointer transition-transform duration-300"
+              to={service.link}
+              className="overflow-hidden bg-gray-50 group cursor-pointer transition-transform duration-300 block"
             >
               {/* Image Section */}
               <div className="aspect-video overflow-hidden">
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover transition-transform duration-300 rounded-3xl"
+                  className="w-full h-full object-cover transition-transform duration-300 rounded-3xl group-hover:scale-105"
                 />
               </div>
 
               {/* Content Section */}
               <div className="p-6 flex mt-2 rounded-3xl bg-gray-200 items-center justify-between 
-                              transition-all duration-300 group hover:bg-blue-100">
+                              transition-all duration-300 group-hover:bg-blue-100">
                 <h3 className="text-xl font-medium text-gray-900 transition-colors duration-300 group-hover:text-blue-500">
                   {service.title}
                 </h3>
@@ -79,23 +86,24 @@ export default function MedicalServicesGrid() {
                   </div>
                 )}
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
         {/* Second row - 3 columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {services.slice(2).map((service) => (
-            <div
+            <Link
               key={service.id}
-              className="rounded-3xl overflow-hidden bg-gray-50 group cursor-pointer transition-transform duration-300"
+              to={service.link}
+              className="rounded-3xl overflow-hidden bg-gray-50 group cursor-pointer transition-transform duration-300 block"
             >
               {/* Image Section */}
               <div className="aspect-[16/10] overflow-hidden">
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover rounded-3xl transition-transform duration-300"
+                  className="w-full h-full object-cover rounded-3xl transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
 
@@ -112,7 +120,7 @@ export default function MedicalServicesGrid() {
                   <ArrowUpRight className="w-5 h-5 text-blue-500 transition-colors duration-300 group-hover:text-white" />
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
