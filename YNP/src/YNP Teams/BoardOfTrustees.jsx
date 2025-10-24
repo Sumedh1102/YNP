@@ -46,7 +46,7 @@ const trustees = [
     name: "Mr. Akshay Patil",
     position: " Joint Secretary",
     description:
-      " Joint Secretary, V.M. Patil Krushi Pratishthan, Asangaon. He contributes to institutional coordination, documentation, and policy execution.",
+      " Joint Secretary, V.M. Patil Krushi Pratishthan, Asangaon. He plays a key role in ensuring effective administrative coordination, managing institutional documentation, and supporting the implementation of organizational policies and initiatives.",
     image: "https://via.placeholder.com/150",
   },
 ];

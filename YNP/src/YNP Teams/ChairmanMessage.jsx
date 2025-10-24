@@ -28,7 +28,7 @@ const ChairmansMessage = () => {
                 <img 
                   src={chairman.image} 
                   alt={chairman.name} 
-                  className="w-96 rounded-3xl h-96  object-cover mx-auto bg-gray-100"
+                  className="w-96 h-96 rounded-3xl object-cover mx-auto bg-gray-100"
                 />
                 <div className="mt-6">
                   <h2 className="text-2xl font-bold text-gray-800">{chairman.name}</h2>
