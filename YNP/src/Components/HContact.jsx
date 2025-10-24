@@ -61,9 +61,9 @@ export default function HealthcareSection() {
           {/* Right Column - Image with Contact Card */}
           <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden mt-6 md:mt-8 lg:mt-0">
             {/* Background Image */}
-            <div className="w-full h-64 sm:h-96 md:h-[500px] lg:h-[750px]">
+            <div className="w-full h-64 sm:h-96 md:h-[500px] lg:h-[800px]">
               <img
-                src="https://ynpbpharm.in/assets/img/gallery/gallery-6.jpg"
+                src="https://i.postimg.cc/HnysxhfP/image.png"
                 alt="Students in laboratory"
                 className="w-full h-full object-cover"
               />

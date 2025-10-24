@@ -33,9 +33,9 @@ export default function AboutFirmHero() {
         <div className="relative h-64 sm:h-80 md:h-96 lg:h-auto flex items-center justify-center p-4 sm:p-6 md:p-8">
           <div className="relative w-full h-full rounded-2xl sm:rounded-3xl bg-gray-100 overflow-hidden ">
             <img
-              src="/placeholder.svg"
+              src="https://i.postimg.cc/xj3mVsvx/image.png"
               alt="Professional portrait of a woman in business attire"
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-[650px]"
             />
           </div>
         </div>

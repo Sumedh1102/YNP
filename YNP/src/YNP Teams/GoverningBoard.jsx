@@ -73,22 +73,23 @@ const trustees = [
       "An industry expert who bridges academia and industry, enhancing practical learning and professional development opportunities for students.",
     image: "https://via.placeholder.com/150",
   },
-  {
+    {
     id: 10,
-    name: "Mr. Sailesh Kokani",
-    position: "Assistant Professor, YNP College of Pharmacy, Asangaon",
-    description:
-      "A subject expert member dedicated to academic excellence and student mentorship in the field of pharmaceutical sciences.",
-    image: "https://via.placeholder.com/150",
-  },
-  {
-    id: 11,
     name: "Dr. Sanket Dharashivkar",
     position: "Principal, YNP College of Pharmacy, Asangaon",
     description:
       "Serves as the Member Secretary of the Governing Body, ensuring effective coordination and implementation of academic policies.",
     image: "https://via.placeholder.com/150",
   },
+  {
+    id: 11,
+    name: "Mr. Sailesh Kokani",
+    position: "Assistant Professor, YNP College of Pharmacy, Asangaon",
+    description:
+      "A subject expert member dedicated to academic excellence and student mentorship in the field of pharmaceutical sciences.",
+    image: "https://via.placeholder.com/150",
+  },
+
 ];
 
 const BoardOfTrustees = () => {

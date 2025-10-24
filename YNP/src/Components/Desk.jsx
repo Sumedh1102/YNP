@@ -7,7 +7,7 @@ const LeadershipMessagesSection = () => {
       name: "Milind Patil",
       position: "Chairman",
       location: "YNP College of Pharmacy",
-      image: "https://ynpbpharm.in/assets/img/team/chairman.jpg",
+      image: "https://i.postimg.cc/mgh2qhry/Whats-App-Image-2025-10-23-at-11-57-16-AM.jpg",
       quote: "At YNP College of Pharmacy, we are committed to nurturing young minds to become competent and ethical pharmacists. Our focus is on quality education, research, and community service."
     },
     {
@@ -15,7 +15,7 @@ const LeadershipMessagesSection = () => {
       name: "Vikas Patil",
       position: "Vice Chairman",
       location: "YNP College of Pharmacy",
-      image: "https://ynpbpharm.in/assets/img/team/vice-chairman.jpg",
+      image: "https://i.postimg.cc/KzGWq3G9/image.png",
       quote: "We strive to provide an environment that encourages innovation, critical thinking, and professional growth. Our vision is to shape the future of pharmacy education in India."
     },
         {
@@ -23,7 +23,7 @@ const LeadershipMessagesSection = () => {
       name: "Trupti Patil",
       position: "CEO",
       location: "YNP College of Pharmacy",
-      image: "https://ynpbpharm.in/assets/img/team/ceo.jpg",
+      image: "https://i.postimg.cc/qRp71w6w/image.png",
       quote: "Through a blend of academic rigor and practical exposure, we empower our students to become leaders in pharmacy, equipped to meet the evolving challenges of healthcare."
     },
     {
@@ -31,8 +31,16 @@ const LeadershipMessagesSection = () => {
       name: "Lumesh Desai",
       position: "Treasurer",
       location: "YNP College of Pharmacy",
-      image: "https://ynpbpharm.in/assets/img/team/treasurer.jpg",
+      image: "https://i.postimg.cc/VL9mVn17/image.png",
       quote: "Our commitment to maintaining excellent infrastructure, state-of-the-art laboratories, and student welfare ensures that every learner achieves their potential."
+    },
+    {
+      id: 5,
+      name: "Vilas Raut",
+      position: "Secretary",
+      location: "YNP College of Pharmacy",
+      image: "https://i.postimg.cc/k4TQnBxw/Whats-App-Image-2025-10-24-at-1-16-12-PM.jpg",
+      quote: "V.M. Patil Krushi Pratishthan, Asangaon. He contributes to institutional coordination, documentation, and policy execution."
     },
   ];
 

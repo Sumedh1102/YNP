@@ -21,7 +21,7 @@ export default function MedicalServicesGrid() {
     {
       id: 3,
       title: 'State of the art Laboratories',
-      image: 'https://ynpbpharm.in/assets/img/labs/lab1.jpg',
+      image: 'https://i.postimg.cc/FKVSF7j6/image.png',
       hasIcon: false,
       link: '/facilities'
     },
@@ -62,14 +62,7 @@ export default function MedicalServicesGrid() {
               to={service.link}
               className="overflow-hidden bg-gray-50 group cursor-pointer transition-transform duration-300 block"
             >
-              {/* Image Section */}
-              <div className="aspect-video overflow-hidden">
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="w-full h-full object-cover transition-transform duration-300 rounded-3xl group-hover:scale-105"
-                />
-              </div>
+
 
               {/* Content Section */}
               <div className="p-6 flex mt-2 rounded-3xl bg-gray-200 items-center justify-between 
