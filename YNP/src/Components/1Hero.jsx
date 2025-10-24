@@ -9,7 +9,7 @@ export default function EducationHero() {
         <div 
           className="absolute inset-0 bg-cover bg-center rounded-2xl sm:rounded-3xl"
           style={{
-            backgroundImage: `url('https://i.postimg.cc/8zZwmBPH/Chat-GPT-Image-Oct-23-2025-06-15-04-PM.png')`,
+            backgroundImage: `url('https://vmpkp.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-10-at-1.22.54-PM.jpeg')`,
           }}
         >
           {/* Overlay */}
