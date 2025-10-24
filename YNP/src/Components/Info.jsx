@@ -30,14 +30,6 @@ export default function HealthcareHero() {
               </p>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2 md:pt-4">
-              <button className="bg-blue-600 text-base md:text-lg hover:bg-blue-700 text-white font-medium px-6 md:px-8 py-3 rounded-full transition-colors">
-                View Programs
-              </button>
-              <button className="bg-gray-800 text-base md:text-lg hover:bg-gray-900 text-white font-medium px-6 md:px-8 py-3 rounded-full transition-colors">
-                Contact Us
-              </button>
-            </div>
           </div>
           
           {/* Right Content */}
@@ -45,9 +37,9 @@ export default function HealthcareHero() {
             {/* Image */}
             <div className="rounded-3xl overflow-hidden w-full sm:w-[420px] lg:w-[470px] lg:translate-x-28">
               <img
-                src="https://ynpbpharm.in/assets/img/gallery/gallery-5.jpg"
+                src="https://i.postimg.cc/W3Lm9Bsj/20251023-173328-1.jpg "
                 alt="Students at YNP College of Pharmacy"
-                className="w-full h-48 sm:h-56 md:h-64 object-cover bg-gray-200"
+                className="w-full h-48 sm:h-56 md:h-64 object-cover bg-gray-200 object-bottom"
               />
             </div>
             
