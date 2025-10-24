@@ -1,10 +1,10 @@
 import React from 'react';
-import { Heart, Award, Users, Handshake } from 'lucide-react';
+import { Syringe, Award, Users, Handshake } from 'lucide-react';
 
 export default function VisionValues() {
   const values = [
     {
-      icon: Heart,
+      icon: Syringe,
       title: "Professional Integrity",
       description:
         "We uphold honesty, ethics, and accountability in all aspects of learning, research, and practice, inspiring trust and respect within the healthcare community.",

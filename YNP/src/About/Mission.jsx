@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, Heart, Lightbulb, Users } from 'lucide-react';
+import { Target, Microscope, Lightbulb, Users } from 'lucide-react';
 
 export default function MissionValues() {
   const missions = [
@@ -10,7 +10,7 @@ export default function MissionValues() {
         "We aim to provide a learning experience that integrates advanced research, practical training, and a deep understanding of pharmaceutical sciences.",
     },
     {
-      icon: Heart,
+      icon: Microscope,
       title: "Ethical & Compassionate Practice",
       description:
         "We nurture students to lead with empathy, integrity, and professionalism—serving patients and communities with genuine care and responsibility.",

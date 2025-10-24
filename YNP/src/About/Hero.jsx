@@ -1,7 +1,7 @@
 export default function AboutFirmHero() {
   return (
     <div className="min-h-fit my-12 md:my-20 w-full max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 bg-white overflow-hidden">
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-6 md:gap-8 lg:gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-3">
         {/* Left Column - Content */}
         <div className="p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col justify-center">
           {/* Heading */}

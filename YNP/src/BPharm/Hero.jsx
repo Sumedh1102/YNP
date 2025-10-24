@@ -4,7 +4,7 @@ export default function ArmoniaHero() {
   return (
     <div className="px-4 sm:px-8 md:px-12 lg:px-20 py-6 sm:py-8 md:py-10">
       <div className="min-h-[400px] sm:min-h-[450px] md:min-h-[500px] bg-blue-50 rounded-2xl sm:rounded-3xl flex items-center justify-center p-4 sm:p-6">
-        <div className="max-w-4xl w-full text-center">
+        <div className="max-w-7xl w-full text-center">
           {/* Logo/Brand */}
           <div className="flex items-center justify-center gap-2 mb-6 sm:mb-8 md:mb-12 text-stone-500">
             <Users className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -12,9 +12,9 @@ export default function ArmoniaHero() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-stone-800 font-light leading-tight mb-8 sm:mb-12 md:mb-16">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-stone-800 font-bold leading-tight mb-8 sm:mb-12 md:mb-16">
             Building Future Pharmacists with Excellence, Ethics, and Innovation at{" "}
-            <span className="font-normal">YNP's B.Pharmacy Program</span>
+            <span className="font-bold">YNP's B.Pharmacy Program</span>
           </h1>
 
           {/* Supporting Text */}

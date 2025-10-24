@@ -8,10 +8,10 @@ const a = () => {
   return (
    <>
    <Hero/>
-   <Timeline/>
-   <Committes/>
    <Vision/>
    <Mission/>
+   <Timeline/>
+   <Committes/>
    </>
   )
 }
