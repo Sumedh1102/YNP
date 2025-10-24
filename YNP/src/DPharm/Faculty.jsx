@@ -8,56 +8,56 @@ const DPharmFacultySection = () => {
       name: 'Dr. Sanket Dharashivkar',
       role: 'Principal',
       qualification: 'PhD, Master’s in Pharmacy',
-      image: '',
+      image: 'https://i.postimg.cc/rmTqM2xV/Screenshot-2025-10-24-at-3-03-18-PM-Photoroom.png',
     },
     {
       id: 2,
       name: 'Mr. Shailesh Ram Kokani',
       role: 'Head of Department',
       qualification: 'Master’s in Pharmacy',
-      image: '',
+      image: 'https://i.postimg.cc/1t1DSXvQ/Screenshot-2025-10-24-at-3-07-12-PM-Photoroom.png',
     },
     {
       id: 3,
-      name: 'Miss. Snevika Vikram Dhodi',
-      role: 'Lecturer',
-      qualification: 'Bachelor’s in Pharmacy',
-      image: '',
-    },
-    {
-      id: 4,
-      name: 'Miss. Anjali Bansh Gopal Singh',
-      role: 'Lecturer',
-      qualification: 'Bachelor’s in Pharmacy',
-      image: '',
-    },
-    {
-      id: 5,
-      name: 'Miss. Priyanka Rajendra Wadile',
-      role: 'Lecturer',
-      qualification: 'Bachelor’s in Pharmacy',
-      image: '',
-    },
-    {
-      id: 6,
-      name: 'Mr. Yash Suresh Patil',
-      role: 'Lecturer',
-      qualification: 'Bachelor’s in Pharmacy',
-      image: '',
-    },
-    {
-      id: 7,
-      name: 'Miss. Tanvi Ishwarlal Ambire',
-      role: 'Lecturer',
-      qualification: 'Bachelor’s in Pharmacy',
-      image: '',
-    },
-    {
-      id: 8,
       name: 'Miss. Samali Suhas Raut',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: '',
+      image: 'https://i.postimg.cc/cJmJbJtc/Screenshot-2025-10-24-at-2-55-49-PM-Photoroom.png',
+    },
+    {
+      id: 4,
+      name: 'Miss. Snevika Vikram Dhodi',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
+      image: 'https://i.postimg.cc/rpsqpNY4/Screenshot-2025-10-24-at-3-11-11-PM-Photoroom.png',
+    },
+    {
+      id: 5,
+      name: 'Miss. Anjali Bansh Gopal Singh',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
+      image: 'https://i.postimg.cc/yxB5DV8B/Screenshot-2025-10-24-at-3-12-12-PM-Photoroom.png',
+    },
+    {
+      id: 6,
+      name: 'Miss. Priyanka Rajendra Wadile',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
+      image: 'https://i.postimg.cc/bYTV6fvN/Screenshot-2025-10-24-at-3-12-58-PM-Photoroom.png',
+    },
+    {
+      id: 7,
+      name: 'Mr. Yash Suresh Patil',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
+      image: 'https://i.postimg.cc/DzrP81JS/Screenshot-2025-10-24-at-3-14-08-PM-Photoroom.png',
+    },
+    {
+      id: 8,
+      name: 'Miss. Tanvi Ishwarlal Ambire',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
+      image: 'https://i.postimg.cc/1zsN72XG/Screenshot-2025-10-24-at-3-15-27-PM-Photoroom.png',
     },
   ];
 
@@ -86,7 +86,7 @@ const DPharmFacultySection = () => {
                 <img
                   src={faculty.image}
                   alt={faculty.name}
-                  className="w-full h-72 object-cover rounded-3xl bg-gray-200"
+                  className="w-full h-96 object-cover rounded-3xl bg-gray-200"
                 />
               </div>
 
@@ -97,19 +97,6 @@ const DPharmFacultySection = () => {
                 </h3>
                 <p className="text-gray-600 text-sm mt-1">{faculty.role}</p>
                 <p className="text-gray-500 text-sm mt-1 italic">{faculty.qualification}</p>
-
-                {/* Social Icons */}
-                <div className="flex justify-center gap-3 mt-4">
-                  <button className="w-9 h-9 flex items-center justify-center rounded-full bg-blue-500 text-white transition duration-300">
-                    <Twitter size={16} />
-                  </button>
-                  <button className="w-9 h-9 flex items-center justify-center rounded-full bg-blue-500 text-white transition duration-300">
-                    <Facebook size={16} />
-                  </button>
-                  <button className="w-9 h-9 flex items-center justify-center rounded-full bg-blue-500 text-white transition duration-300">
-                    <Instagram size={16} />
-                  </button>
-                </div>
               </div>
             </div>
           ))}

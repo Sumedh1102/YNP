@@ -10,7 +10,7 @@ export default function AboutFirmHero() {
           </h1>
 
           {/* Description */}
-          <p className="text-gray-600 text-sm sm:text-base md:text-md leading-relaxed mb-6 max-w-3xl">
+          <p className="text-gray-600 text-sm sm:text-base md:text-base lg:text-lg leading-relaxed mb-6 max-w-3xl">
             Established in 2022, YNP College of Pharmacy is a dynamic and emerging institution committed to excellence
             in pharmaceutical education and research. Though young in years, we are guided by a strong vision to become
             a center of academic innovation, professional development, and community impact. From the outset, our focus
@@ -30,14 +30,12 @@ export default function AboutFirmHero() {
         </div>
 
         {/* Right Column - Image */}
-        <div className="relative h-64 sm:h-80 md:h-96 lg:h-auto flex items-center justify-center p-4 sm:p-6 md:p-8">
-          <div className="relative w-full h-full rounded-2xl sm:rounded-3xl bg-gray-100 overflow-hidden ">
-            <img
-              src="https://i.postimg.cc/xj3mVsvx/image.png"
-              alt="Professional portrait of a woman in business attire"
-              className="object-cover w-full h-[650px]"
-            />
-          </div>
+        <div className="relative h-64 sm:h-80 md:h-96 lg:h-[700px] flex items-center justify-center p-4 sm:p-6 md:p-8">
+          <img
+            src="https://i.postimg.cc/xj3mVsvx/image.png"
+            alt="Professional portrait of a woman in business attire"
+            className="object-cover w-full h-full rounded-3xl"
+          />
         </div>
       </div>
     </div>

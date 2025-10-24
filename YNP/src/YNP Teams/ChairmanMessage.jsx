@@ -4,7 +4,7 @@ const chairman = {
   name: "MR. Milind Madhukar Patil",
   designation: "Chairman",
   message: "As the visionary leader of YNP College of Pharmacy, our Chairman embodies a steadfast commitment to excellence and innovation in pharmaceutical education. With a wealth of experience and a profound dedication to advancing healthcare, our Chairman provides strategic guidance and direction, steering our institution towards continued growth and success. Through visionary leadership and unwavering dedication to our mission, our Chairman inspires faculty, staff, and students alike to reach new heights of academic and professional achievement.",
-  image: "",
+  image: "https://i.postimg.cc/mgh2qhry/Whats-App-Image-2025-10-23-at-11-57-16-AM.jpg",
   signature: "https://via.placeholder.com/150x50/ffffff/000000?text=Signature"
 };
 

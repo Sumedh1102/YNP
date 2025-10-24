@@ -31,7 +31,7 @@ const LeadershipMessagesSection = () => {
       name: "Lumesh Desai",
       position: "Treasurer",
       location: "YNP College of Pharmacy",
-      image: "https://i.postimg.cc/VL9mVn17/image.png",
+      image: "https://i.postimg.cc/sfM1m7yq/Whats-App-Image-2025-10-24-at-3-27-00-PM.jpg",
       quote: "Our commitment to maintaining excellent infrastructure, state-of-the-art laboratories, and student welfare ensures that every learner achieves their potential."
     },
     {

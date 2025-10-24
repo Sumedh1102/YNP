@@ -12,91 +12,91 @@ const PharmacyFacultySection = () => {
       name: 'Dr. Sanket Dharashivkar',
       role: 'Principal',
       qualification: 'PhD, Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/rmTqM2xV/Screenshot-2025-10-24-at-3-03-18-PM-Photoroom.png'
     },
     {
       id: 2,
       name: 'Mr. Jidnesh Bhuvaneshwar Dharmameher',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/rFD26w3F/Screenshot-2025-10-24-at-3-04-09-PM-Photoroom.png'
     },
     {
       id: 3,
       name: 'Mr. Surendra Bhuraram Choudhary',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/0Qjc6bpr/Screenshot-2025-10-24-at-3-04-54-PM-Photoroom.png'
     },
     {
       id: 4,
       name: 'Mr. Rohidas Ramesh Khanjode',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/PrQ3RsrP/Screenshot-2025-10-24-at-3-05-56-PM-Photoroom.png'
     },
     {
       id: 5,
       name: 'Mr. Shailesh Ram Kokani',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/1t1DSXvQ/Screenshot-2025-10-24-at-3-07-12-PM-Photoroom.png'
     },
     {
       id: 6,
       name: 'Miss Samali Suhas Raut',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/cJmJbJtc/Screenshot-2025-10-24-at-2-55-49-PM-Photoroom.png'
     },
     {
       id: 7,
       name: 'Miss Pranita Prabhakar Patil',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/rsqNLsfL/Screenshot-2025-10-24-at-2-54-33-PM-Photoroom.png'
     },
     {
       id: 8,
       name: 'Mr. Prathamesh Ravindra Thakare',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/DwPpJVbB/Screenshot-2025-10-24-at-2-48-55-PM-Photoroom.png'
     },
     {
       id: 9,
       name: 'Miss Gauri Vijay Patil',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/zvwKtNNc/Screenshot-2025-10-24-at-2-49-49-PM-Photoroom.png'
     },
     {
       id: 10,
       name: 'Miss Srushti Shankar Gode',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/yxNs5XCd/Screenshot-2025-10-24-at-2-51-00-PM-Photoroom.png'
     },
     {
       id: 11,
       name: 'Miss Neha Satish Gosalkar',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/G3ZbzDgf/Screenshot-2025-10-24-at-2-51-54-PM-Photoroom.png'
     },
     {
       id: 12,
       name: 'Miss Aarti Ashok Chaugle',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/FzjF0svd/Screenshot-2025-10-24-at-2-56-59-PM-Photoroom.png'
     },
     {
       id: 13,
       name: 'Mr. Kunal Kishor Pawar',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: ''
+      image: 'https://i.postimg.cc/8CsYqKjY/Screenshot-2025-10-24-at-2-53-04-PM-Photoroom.png'
     }
   ];
 
@@ -129,7 +129,7 @@ const PharmacyFacultySection = () => {
                 <img
                   src={faculty.image}
                   alt={faculty.name}
-                  className="w-full h-72 object-cover rounded-3xl bg-gray-200"
+                  className="w-full h-96 object-cover rounded-3xl bg-gray-200"
                 />
               </div>
 
@@ -138,19 +138,6 @@ const PharmacyFacultySection = () => {
                 <h3 className="text-lg font-semibold text-gray-900">{faculty.name}</h3>
                 <p className="text-gray-600 text-sm mt-1">{faculty.role}</p>
                 <p className="text-gray-500 text-sm mt-1 italic">{faculty.qualification}</p>
-
-                {/* Social Icons */}
-                <div className="flex justify-center gap-3 mt-4">
-                  <button className="w-9 h-9 flex items-center justify-center rounded-full bg-blue-500 text-white transition duration-300">
-                    <Twitter size={16} />
-                  </button>
-                  <button className="w-9 h-9 flex items-center justify-center rounded-full bg-blue-500 text-white transition duration-300">
-                    <Facebook size={16} />
-                  </button>
-                  <button className="w-9 h-9 flex items-center justify-center rounded-full bg-blue-500 text-white transition duration-300">
-                    <Instagram size={16} />
-                  </button>
-                </div>
               </div>
             </div>
           ))}

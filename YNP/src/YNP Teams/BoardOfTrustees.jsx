@@ -7,7 +7,7 @@ const trustees = [
     position: "Chairman",
     description:
       "Chairman, V.M. Patil Krushi Pratishthan, Asangaon. Mr. Milind Patil provides strategic leadership and vision for the institution’s growth, ensuring the highest standards of education and governance.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/mgh2qhry/Whats-App-Image-2025-10-23-at-11-57-16-AM.jpg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const trustees = [
     position: "Vice Chairman",
     description:
       "Vice Chairman, V.M. Patil Krushi Pratishthan, Asangaon. A dedicated educationist committed to institutional excellence and continuous improvement.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/KzGWq3G9/image.png",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const trustees = [
     position: "CEO",
     description:
       "CEO, V.M. Patil Krushi Pratishthan, Asangaon. She plays a vital role in shaping the administrative and academic policies that drive the college’s success.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/qRp71w6w/image.png",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const trustees = [
     position: "Finance Director",
     description:
       "Finance Director, V.M. Patil Krushi Pratishthan, Asangaon. Oversees financial planning, budgeting, and transparency across institutional operations.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/VL9mVn17/image.png",
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const trustees = [
     position: "Secretary",
     description:
       "Secretary, V.M. Patil Krushi Pratishthan, Asangaon. He contributes to institutional coordination, documentation, and policy execution.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/k4TQnBxw/Whats-App-Image-2025-10-24-at-1-16-12-PM.jpg",
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const trustees = [
     position: " Joint Secretary",
     description:
       " Joint Secretary, V.M. Patil Krushi Pratishthan, Asangaon. He plays a key role in ensuring effective administrative coordination, managing institutional documentation, and supporting the implementation of organizational policies and initiatives.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/SRZZjmMS/image.png",
   },
 ];
 

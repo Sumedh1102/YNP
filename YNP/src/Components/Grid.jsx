@@ -28,21 +28,21 @@ export default function MedicalServicesGrid() {
     {
       id: 4,
       title: 'Experienced Faculty',
-      image: 'https://ynpbpharm.in/assets/img/faculty/faculty1.jpg',
+      image: 'https://i.postimg.cc/ncQJNL9g/Whats-App-Image-2025-10-24-at-2-30-45-PM.jpg',
       hasIcon: false,
       link: '/bpharm-faculty'
     },
     {
       id: 5,
       title: 'Workshops & Internships',
-      image: 'https://ynpbpharm.in/assets/img/activities/workshop.jpg',
+      image: 'https://i.postimg.cc/yNr2pXdW/image.png',
       hasIcon: false,
       link: '/studentlife'
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
+    <div className="min-h-fit bg-white p-8">
       <div className="max-w-7xl mx-auto">
 
         {/* Center Heading */}
@@ -60,10 +60,8 @@ export default function MedicalServicesGrid() {
             <Link
               key={service.id}
               to={service.link}
-              className="overflow-hidden bg-gray-50 group cursor-pointer transition-transform duration-300 block"
+              className="overflow-hidden bg-white group cursor-pointer transition-transform duration-300 block"
             >
-
-
               {/* Content Section */}
               <div className="p-6 flex mt-2 rounded-3xl bg-gray-200 items-center justify-between 
                               transition-all duration-300 group-hover:bg-blue-100">
@@ -89,14 +87,14 @@ export default function MedicalServicesGrid() {
             <Link
               key={service.id}
               to={service.link}
-              className="rounded-3xl overflow-hidden bg-gray-50 group cursor-pointer transition-transform duration-300 block"
+              className="rounded-3xl overflow-hidden bg-white group cursor-pointer transition-transform duration-300 block"
             >
               {/* Image Section */}
               <div className="aspect-[16/10] overflow-hidden">
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover rounded-3xl transition-transform duration-300 group-hover:scale-105"
+                  className="w-full h-full object-cover rounded-3xl transition-transform duration-300"
                 />
               </div>
 

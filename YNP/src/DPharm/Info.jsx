@@ -1,46 +1,46 @@
 export default function HealthcareTimeline() {
   const timelineData = [
     {
-      title: "Introduction to Pharmacy Fundamentals",
-      year: "Semester 1",
+      title: "Fundamentals of Pharmaceutics and Pharmaceutical Chemistry",
+      year: "Part I – Semester 1",
       description:
-        "The D.Pharm journey begins with core subjects like Pharmaceutical Chemistry, Human Anatomy & Physiology, and Health Education. These form the foundation for understanding drug composition, body functions, and public health principles.",
+        "Students begin their D.Pharm journey with Pharmaceutics–I and Pharmaceutical Chemistry–I, gaining an understanding of dosage forms, physical and chemical properties of drugs, packaging, sterilization, and basic pharmaceutical calculations.",
     },
     {
-      title: "Practical Dispensing and Compounding",
-      year: "Semester 2",
+      title: "Study of Natural Drugs and Biological Systems",
+      year: "Part I – Semester 2",
       description:
-        "Students gain hands-on skills in dispensing medications, preparing formulations, and learning pharmaceutical calculations to ensure safety and efficacy in drug delivery.",
+        "The semester focuses on Pharmacognosy, Biochemistry, and Human Anatomy & Physiology. Learners explore natural drug sources, biochemical principles, and human body systems to understand how medicines act within biological frameworks.",
     },
     {
-      title: "Pharmacology and Therapeutics",
-      year: "Semester 3",
+      title: "Health Education and Community Pharmacy",
+      year: "Part I – Applied Component",
       description:
-        "Focus shifts to the study of drug actions, side effects, and therapeutic uses. Emphasis is on understanding how medicines interact with the human body and managing patient care safely.",
+        "Students are introduced to community health, disease prevention, nutrition, and first aid. Emphasis is placed on public health, epidemiology, and the pharmacist’s role in health education and disease control.",
     },
     {
-      title: "Community Pharmacy and Patient Counseling",
-      year: "Semester 4",
+      title: "Advanced Pharmaceutics and Medicinal Chemistry",
+      year: "Part II – Semester 3",
       description:
-        "Students learn frontline clinical and communication skills. Training includes patient counseling, rational drug use, pharmacy ethics, and regulatory compliance.",
+        "This stage covers Pharmaceutics–II and Pharmaceutical Chemistry–II, focusing on prescription handling, compounding, dosage formulation, sterile preparations, and detailed study of organic and medicinal compounds used in therapy.",
     },
     {
-      title: "Industrial Training and Hospital Internship",
-      year: "Final Semester",
+      title: "Pharmacology, Toxicology, and Jurisprudence",
+      year: "Part II – Semester 4",
       description:
-        "A mandatory internship phase where students rotate through hospitals and retail pharmacies. They apply academic knowledge in real-world settings, gaining exposure to pharmaceutical operations and patient interactions.",
+        "Students study drug actions, mechanisms, and safety, alongside Indian pharmaceutical laws including the Drugs & Cosmetics Act, Pharmacy Act, and NDPS Act. This builds professional ethics and legal awareness in pharmacy practice.",
     },
     {
-      title: "Career Opportunities and Skill Development",
-      year: "Program Completion",
+      title: "Drug Store, Business Management, and Hospital Pharmacy",
+      year: "Final Term",
       description:
-        "The D.Pharm degree equips graduates for roles in community pharmacies, hospitals, and the pharmaceutical industry. Additional training encourages entrepreneurship, research participation, and preparation for further studies like B.Pharm.",
+        "The curriculum integrates management principles, accounting, and inventory control with hospital and clinical pharmacy training. Students learn hospital procedures, record management, and modern dispensing systems using technology.",
     },
     {
-      title: "Supportive Learning Environment at YNP",
-      year: "Ongoing",
+      title: "Practical Training and Career Readiness",
+      year: "After Course Completion",
       description:
-        "YNP College offers personalized mentoring, digital learning tools including AI co-pilots, access to state-of-the-art laboratories, and a supportive peer network, ensuring holistic development and readiness for evolving healthcare challenges.",
+        "A 500-hour practical training in hospitals or pharmacies ensures real-world exposure. Graduates are prepared for roles in community and hospital pharmacies, the pharmaceutical industry, and higher studies such as B.Pharm.",
     },
   ]
 
@@ -51,12 +51,12 @@ export default function HealthcareTimeline() {
           {/* Left Column - Sticky */}
           <div className="md:sticky md:top-24 self-start">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium text-gray-900 tracking-tight leading-tight mb-4 md:mb-6">
-              The Diploma in Pharmacy (D.Pharm) program at YNP College of Pharmacy
+              Diploma in Pharmacy (D.Pharm) at YNP College of Pharmacy
             </h1>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed">
-              The D.Pharm program at YNP is a 2-year comprehensive curriculum designed to prepare students for
-              proficient pharmaceutical practice. It integrates theoretical knowledge with rigorous practical training,
-              aligned with AICTE and PCI standards, and supported by industry and clinical partnerships.
+              The D.Pharm program at YNP is a two-year professional diploma approved by the Pharmacy Council of India.
+              It blends theory and extensive practical training across pharmaceutics, pharmacology, chemistry, and
+              clinical pharmacy—preparing students for careers in community, hospital, and industrial pharmacy sectors.
             </p>
           </div>
 
@@ -68,9 +68,11 @@ export default function HealthcareTimeline() {
                 className="bg-gray-100 rounded-2xl md:rounded-3xl p-6 md:p-10 lg:p-14 transition-all duration-300 hover:shadow-md hover:scale-[1.01]"
               >
                 <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-gray-800 mb-3 md:mb-4">
-                  {milestone.title} - ({milestone.year})
+                  {milestone.title} – ({milestone.year})
                 </h2>
-                <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">{milestone.description}</p>
+                <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">
+                  {milestone.description}
+                </p>
               </div>
             ))}
           </div>

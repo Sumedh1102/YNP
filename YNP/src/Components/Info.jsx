@@ -37,7 +37,7 @@ export default function HealthcareHero() {
             {/* Image */}
             <div className="rounded-3xl overflow-hidden w-full sm:w-[420px] lg:w-[470px] lg:translate-x-28">
               <img
-                src="https://i.postimg.cc/W3Lm9Bsj/20251023-173328-1.jpg "
+                src="https://i.postimg.cc/mZYybv1h/Whats-App-Image-2025-10-24-at-3-00-31-PM.jpg"
                 alt="Students at YNP College of Pharmacy"
                 className="w-full h-48 sm:h-56 md:h-64 object-cover bg-gray-200 object-bottom"
               />

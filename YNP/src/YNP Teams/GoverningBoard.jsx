@@ -7,7 +7,7 @@ const trustees = [
     position: "Chairman",
     description:
       "Chairman, V.M. Patil Krushi Pratishthan, Asangaon. Mr. Milind Patil provides strategic leadership and vision for the institution’s growth, ensuring the highest standards of education and governance.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/mgh2qhry/Whats-App-Image-2025-10-23-at-11-57-16-AM.jpg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const trustees = [
     position: "Vice Chairman",
     description:
       "Vice Chairman, V.M. Patil Krushi Pratishthan, Asangaon. A dedicated educationist committed to institutional excellence and continuous improvement.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/KzGWq3G9/image.png",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const trustees = [
     position: "CEO",
     description:
       "CEO, V.M. Patil Krushi Pratishthan, Asangaon. She plays a vital role in shaping the administrative and academic policies that drive the college’s success.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/qRp71w6w/image.png",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const trustees = [
     position: "Finance Director",
     description:
       "Finance Director, V.M. Patil Krushi Pratishthan, Asangaon. Oversees financial planning, budgeting, and transparency across institutional operations.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/VL9mVn17/image.png",
   },
   {
     id: 5,
@@ -39,18 +39,35 @@ const trustees = [
     position: "Secretary",
     description:
       "Secretary, V.M. Patil Krushi Pratishthan, Asangaon. He contributes to institutional coordination, documentation, and policy execution.",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.postimg.cc/k4TQnBxw/Whats-App-Image-2025-10-24-at-1-16-12-PM.jpg",
+  },
+      {
+    id: 6,
+    name: "Dr. Sanket Dharashivkar",
+    position: "Principal, YNP College of Pharmacy, Asangaon",
+    description:
+      "Serves as the Member Secretary of the Governing Body, ensuring effective coordination and implementation of academic policies.",
+    image: "https://i.postimg.cc/XvQxsVs2/Screenshot-2025-10-24-at-2-16-12-PM-Photoroom.png",
   },
   {
-    id: 6,
+    id: 7,
+    name: "Mr. Sailesh Kokani",
+    position: "Assistant Professor, YNP College of Pharmacy, Asangaon",
+    description:
+      "A subject expert member dedicated to academic excellence and student mentorship in the field of pharmaceutical sciences.",
+    image: "https://i.postimg.cc/vmFdGvyq/Screenshot-2025-10-24-at-2-15-00-PM.png",
+  },
+  {
+    id: 8,
     name: "Dr. Vinod Mohitkar",
     position: "Director of Technical Education, Maharashtra",
     description:
       "A respected education administrator providing valuable guidance to ensure academic standards and compliance with state education frameworks.",
     image: "https://via.placeholder.com/150",
   },
+
   {
-    id: 7,
+    id: 9,
     name: "Dr. M.R. Chitlange",
     position: "Deputy Secretary, MSBTE Region",
     description:
@@ -58,7 +75,7 @@ const trustees = [
     image: "https://via.placeholder.com/150",
   },
   {
-    id: 8,
+    id: 10,
     name: "Dr. Priyanka Patil",
     position: "Dean & Director, Sigma Institute of Pharmacy, Vadodara",
     description:
@@ -66,30 +83,13 @@ const trustees = [
     image: "https://via.placeholder.com/150",
   },
   {
-    id: 9,
+    id: 11,
     name: "Mr. Vikas Vilasrao Patil",
     position: "Senior Manager, Prosfora Technologies R&D Centre, Navi Mumbai",
     description:
       "An industry expert who bridges academia and industry, enhancing practical learning and professional development opportunities for students.",
     image: "https://via.placeholder.com/150",
   },
-    {
-    id: 10,
-    name: "Dr. Sanket Dharashivkar",
-    position: "Principal, YNP College of Pharmacy, Asangaon",
-    description:
-      "Serves as the Member Secretary of the Governing Body, ensuring effective coordination and implementation of academic policies.",
-    image: "https://via.placeholder.com/150",
-  },
-  {
-    id: 11,
-    name: "Mr. Sailesh Kokani",
-    position: "Assistant Professor, YNP College of Pharmacy, Asangaon",
-    description:
-      "A subject expert member dedicated to academic excellence and student mentorship in the field of pharmaceutical sciences.",
-    image: "https://via.placeholder.com/150",
-  },
-
 ];
 
 const BoardOfTrustees = () => {
@@ -118,7 +118,7 @@ const BoardOfTrustees = () => {
                 <img
                   src={trustee.image}
                   alt={trustee.name}
-                  className="w-32 h-32 md:w-96 md:h-96 object-cover bg-slate-100 rounded-3xl flex-shrink-0"
+                  className="w-32 h-32 md:w-96 md:h-96 object-cover bg-white rounded-3xl flex-shrink-0"
                 />
                 <div className="flex-1 text-center md:text-left">
                   <h2 className="text-3xl font-semibold text-gray-800 mb-1">
