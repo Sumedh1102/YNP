@@ -12,13 +12,15 @@ export default function CareCornerNav() {
 
   return (
     <nav className="bg-white pt-3">
-      <div className="max-w-7xl mx-auto px-4 sm:px-0">
+      <div className="max-w-8xl mx-auto px-4 sm:px-20">
         <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-slate-200 rounded-full flex items-center justify-center"></div>
-            <span className="text-xl sm:text-3xl font-light text-gray-900">
-              YNP College of Pharmacy
+            <div className="w-10 h-10 sm:w-24 sm:h-24 flex items-center justify-center">
+              <img src="https://res.cloudinary.com/dzlik9g5v/image/upload/v1761286582/ynplogo-Photoroom_a0znp3.png" alt="" className="object-cover" />
+            </div>
+            <span className="text-xl sm:text-3xl font-bold text-gray-900">
+              YNP COLLEGE OF PHARMACY
             </span>
           </div>
 

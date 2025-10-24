@@ -1,99 +1,45 @@
-import React, { useState, useEffect } from 'react';
-
-const CounterAnimation = ({ target, suffix = '', duration = 2000 }) => {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    const numericTarget = parseInt(target);
-    const increment = numericTarget / (duration / 16);
-    let current = 0;
-
-    const timer = setInterval(() => {
-      current += increment;
-      if (current >= numericTarget) {
-        setCount(numericTarget);
-        clearInterval(timer);
-      } else {
-        setCount(Math.floor(current));
-      }
-    }, 16);
-
-    return () => clearInterval(timer);
-  }, [target, duration]);
-
+export default function AboutFirmHero() {
   return (
-    <span>
-      {count}
-      {suffix}
-    </span>
-  );
-};
+    <div className="min-h-fit my-12 md:my-20 w-full max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 bg-white overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-6 md:gap-8 lg:gap-12">
+        {/* Left Column - Content */}
+        <div className="p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col justify-center">
+          {/* Heading */}
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
+            About
+          </h1>
 
-const YNPCollegeLanding = () => {
-  return (
-    <div className="min-h-fit py-12 bg-white">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-          {/* Left Column */}
-          <div className="md:col-span-4 flex flex-col space-y-6">
-            <div className="overflow-hidden rounded-3xl">
-              <img
-                src="https://ynpbpharm.in/assets/images/campus.jpg"
-                alt="YNP College Campus"
-                className="w-full h-64 object-cover transition-transform duration-300 bg-gray-100"
-              />
-            </div>
-            <p className="text-gray-700 text-xl leading-relaxed tracking-tight">
-              YNP College of Pharmacy, Asangaon, combines modern infrastructure, research-driven learning, and ethical pharmaceutical education. Students experience hands-on lab training, holistic mentorship, and industry-aligned exposure to develop into skilled pharmacists.
-            </p>
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-medium tracking-tight hover:bg-blue-700 transition-all duration-300 hover:shadow-lg hover:scale-105 w-fit">
-              Contact for Enquiry
-            </button>
-          </div>
+          {/* Description */}
+          <p className="text-gray-600 text-sm sm:text-base md:text-md leading-relaxed mb-6 max-w-3xl">
+            Established in 2022, YNP College of Pharmacy is a dynamic and emerging institution committed to excellence
+            in pharmaceutical education and research. Though young in years, we are guided by a strong vision to become
+            a center of academic innovation, professional development, and community impact. From the outset, our focus
+            has been on equipping students with the knowledge, skills, and ethical grounding required to meet the
+            evolving demands of the healthcare and pharmaceutical sectors. Our curriculum blends core pharmaceutical
+            sciences with emerging fields such as clinical research, biotechnology, digital health, and regulatory
+            affairs ensuring our graduates are both industry-ready and future focused. Our dedicated faculty members
+            bring a mix of academic expertise and practical experience, fostering a learning environment that encourages
+            inquiry, critical thinking, and innovation. We emphasize research and hands-on training, giving students
+            opportunities to engage with real-world challenges and contribute meaningfully to healthcare solutions.
+            Beyond academics, we actively promote leadership, service, and community engagement. Through collaborations
+            with industry and healthcare organizations, we provide students with exposure to diverse career paths and
+            practical experiences. As we continue to grow, YNP College of Pharmacy remains committed to shaping the
+            future of pharmacy education—grounded in scholarship, inspired by service, and driven by a passion to make a
+            difference.
+          </p>
+        </div>
 
-          {/* Center Column */}
-          <div className="md:col-span-5 flex flex-col space-y-6">
-            <div className="overflow-hidden rounded-3xl">
-              <img
-                src="https://ynpbpharm.in/assets/images/lab.jpg"
-                alt="College Laboratory"
-                className="w-full h-96 object-cover transition-transform duration-300 bg-gray-100"
-              />
-            </div>
-            <div className="grid grid-cols-2 gap-8 pt-4">
-              <div className="text-center">
-                <div className="text-4xl font-normal text-blue-600 mb-2 tracking-tight">
-                  <CounterAnimation target="100" suffix="+" />
-                </div>
-                <p className="text-black text-lg font-medium tracking-tight">
-                  Experienced Faculty
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-normal text-blue-600 mb-2 tracking-tight">
-                  <CounterAnimation target="500" suffix="+" />
-                </div>
-                <p className="text-black text-lg font-medium tracking-tight">
-                  Students Trained
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Column */}
-          <div className="md:col-span-3 flex flex-col">
-            <div className="overflow-hidden rounded-3xl h-full">
-              <img
-                src="https://ynpbpharm.in/assets/images/students.jpg"
-                alt="YNP College Students"
-                className="w-full h-full min-h-96 object-cover object-center transition-transform duration-300 bg-gray-100"
-              />
-            </div>
+        {/* Right Column - Image */}
+        <div className="relative h-64 sm:h-80 md:h-96 lg:h-auto flex items-center justify-center p-4 sm:p-6 md:p-8">
+          <div className="relative w-full h-full rounded-2xl sm:rounded-3xl bg-gray-100 overflow-hidden ">
+            <img
+              src="/placeholder.svg"
+              alt="Professional portrait of a woman in business attire"
+              className="object-cover w-full h-full"
+            />
           </div>
         </div>
       </div>
     </div>
-  );
-};
-
-export default YNPCollegeLanding;
+  )
+}

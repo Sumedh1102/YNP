@@ -8,7 +8,9 @@ export default function CareCornerHeader() {
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 sm:gap-8 lg:gap-8">
             {/* Logo */}
             <div className="flex items-center gap-3 flex-shrink-0">
-              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center flex-shrink-0"></div>
+              <div className="w-12 h-12 bg-white  rounded-full flex items-center justify-center flex-shrink-0">
+                <img src="https://res.cloudinary.com/dzlik9g5v/image/upload/v1761286582/ynplogo-Photoroom_a0znp3.png" alt="" />
+              </div>
               <span className="text-lg sm:text-xl font-medium text-gray-800">YNP College of Pharmacy</span>
             </div>
 
