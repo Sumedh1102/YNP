@@ -1,10 +1,10 @@
 import React from "react";
 
 const chairman = {
-  name: "Dr. Rajesh Kumar Sharma",
+  name: "MR. Milind Madhukar Patil",
   designation: "Chairman",
-  message: "It gives me immense pleasure to welcome you to our esteemed institution. Our college stands as a beacon of excellence in pharmaceutical education, committed to nurturing future healthcare professionals who will make meaningful contributions to society. We believe in providing not just quality education, but a transformative learning experience that shapes character, builds competence, and instills values. Our world-class infrastructure, experienced faculty, and industry partnerships create an environment where students can thrive academically and personally. We encourage innovation, research, and critical thinking while maintaining the highest ethical standards. As you embark on this exciting journey with us, I assure you of our unwavering support in helping you achieve your aspirations and become compassionate healthcare leaders.",
-  image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+  message: "As the visionary leader of YNP College of Pharmacy, our Chairman embodies a steadfast commitment to excellence and innovation in pharmaceutical education. With a wealth of experience and a profound dedication to advancing healthcare, our Chairman provides strategic guidance and direction, steering our institution towards continued growth and success. Through visionary leadership and unwavering dedication to our mission, our Chairman inspires faculty, staff, and students alike to reach new heights of academic and professional achievement.",
+  image: "",
   signature: "https://via.placeholder.com/150x50/ffffff/000000?text=Signature"
 };
 
@@ -15,7 +15,7 @@ const ChairmansMessage = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-medium text-gray-800 mb-2">
-          Chairmans Message
+          Chairman's Message
           </h1>
         </div>
 
@@ -28,7 +28,7 @@ const ChairmansMessage = () => {
                 <img 
                   src={chairman.image} 
                   alt={chairman.name} 
-                  className="w-96 rounded-3xl h-96  object-cover mx-auto"
+                  className="w-96 rounded-3xl h-96  object-cover mx-auto bg-gray-100"
                 />
                 <div className="mt-6">
                   <h2 className="text-2xl font-bold text-gray-800">{chairman.name}</h2>

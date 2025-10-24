@@ -26,19 +26,11 @@ const FAQSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column */}
-          <div className="space-y-8">
-            <h2 className="text-2xl lg:text-5xl  font-normal leading-tight text-gray-900">
+          <div className="space-y-0">
+            <h2 className="text-2xl lg:text-5xl  font-normal leading-tight text-gray-900 lg:pb-96">
               Frequently Asked Questions about YNP College of Pharmacy
             </h2>
             
-            {/* College Image */}
-            <div className="overflow-hidden rounded-3xl">
-              <img 
-                src="https://ynpbpharm.in/assets/images/about-us.jpg" 
-                alt="YNP College campus"
-                className="w-full h-80 object-cover"
-              />
-            </div>
           </div>
 
           {/* Right Column - FAQ Cards */}

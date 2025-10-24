@@ -5,58 +5,58 @@ const DPharmFacultySection = () => {
   const facultyMembers = [
     {
       id: 1,
-      name: 'Prof. Sneha Patil',
-      role: 'Head of Department - Pharmaceutics',
-      department: 'Pharmaceutics',
+      name: 'Dr. Sanket Dharashivkar',
+      role: 'Principal',
+      qualification: 'PhD, Master’s in Pharmacy',
       image: '',
     },
     {
       id: 2,
-      name: 'Mr. Rahul Deshmukh',
-      role: 'Lecturer - Pharmacology',
-      department: 'Pharmacology',
+      name: 'Mr. Shailesh Ram Kokani',
+      role: 'Head of Department',
+      qualification: 'Master’s in Pharmacy',
       image: '',
     },
     {
       id: 3,
-      name: 'Ms. Priya Jadhav',
-      role: 'Lecturer - Pharmacognosy',
-      department: 'Pharmacognosy',
+      name: 'Miss. Snevika Vikram Dhodi',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
       image: '',
     },
     {
       id: 4,
-      name: 'Dr. Amit Sawant',
-      role: 'Lecturer - Pharmaceutical Chemistry',
-      department: 'Pharmaceutical Chemistry',
+      name: 'Miss. Anjali Bansh Gopal Singh',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
       image: '',
     },
     {
       id: 5,
-      name: 'Ms. Pooja Naik',
-      role: 'Assistant Professor - Pharmaceutics',
-      department: 'Pharmaceutics',
+      name: 'Miss. Priyanka Rajendra Wadile',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
       image: '',
     },
     {
       id: 6,
-      name: 'Dr. Vivek More',
-      role: 'Lecturer - Pharmacognosy',
-      department: 'Pharmacognosy',
+      name: 'Mr. Yash Suresh Patil',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
       image: '',
     },
     {
       id: 7,
-      name: 'Dr. Vivek More',
-      role: 'Lecturer - Pharmacognosy',
-      department: 'Pharmacognosy',
+      name: 'Miss. Tanvi Ishwarlal Ambire',
+      role: 'Lecturer',
+      qualification: 'Bachelor’s in Pharmacy',
       image: '',
     },
     {
       id: 8,
-      name: 'Dr. Vivek More',
-      role: 'Lecturer - Pharmacognosy',
-      department: 'Pharmacognosy',
+      name: 'Miss. Samali Suhas Raut',
+      role: 'Assistant Professor',
+      qualification: 'Master’s in Pharmacy',
       image: '',
     },
   ];
@@ -96,6 +96,7 @@ const DPharmFacultySection = () => {
                   {faculty.name}
                 </h3>
                 <p className="text-gray-600 text-sm mt-1">{faculty.role}</p>
+                <p className="text-gray-500 text-sm mt-1 italic">{faculty.qualification}</p>
 
                 {/* Social Icons */}
                 <div className="flex justify-center gap-3 mt-4">

@@ -48,7 +48,7 @@ export default function CareCornerNav() {
                     <li><Link to="/ynp-team/governing-board" className="hover:text-blue-600 block">Governing Board</Link></li>
                     <li><Link to="/ynp-team/statutory-bodies" className="hover:text-blue-600 block">Satutory Bodies</Link></li>
                     <li><Link to="/ynp-team/chairman-message" className="hover:text-blue-600 block">Chairman’s Message</Link></li>
-                    <li><Link to="/ynp-team/principal-message" className="hover:text-blue-600 block">Principal’s Message</Link></li>
+                    <li><Link to="/ynp-team/principal-message" className="hover:text-blue-600 block">Vice Chairman’s Message</Link></li>
 
                     {/* Teaching Staff Dropdown */}
                     <li>
@@ -153,7 +153,7 @@ export default function CareCornerNav() {
                     <Link to="/ynp-team/governing-board" className="block hover:text-blue-600">Governing Board</Link>
                     <Link to="/ynp-team/statutory-bodies" className="hover:text-blue-600 block">Satutory Bodies</Link>
                     <Link to="/ynp-team/chairman-message" className="block hover:text-blue-600">Chairman’s Message</Link>
-                    <Link to="/ynp-team/principal-message" className="block hover:text-blue-600">Principal’s Message</Link>
+                    <Link to="/ynp-team/principal-message" className="block hover:text-blue-600">Vice Chairman’s Message</Link>
 
                     {/* Teaching Staff Mobile Submenu */}
                     <div>
