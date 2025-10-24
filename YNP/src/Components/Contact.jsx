@@ -20,8 +20,7 @@ export default function CareCornerHeader() {
                   <Phone className="w-5 sm:w-6 h-5 sm:h-6 text-gray-600" strokeWidth={1.5} />
                 </div>
                 <div className="flex flex-col text-gray-700">
-                  <span className="text-xs sm:text-sm">+91 12345 67890</span>
-                  <span className="text-xs sm:text-sm">+91 98765 43210</span>
+                  <h3 className="text-xs sm:text-sm">+91 72495 79956</h3>
                 </div>
               </div>
 
@@ -42,8 +41,7 @@ export default function CareCornerHeader() {
                   <Mail className="w-5 sm:w-6 h-5 sm:h-6 text-gray-600" strokeWidth={1.5} />
                 </div>
                 <div className="flex flex-col text-gray-700">
-                  <span className="text-xs sm:text-sm">info@ynpbpharm.in</span>
-                  <span className="text-xs sm:text-sm">admissions@ynpbpharm.in</span>
+                  <span className="text-xs sm:text-sm">ynpbpharm2022@gmail.com</span>
                 </div>
               </div>
             </div>

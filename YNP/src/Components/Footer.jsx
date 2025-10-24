@@ -64,7 +64,7 @@ const Footer = () => {
               V. M. Patil Krishi Pratishthan, Yamuna Saibag, Vangaon,
               Tal. Dahanu, Dist. Palghar, Maharashtra – PIN 401103
             </p>
-            <p className="text-sm mt-2">WhatsApp/Phone: +91-72495-79956</p>
+            <p className="text-sm mt-2">WhatsApp/Phone: +91 72495 79956</p>
             <p className="text-sm mt-1">Email: ynpbpharm2022@gmail.com</p>
 
             <div className="flex space-x-4 mt-6">

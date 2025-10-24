@@ -24,7 +24,7 @@ export default function AppointmentForm() {
     setResult("Sending....");
 
     const data = new FormData();
-    data.append("access_key", "fd3a1053-ff54-4d7b-9ff3-4e851e516c6e");
+    data.append("access_key", "ece892b2-6349-43b0-9a7d-ebba06392780");
     data.append("fullName", formData.fullName);
     data.append("email", formData.email);
     data.append("phone", formData.phone);
