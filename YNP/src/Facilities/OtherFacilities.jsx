@@ -92,7 +92,7 @@ const FacilitiesShowcase = () => {
                 <img
                   src={facility.image}
                   alt={facility.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
               </div>
