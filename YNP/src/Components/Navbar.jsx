@@ -12,7 +12,7 @@ export default function CareCornerNav() {
 
   return (
     <nav className="bg-white pt-3">
-      <div className="max-w-8xl mx-auto px-4 sm:px-16">
+      <div className="max-w-8xl mx-auto px-4 sm:px-20">
         <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <div className="flex items-center gap-2">
