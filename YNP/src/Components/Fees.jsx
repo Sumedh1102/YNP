@@ -37,7 +37,7 @@ export default function VirtualAppointmentHero() {
           <div className="w-full lg:flex-1 lg:w-auto">
             <div className="relative w-full h-auto flex justify-center items-center">
               <img
-                src="https://i.pinimg.com/736x/99/e3/e5/99e3e56b1b95911f9f9d4a8e0a469312.jpg"
+                src="https://i.pinimg.com/736x/bc/2e/07/bc2e07c52294cb802580ad8f768047ed.jpg"
                 alt="Students checking results online"
                 className="w-full h-[700px] max-w-sm sm:max-w-md md:max-w-lg lg:max-w-none lg:w-full object-cover rounded-b-3xl lg:rounded-3xl aspect-square sm:aspect-auto"
               />
