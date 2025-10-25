@@ -35,7 +35,7 @@ export default function MedicalServicesGrid() {
     {
       id: 5,
       title: 'Student Life At YNPCOP',
-      image: 'https://i.postimg.cc/yNr2pXdW/image.png',
+      image: 'https://i.postimg.cc/1XfZJWPS/Screenshot-2025-10-25-at-11-55-36-PM.png',
       hasIcon: false,
       link: '/studentlife'
     }
