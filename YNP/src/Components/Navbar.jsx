@@ -1,127 +1,104 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { useState } from "react"
+import { ChevronDown, Menu, X } from "lucide-react"
 
 export default function CareCornerNav() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isAcademicsOpen, setIsAcademicsOpen] = useState(false);
-  const [isTeamOpen, setIsTeamOpen] = useState(false);
-  const [isAcademicsMobileOpen, setIsAcademicsMobileOpen] = useState(false);
-  const [isTeamMobileOpen, setIsTeamMobileOpen] = useState(false);
-  const [isTeachingStaffOpen, setIsTeachingStaffOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isAcademicsOpen, setIsAcademicsOpen] = useState(false)
+  const [isTeamOpen, setIsTeamOpen] = useState(false)
+  const [isAcademicsMobileOpen, setIsAcademicsMobileOpen] = useState(false)
+  const [isTeamMobileOpen, setIsTeamMobileOpen] = useState(false)
+  const [isTeachingStaffOpen, setIsTeachingStaffOpen] = useState(false)
 
   return (
-    <nav className="bg-white pt-3">
-      <div className="max-w-8xl mx-auto px-4 sm:px-20">
-        <div className="flex items-center justify-between h-24">
-          {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 sm:w-24 sm:h-24 flex items-center justify-center">
+    <nav className="bg-white">
+      <div className="max-w-8xl mx-auto px-3 sm:px-4 md:px-6 lg:px-20">
+        <div className="flex items-center justify-between h-16 sm:h-20 lg:h-24">
+          {/* Logo and Title */}
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+            <div className="w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16 flex-shrink-0">
               <img
                 src="https://res.cloudinary.com/dzlik9g5v/image/upload/v1761286582/ynplogo-Photoroom_a0znp3.png"
-                alt=""
-                className="object-cover"
+                alt="YNP College Logo"
+                className="w-full h-full object-cover"
               />
             </div>
-            <span className="text-xl sm:text-3xl font-bold text-gray-900">
+            <span className="text-sm sm:text-lg md:text-xl lg:text-3xl font-bold text-gray-900 truncate sm:truncate">
               YNP COLLEGE OF PHARMACY
             </span>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-7 md:ml-12 lg:ml-20">
+          <div className="hidden lg:flex items-center gap-2 xl:gap-6 ml-8">
             <Link
               to="/"
-              className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
             >
               Home
             </Link>
 
             <Link
               to="/about"
-              className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
             >
               About
             </Link>
 
             {/* YNP Team Dropdown */}
-            <div className="relative">
+            <div className="relative group">
               <button
                 onClick={() => setIsTeamOpen(!isTeamOpen)}
-                className="flex items-center text-gray-600/80 font-normal text-xl hover:text-blue-500"
+                className="flex items-center gap-1 text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
               >
-                YNP Team <ChevronDown className="w-4 h-4 ml-1" />
+                YNP Team <ChevronDown className="w-4 h-4" />
               </button>
 
               {isTeamOpen && (
-                <div className="absolute left-0 mt-2 w-72 bg-white border border-gray-200 rounded-3xl shadow-lg z-50 p-5 space-y-4">
-                  <ul className="space-y-2 text-gray-700">
+                <div className="absolute left-0 mt-2 w-72 bg-white border border-gray-200 rounded-lg shadow-lg z-50 p-4 space-y-3">
+                  <ul className="space-y-2 text-gray-700 text-sm">
                     <li>
-                      <Link
-                        to="/ynp-team/board-of-trustees"
-                        className="hover:text-blue-600 block"
-                      >
+                      <Link to="/ynp-team/board-of-trustees" className="hover:text-blue-600 block transition-colors">
                         Board of Trustees
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        to="/ynp-team/governing-board"
-                        className="hover:text-blue-600 block"
-                      >
+                      <Link to="/ynp-team/governing-board" className="hover:text-blue-600 block transition-colors">
                         Governing Board
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        to="/ynp-team/statutory-bodies"
-                        className="hover:text-blue-600 block"
-                      >
-                        Satutory Bodies
+                      <Link to="/ynp-team/statutory-bodies" className="hover:text-blue-600 block transition-colors">
+                        Statutory Bodies
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        to="/ynp-team/chairman-message"
-                        className="hover:text-blue-600 block"
-                      >
-                        Chairman’s Message
+                      <Link to="/ynp-team/chairman-message" className="hover:text-blue-600 block transition-colors">
+                        Chairman's Message
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        to="/ynp-team/principal-message"
-                        className="hover:text-blue-600 block"
-                      >
-                        Vice Chairman’s Message
+                      <Link to="/ynp-team/principal-message" className="hover:text-blue-600 block transition-colors">
+                        Vice Chairman's Message
                       </Link>
                     </li>
 
                     {/* Teaching Staff Dropdown */}
                     <li>
                       <button
-                        onClick={() =>
-                          setIsTeachingStaffOpen(!isTeachingStaffOpen)
-                        }
-                        className="flex items-center justify-between w-full text-left hover:text-blue-600"
+                        onClick={() => setIsTeachingStaffOpen(!isTeachingStaffOpen)}
+                        className="flex items-center justify-between w-full text-left hover:text-blue-600 transition-colors"
                       >
                         Teaching Staff <ChevronDown className="w-4 h-4" />
                       </button>
                       {isTeachingStaffOpen && (
-                        <ul className="pl-5 list-disc space-y-1 text-gray-700 mt-2">
+                        <ul className="pl-4 space-y-1 text-gray-700 mt-2">
                           <li>
-                            <Link
-                              to="/bpharm-faculty"
-                              className="hover:text-blue-600 block"
-                            >
+                            <Link to="/bpharm-faculty" className="hover:text-blue-600 block transition-colors">
                               B.Pharm
                             </Link>
                           </li>
                           <li>
-                            <Link
-                              to="/dpharm-faculty"
-                              className="hover:text-blue-600 block"
-                            >
+                            <Link to="/dpharm-faculty" className="hover:text-blue-600 block transition-colors">
                               D.Pharm
                             </Link>
                           </li>
@@ -130,10 +107,7 @@ export default function CareCornerNav() {
                     </li>
 
                     <li>
-                      <Link
-                        to="/ynp-team/non-teaching-staff"
-                        className="hover:text-blue-600 block"
-                      >
+                      <Link to="/ynp-team/non-teaching-staff" className="hover:text-blue-600 block transition-colors">
                         Non-Teaching Staff
                       </Link>
                     </li>
@@ -143,26 +117,24 @@ export default function CareCornerNav() {
             </div>
 
             {/* Academics Dropdown */}
-            <div className="relative">
+            <div className="relative group">
               <button
                 onClick={() => setIsAcademicsOpen(!isAcademicsOpen)}
-                className="flex items-center text-gray-600/80 font-normal text-xl hover:text-blue-500"
+                className="flex items-center gap-1 text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
               >
-                Academics <ChevronDown className="w-4 h-4 ml-1" />
+                Academics <ChevronDown className="w-4 h-4" />
               </button>
 
               {isAcademicsOpen && (
-                <div className="absolute left-0 mt-2 w-64 bg-white border border-gray-200 rounded-3xl shadow-lg z-50 p-5 space-y-4">
+                <div className="absolute left-0 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg z-50 p-4 space-y-3">
                   <div>
-                    <span className="font-semibold text-lg text-gray-800 block mb-2">
-                      Courses
-                    </span>
-                    <ul className="pl-5 list-disc space-y-1 text-gray-700">
+                    <span className="font-semibold text-sm text-gray-800 block mb-2">Courses</span>
+                    <ul className="pl-4 space-y-1 text-gray-700 text-sm">
                       <li>
                         <Link
                           to="/academics/dpharm-syllabus"
                           onClick={() => setIsAcademicsOpen(false)}
-                          className="hover:text-blue-600 block"
+                          className="hover:text-blue-600 block transition-colors"
                         >
                           D.Pharm
                         </Link>
@@ -171,7 +143,7 @@ export default function CareCornerNav() {
                         <Link
                           to="/academics/bpharm-syllabus"
                           onClick={() => setIsAcademicsOpen(false)}
-                          className="hover:text-blue-600 block"
+                          className="hover:text-blue-600 block transition-colors"
                         >
                           B.Pharm
                         </Link>
@@ -179,12 +151,11 @@ export default function CareCornerNav() {
                     </ul>
                   </div>
 
-                  {/* ✅ Scholarship PDF download link */}
                   <div>
                     <a
-                      href="https://res.cloudinary.com/djzzj4s72/image/upload/v1761302367/Screenshot_2025-10-24_at_4.09.15_PM_k4k1uc.png" // replace with your actual PDF URL
+                      href="https://res.cloudinary.com/djzzj4s72/image/upload/v1761302367/Screenshot_2025-10-24_at_4.09.15_PM_k4k1uc.png"
                       download
-                      className="font-semibold text-lg text-gray-800 hover:text-blue-600 block"
+                      className="font-semibold text-sm text-gray-800 hover:text-blue-600 block transition-colors"
                     >
                       Scholarship
                     </a>
@@ -195,21 +166,21 @@ export default function CareCornerNav() {
 
             <Link
               to="/facilities"
-              className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
             >
               Facilities
             </Link>
 
             <Link
               to="/studentlife"
-              className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
             >
               Student Life
             </Link>
 
             <Link
               to="/contact"
-              className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
             >
               Contact Us
             </Link>
@@ -218,27 +189,28 @@ export default function CareCornerNav() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 text-gray-700 hover:text-gray-900"
+            className="lg:hidden p-2 text-gray-700 hover:text-gray-900 transition-colors"
+            aria-label="Toggle menu"
           >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMenuOpen ? <X className="w-5 h-5 sm:w-6 sm:h-6" /> : <Menu className="w-5 h-5 sm:w-6 sm:h-6" />}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-gray-200">
-            <div className="flex flex-col space-y-4">
+          <div className="lg:hidden py-3 sm:py-4 border-t border-gray-200">
+            <div className="flex flex-col space-y-3 sm:space-y-4">
               <Link
                 to="/"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+                className="text-gray-600/80 font-normal text-base sm:text-lg hover:text-blue-500 transition-colors"
               >
                 Home
               </Link>
               <Link
                 to="/about"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+                className="text-gray-600/80 font-normal text-base sm:text-lg hover:text-blue-500 transition-colors"
               >
                 About
               </Link>
@@ -247,76 +219,54 @@ export default function CareCornerNav() {
               <div>
                 <button
                   onClick={() => setIsTeamMobileOpen(!isTeamMobileOpen)}
-                  className="flex items-center justify-between w-full text-gray-600/80 font-normal text-xl hover:text-blue-500"
+                  className="flex items-center justify-between w-full text-gray-600/80 font-normal text-base sm:text-lg hover:text-blue-500 transition-colors"
                 >
-                  YNP Team <ChevronDown className="w-4 h-4" />
+                  YNP Team{" "}
+                  <ChevronDown className={`w-4 h-4 transition-transform ${isTeamMobileOpen ? "rotate-180" : ""}`} />
                 </button>
 
                 {isTeamMobileOpen && (
-                  <div className="mt-2 pl-4 space-y-2">
-                    <Link
-                      to="/ynp-team/board-of-trustees"
-                      className="block hover:text-blue-600"
-                    >
+                  <div className="mt-2 pl-4 space-y-2 text-sm sm:text-base">
+                    <Link to="/ynp-team/board-of-trustees" className="block hover:text-blue-600 transition-colors">
                       Board of Trustees
                     </Link>
-                    <Link
-                      to="/ynp-team/governing-board"
-                      className="block hover:text-blue-600"
-                    >
+                    <Link to="/ynp-team/governing-board" className="block hover:text-blue-600 transition-colors">
                       Governing Board
                     </Link>
-                    <Link
-                      to="/ynp-team/statutory-bodies"
-                      className="hover:text-blue-600 block"
-                    >
-                      Satutory Bodies
+                    <Link to="/ynp-team/statutory-bodies" className="hover:text-blue-600 block transition-colors">
+                      Statutory Bodies
                     </Link>
-                    <Link
-                      to="/ynp-team/chairman-message"
-                      className="block hover:text-blue-600"
-                    >
-                      Chairman’s Message
+                    <Link to="/ynp-team/chairman-message" className="block hover:text-blue-600 transition-colors">
+                      Chairman's Message
                     </Link>
-                    <Link
-                      to="/ynp-team/principal-message"
-                      className="block hover:text-blue-600"
-                    >
-                      Vice Chairman’s Message
+                    <Link to="/ynp-team/principal-message" className="block hover:text-blue-600 transition-colors">
+                      Vice Chairman's Message
                     </Link>
 
                     {/* Teaching Staff Mobile Submenu */}
                     <div>
                       <button
-                        onClick={() =>
-                          setIsTeachingStaffOpen(!isTeachingStaffOpen)
-                        }
-                        className="flex items-center justify-between w-full hover:text-blue-600"
+                        onClick={() => setIsTeachingStaffOpen(!isTeachingStaffOpen)}
+                        className="flex items-center justify-between w-full hover:text-blue-600 transition-colors"
                       >
-                        Teaching Staff <ChevronDown className="w-4 h-4" />
+                        Teaching Staff{" "}
+                        <ChevronDown
+                          className={`w-4 h-4 transition-transform ${isTeachingStaffOpen ? "rotate-180" : ""}`}
+                        />
                       </button>
                       {isTeachingStaffOpen && (
-                        <div className="pl-4 mt-1 space-y-1">
-                          <Link
-                            to="/bpharm-faculty"
-                            className="block hover:text-blue-600"
-                          >
+                        <div className="pl-4 mt-2 space-y-1">
+                          <Link to="/bpharm-faculty" className="block hover:text-blue-600 transition-colors">
                             B.Pharm
                           </Link>
-                          <Link
-                            to="/dpharm-faculty"
-                            className="block hover:text-blue-600"
-                          >
+                          <Link to="/dpharm-faculty" className="block hover:text-blue-600 transition-colors">
                             D.Pharm
                           </Link>
                         </div>
                       )}
                     </div>
 
-                    <Link
-                      to="/ynp-team/non-teaching-staff"
-                      className="block hover:text-blue-600"
-                    >
+                    <Link to="/ynp-team/non-teaching-staff" className="block hover:text-blue-600 transition-colors">
                       Non-Teaching Staff
                     </Link>
                   </div>
@@ -326,41 +276,35 @@ export default function CareCornerNav() {
               {/* Academics (Mobile) */}
               <div>
                 <button
-                  onClick={() =>
-                    setIsAcademicsMobileOpen(!isAcademicsMobileOpen)
-                  }
-                  className="flex items-center justify-between w-full text-gray-600/80 font-normal text-xl hover:text-blue-500"
+                  onClick={() => setIsAcademicsMobileOpen(!isAcademicsMobileOpen)}
+                  className="flex items-center justify-between w-full text-gray-600/80 font-normal text-base sm:text-lg hover:text-blue-500 transition-colors"
                 >
-                  Academics <ChevronDown className="w-4 h-4" />
+                  Academics{" "}
+                  <ChevronDown
+                    className={`w-4 h-4 transition-transform ${isAcademicsMobileOpen ? "rotate-180" : ""}`}
+                  />
                 </button>
 
                 {isAcademicsMobileOpen && (
-                  <div className="mt-2 pl-4 space-y-2">
-                    <span className="font-semibold text-gray-800">Courses</span>
-                    <ul className="pl-4 list-disc space-y-1 text-gray-700 mt-1">
+                  <div className="mt-2 pl-4 space-y-2 text-sm sm:text-base">
+                    <span className="font-semibold text-gray-800 block">Courses</span>
+                    <ul className="pl-4 space-y-1 text-gray-700">
                       <li>
-                        <Link
-                          to="/academics/dpharm-syllabus"
-                          className="hover:text-blue-600 block"
-                        >
+                        <Link to="/academics/dpharm-syllabus" className="hover:text-blue-600 block transition-colors">
                           D.Pharm
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          to="/academics/bpharm-syllabus"
-                          className="hover:text-blue-600 block"
-                        >
+                        <Link to="/academics/bpharm-syllabus" className="hover:text-blue-600 block transition-colors">
                           B.Pharm
                         </Link>
                       </li>
                     </ul>
 
-                    {/* ✅ Scholarship PDF download (mobile) */}
                     <a
-                      href="https://res.cloudinary.com/djzzj4s72/image/upload/v1761302367/Screenshot_2025-10-24_at_4.09.15_PM_k4k1uc.png" // replace with your actual PDF URL
+                      href="https://res.cloudinary.com/djzzj4s72/image/upload/v1761302367/Screenshot_2025-10-24_at_4.09.15_PM_k4k1uc.png"
                       download
-                      className="font-semibold text-gray-800 hover:text-blue-600 block"
+                      className="font-semibold text-gray-800 hover:text-blue-600 block transition-colors"
                     >
                       Scholarship
                     </a>
@@ -371,21 +315,21 @@ export default function CareCornerNav() {
               <Link
                 to="/facilities"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+                className="text-gray-600/80 font-normal text-base sm:text-lg hover:text-blue-500 transition-colors"
               >
                 Facilities
               </Link>
               <Link
                 to="/studentlife"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+                className="text-gray-600/80 font-normal text-base sm:text-lg hover:text-blue-500 transition-colors"
               >
                 Student Life
               </Link>
               <Link
                 to="/contact"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-gray-600/80 font-normal text-xl hover:text-blue-500"
+                className="text-gray-600/80 font-normal text-base sm:text-lg hover:text-blue-500 transition-colors"
               >
                 Contact Us
               </Link>
@@ -394,5 +338,7 @@ export default function CareCornerNav() {
         )}
       </div>
     </nav>
-  );
+  )
 }
+
+
