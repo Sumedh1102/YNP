@@ -4,7 +4,7 @@ const StudentLifeGallery = () => {
   const galleryItems = [
     {
       id: 1,
-      url: 'https://vmpkp.com/wp-content/uploads/2025/06/Events.png',
+      url: 'https://i.postimg.cc/fyGCMwL6/Events.png',
       title: 'Orientation & Induction Program',
       alt: 'New students attending YNP College of Pharmacy induction ceremony'
     },
@@ -16,43 +16,43 @@ const StudentLifeGallery = () => {
     },
     {
       id: 3,
-      url: 'https://vmpkp.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-09-at-2.31.27-PM-1.jpeg',
+      url: 'https://i.postimg.cc/x1ywpZpQ/Whats-App-Image-2025-06-09-at-2-31-27-PM-1.jpg',
       title: 'Research Presentation & Poster Session',
       alt: 'Students presenting pharmaceutical research at academic event'
     },
     {
       id: 4,
-      url: 'https://vmpkp.com/wp-content/uploads/2025/06/campus-img9.jpeg',
+      url: 'https://i.postimg.cc/5N8TjGVw/image.png',
       title: 'Cultural Festival – “PharmVision”',
       alt: 'Students performing during annual cultural and technical fest'
     },
     {
       id: 5,
-      url: 'https://vmpkp.com/wp-content/uploads/2025/06/caqmpus-img8.jpeg',
+      url: 'https://i.postimg.cc/1RqYYT48/image.png',
       title: 'Sports & Fitness Activities',
       alt: 'Students participating in outdoor sports and games'
     },
     {
       id: 6,
-      url: 'https://vmpkp.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-10-at-3.41.39-PM.jpeg',
+      url: 'https://i.postimg.cc/VN2Wqf9f/image.png',
       title: 'Community Health Camp',
       alt: 'YNP pharmacy students volunteering in rural medical outreach'
     },
     {
       id: 7,
-      url: 'https://vmpkp.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-10-at-1.22.54-PM-1.jpeg',
+      url: 'https://i.postimg.cc/Sxs6H2D4/image.png',
       title: 'Campus Life & Friendships',
       alt: 'Students relaxing and enjoying time on campus grounds'
     },
     {
       id: 8,
-      url: 'https://vmpkp.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-09-at-2.31.20-PM.jpeg',
+      url: 'https://i.postimg.cc/SQfcs7Pj/image.png',
       title: 'Guest Lectures & Seminars',
       alt: 'Students attending an expert talk in the seminar hall'
     },
     {
       id: 9,
-      url: 'https://vmpkp.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-09-at-2.33.57-PM-2.jpeg',
+      url: 'https://i.postimg.cc/PxzvCT2m/image.png',
       title: 'Library & Self-Study Zone',
       alt: 'Students engaged in reading and research in the YNP central library'
     }
