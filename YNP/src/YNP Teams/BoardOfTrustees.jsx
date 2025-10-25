@@ -69,13 +69,13 @@ const BoardOfTrustees = () => {
           {trustees.map((trustee) => (
             <div
               key={trustee.id}
-              className="bg-white rounded-3xl transition-shadow duration-300 p-6 md:p-8"
+              className="bg-white rounded-3xl transition-shadow duration-300 p-6 md:p-8 border"
             >
               <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
                 <img
                   src={trustee.image}
                   alt={trustee.name}
-                  className="w-32 h-32 md:w-96 md:h-96 object-cover bg-slate-100 rounded-3xl flex-shrink-0"
+                  className="w-60 h-60 md:w-96 md:h-96 object-cover bg-slate-100 rounded-3xl flex-shrink-0"
                 />
                 <div className="flex-1 text-center md:text-left">
                   <h2 className="text-3xl font-semibold text-gray-800 mb-1">

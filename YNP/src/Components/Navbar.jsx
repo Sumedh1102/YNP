@@ -16,14 +16,14 @@ export default function CareCornerNav() {
         <div className="flex items-center justify-between h-10 mt-8">
           {/* Logo and Title */}
           <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-            <div className="w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16 flex-shrink-0">
+            <div className="w-12 h-12 sm:w-12 sm:h-12 lg:w-16 lg:h-16 flex-shrink-0">
               <img
                 src="https://res.cloudinary.com/dzlik9g5v/image/upload/v1761286582/ynplogo-Photoroom_a0znp3.png"
                 alt="YNP College Logo"
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="text-sm sm:text-lg md:text-xl lg:text-3xl font-bold text-gray-900 truncate sm:truncate">
+            <span className="text-xl sm:text-lg md:text-xl lg:text-3xl font-bold text-gray-900 truncate sm:truncate">
               YNP COLLEGE OF PHARMACY
             </span>
           </div>
@@ -32,14 +32,14 @@ export default function CareCornerNav() {
           <div className="hidden lg:flex items-center gap-2 xl:gap-6 ml-8">
             <Link
               to="/"
-              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
+              className="text-gray-600/80 font-normal text-base xl:text-xl transition-colors whitespace-nowrap"
             >
               Home
             </Link>
 
             <Link
               to="/about"
-              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
+              className="text-gray-600/80 font-normal text-base xl:text-xl transition-colors whitespace-nowrap"
             >
               About
             </Link>
@@ -48,7 +48,7 @@ export default function CareCornerNav() {
             <div className="relative group">
               <button
                 onClick={() => setIsTeamOpen(!isTeamOpen)}
-                className="flex items-center gap-1 text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
+                className="flex items-center gap-1 text-gray-600/80 font-normal text-base xl:text-xl  transition-colors whitespace-nowrap"
               >
                 YNP Team <ChevronDown className="w-4 h-4" />
               </button>
@@ -57,27 +57,27 @@ export default function CareCornerNav() {
                 <div className="absolute left-0 mt-2 w-72 bg-white border border-gray-200 rounded-lg shadow-lg z-50 p-4 space-y-3">
                   <ul className="space-y-2 text-gray-700 text-sm">
                     <li>
-                      <Link to="/ynp-team/board-of-trustees" className="hover:text-blue-600 block transition-colors">
+                      <Link to="/ynp-team/board-of-trustees" className=" block transition-colors">
                         Board of Trustees
                       </Link>
                     </li>
                     <li>
-                      <Link to="/ynp-team/governing-board" className="hover:text-blue-600 block transition-colors">
+                      <Link to="/ynp-team/governing-board" className=" block transition-colors">
                         Governing Board
                       </Link>
                     </li>
                     <li>
-                      <Link to="/ynp-team/statutory-bodies" className="hover:text-blue-600 block transition-colors">
+                      <Link to="/ynp-team/statutory-bodies" className=" block transition-colors">
                         Statutory Bodies
                       </Link>
                     </li>
                     <li>
-                      <Link to="/ynp-team/chairman-message" className="hover:text-blue-600 block transition-colors">
+                      <Link to="/ynp-team/chairman-message" className=" block transition-colors">
                         Chairman's Message
                       </Link>
                     </li>
                     <li>
-                      <Link to="/ynp-team/principal-message" className="hover:text-blue-600 block transition-colors">
+                      <Link to="/ynp-team/principal-message" className=" block transition-colors">
                         Vice Chairman's Message
                       </Link>
                     </li>
@@ -86,19 +86,19 @@ export default function CareCornerNav() {
                     <li>
                       <button
                         onClick={() => setIsTeachingStaffOpen(!isTeachingStaffOpen)}
-                        className="flex items-center justify-between w-full text-left hover:text-blue-600 transition-colors"
+                        className="flex items-center justify-between w-full text-left  transition-colors"
                       >
                         Teaching Staff <ChevronDown className="w-4 h-4" />
                       </button>
                       {isTeachingStaffOpen && (
                         <ul className="pl-4 space-y-1 text-gray-700 mt-2">
                           <li>
-                            <Link to="/bpharm-faculty" className="hover:text-blue-600 block transition-colors">
+                            <Link to="/bpharm-faculty" className=" block transition-colors">
                               B.Pharm
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dpharm-faculty" className="hover:text-blue-600 block transition-colors">
+                            <Link to="/dpharm-faculty" className=" block transition-colors">
                               D.Pharm
                             </Link>
                           </li>
@@ -107,7 +107,7 @@ export default function CareCornerNav() {
                     </li>
 
                     <li>
-                      <Link to="/ynp-team/non-teaching-staff" className="hover:text-blue-600 block transition-colors">
+                      <Link to="/ynp-team/non-teaching-staff" className=" block transition-colors">
                         Non-Teaching Staff
                       </Link>
                     </li>
@@ -120,7 +120,7 @@ export default function CareCornerNav() {
             <div className="relative group">
               <button
                 onClick={() => setIsAcademicsOpen(!isAcademicsOpen)}
-                className="flex items-center gap-1 text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
+                className="flex items-center gap-1 text-gray-600/80 font-normal text-base xl:text-xl  transition-colors whitespace-nowrap"
               >
                 Academics <ChevronDown className="w-4 h-4" />
               </button>
@@ -134,7 +134,7 @@ export default function CareCornerNav() {
                         <Link
                           to="/academics/dpharm-syllabus"
                           onClick={() => setIsAcademicsOpen(false)}
-                          className="hover:text-blue-600 block transition-colors"
+                          className=" block transition-colors"
                         >
                           D.Pharm
                         </Link>
@@ -143,7 +143,7 @@ export default function CareCornerNav() {
                         <Link
                           to="/academics/bpharm-syllabus"
                           onClick={() => setIsAcademicsOpen(false)}
-                          className="hover:text-blue-600 block transition-colors"
+                          className=" block transition-colors"
                         >
                           B.Pharm
                         </Link>
@@ -155,7 +155,7 @@ export default function CareCornerNav() {
                     <a
                       href="https://res.cloudinary.com/djzzj4s72/image/upload/v1761302367/Screenshot_2025-10-24_at_4.09.15_PM_k4k1uc.png"
                       download
-                      className="font-semibold text-sm text-gray-800 hover:text-blue-600 block transition-colors"
+                      className="font-semibold text-sm text-gray-800  block transition-colors"
                     >
                       Scholarship
                     </a>
@@ -166,21 +166,21 @@ export default function CareCornerNav() {
 
             <Link
               to="/facilities"
-              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
+              className="text-gray-600/80 font-normal text-base xl:text-xl  transition-colors whitespace-nowrap"
             >
               Facilities
             </Link>
 
             <Link
               to="/studentlife"
-              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
+              className="text-gray-600/80 font-normal text-base xl:text-xl  transition-colors whitespace-nowrap"
             >
               Student Life
             </Link>
 
             <Link
               to="/contact"
-              className="text-gray-600/80 font-normal text-base xl:text-xl hover:text-blue-500 transition-colors whitespace-nowrap"
+              className="text-gray-600/80 font-normal text-base xl:text-xl  transition-colors whitespace-nowrap"
             >
               Contact Us
             </Link>
