@@ -81,14 +81,6 @@ const ClassroomShowcase = () => {
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
               </div>
-
-              <div className="px-5">
-                <div className="bg-slate-100 rounded-3xl p-6 transition-shadow duration-300 -translate-y-16">
-                  <h3 className="text-lg font-semibold mb-3 text-gray-900">{room.name}</h3>
-                  <p className="text-gray-600 text-sm mb-2">{room.capacity}</p>
-                  <p className="text-gray-500 text-sm leading-relaxed">{room.description}</p>
-                </div>
-              </div>
             </div>
           ))}
         </div>

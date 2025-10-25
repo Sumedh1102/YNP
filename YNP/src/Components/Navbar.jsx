@@ -11,7 +11,38 @@ export default function CareCornerNav() {
   const [isTeachingStaffOpen, setIsTeachingStaffOpen] = useState(false)
 
   return (
-    <nav className="bg-white">
+    <div>
+  <a href="https://aems.vmpkp.com/aemsedudc/StudentFee/feescollectionthruprn">
+           {/* 🔹 Infinite Scrolling Bar */}
+      <div className="w-full bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 text-white overflow-hidden">
+        <div className="whitespace-nowrap py-3">
+   <p className="inline-block text-2xl font-thin animate-marquee whitespace-nowrap">
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Pay Fees Online
+  </p>
+        </div>
+      </div>
+  </a>
+
+      <nav className="bg-white">
       <div className="max-w-8xl mx-auto px-3 sm:px-4 md:px-6 lg:px-20">
         <div className="flex items-center justify-between h-10 mt-8">
           {/* Logo and Title */}
@@ -23,9 +54,19 @@ export default function CareCornerNav() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="text-xl sm:text-lg md:text-xl lg:text-3xl font-bold text-gray-900 truncate sm:truncate">
-              YNP COLLEGE OF PHARMACY
-            </span>
+            <div className="flex flex-col items-center text-center">
+  <span className="text-xl sm:text-lg md:text-xl lg:text-3xl font-bold text-gray-900 truncate sm:truncate">
+    YNP COLLEGE OF PHARMACY
+  </span>
+  <span>
+    <p className="text-sm sm:text-base text-gray-700 font-medium">
+      Approved by <span className="font-semibold">PCI</span>, Recognized by{" "}
+      <span className="font-semibold">DTE</span>, Affiliated to{" "}
+      <span className="font-semibold">DBATU & MSBTE</span>
+    </p>
+  </span>
+</div>
+
           </div>
 
           {/* Desktop Navigation */}
@@ -338,6 +379,7 @@ export default function CareCornerNav() {
         )}
       </div>
     </nav>
+    </div>
   )
 }
 

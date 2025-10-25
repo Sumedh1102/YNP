@@ -20,7 +20,7 @@ export default function MedicalServicesGrid() {
     },
     {
       id: 3,
-      title: 'State of the art Laboratories',
+      title: 'State of Art Facilities',
       image: 'https://i.postimg.cc/FKVSF7j6/image.png',
       hasIcon: false,
       link: '/facilities'
@@ -34,7 +34,7 @@ export default function MedicalServicesGrid() {
     },
     {
       id: 5,
-      title: 'Workshops & Internships',
+      title: 'Student Life At YNPCOP',
       image: 'https://i.postimg.cc/yNr2pXdW/image.png',
       hasIcon: false,
       link: '/studentlife'

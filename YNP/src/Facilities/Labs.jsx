@@ -83,17 +83,6 @@ const LabsShowcase = () => {
                 />
                 <div className="absolute inset-0 bg-black opacity-0  transition-opacity duration-300"></div>
               </div>
-
-              {/* Content Card */}
-              <div className="px-5">
-                <div className="bg-slate-100 rounded-3xl p-6 transition-shadow duration-300 -translate-y-16">
-                  <h3 className={`text-lg font-semibold mb-2 leading-snug ${lab.titleColor || 'text-gray-900'}`}>
-                    {lab.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm font-medium mb-1">{lab.focus}</p>
-                  <p className="text-gray-500 text-sm leading-relaxed">{lab.description}</p>
-                </div>
-              </div>
             </div>
           ))}
         </div>

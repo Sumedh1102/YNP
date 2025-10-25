@@ -19,7 +19,7 @@ const StatutoryBodies = () => {
     },
     {
       id: 3,
-      name: "Minutes of Entrepreneurship Development Committee",
+      name: "Entrepreneurship Development Committee",
       description: "Encourages innovation and entrepreneurship among students through various initiatives.",
       pdfLink: "https://res.cloudinary.com/djzzj4s72/image/upload/v1761124813/Minutes_of_Entrepreneurship_Development_Committee_l42byl.jpg",
       image: "/images/Minutes of Entrepreneurship Development Committee.jpeg"

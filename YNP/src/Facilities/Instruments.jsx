@@ -83,21 +83,6 @@ const InstrumentShowcase = () => {
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
               </div>
-
-              {/* Content */}
-              <div className="px-5">
-                <div className="bg-slate-100 rounded-3xl p-6 transition-shadow duration-300 -translate-y-16">
-                  <h3 className={`text-lg font-semibold mb-2 leading-snug ${item.color || 'text-gray-900'}`}>
-                    {item.name}
-                  </h3>
-                  <p className="text-gray-600 text-sm font-medium mb-1">
-                    {item.department}
-                  </p>
-                  <p className="text-gray-400 text-sm">
-                    {item.type}
-                  </p>
-                </div>
-              </div>
             </div>
           ))}
         </div>

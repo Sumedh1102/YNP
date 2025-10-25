@@ -21,43 +21,72 @@ import NonTeachingStaff from './YNP Teams/NonTeachingStaff.jsx';
 import Faculty from './Pages/BpharmF.jsx';
 import Dpharm from './Pages/Dpharm.jsx';
 import './index.css';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Outlet,
+  useLocation,
+} from 'react-router-dom';
+import { useEffect } from 'react';
+
+
+// ✅ ScrollToTop must be used inside a route layout
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, [pathname]);
+
+  return null;
+}
+
+// ✅ Create a layout wrapper that includes ScrollToTop + Outlet
+function RootLayout() {
+  return (
+    <>
+      <ScrollToTop />
+      <App />
+    </>
+  );
+}
+
+// ✅ Define router normally
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <App />,
+    path: '/',
+    element: <RootLayout />,
     children: [
-      { path: "/", element: <Home /> },
-      { path: "/about", element: <About /> },
+      { path: '/', element: <Home /> },
+      { path: '/about', element: <About /> },
 
-      // ✅ YNP Team section and its nested routes
       {
-        path: "/ynp-team",
+        path: '/ynp-team',
         element: <YnpTeam />,
         children: [
-          { path: "board-of-trustees", element: <BoardOfTrustees /> },
-          { path: "governing-board", element: <GoverningBoard /> },
-          { path: "statutory-bodies", element: <StatutoryBodies /> },
-          { path: "chairman-message", element: <ChairmanMessage /> },
-          { path: "principal-message", element: <PrincipalMessage /> },
-          { path: "teaching-staff", element: <TeachingStaff /> },
-          { path: "non-teaching-staff", element: <NonTeachingStaff /> },
+          { path: 'board-of-trustees', element: <BoardOfTrustees /> },
+          { path: 'governing-board', element: <GoverningBoard /> },
+          { path: 'statutory-bodies', element: <StatutoryBodies /> },
+          { path: 'chairman-message', element: <ChairmanMessage /> },
+          { path: 'principal-message', element: <PrincipalMessage /> },
+          { path: 'teaching-staff', element: <TeachingStaff /> },
+          { path: 'non-teaching-staff', element: <NonTeachingStaff /> },
         ],
       },
 
-      { path: "/facilities", element: <Facilities /> },
-      { path: "/studentlife", element: <Studentlife /> },
-      { path: "/bpharm-faculty", element: <Faculty /> },
-      { path: "/dpharm-faculty", element: <Dpharm /> },
-      { path: "/contact", element: <Contact /> },
+      { path: '/facilities', element: <Facilities /> },
+      { path: '/studentlife', element: <Studentlife /> },
+      { path: '/bpharm-faculty', element: <Faculty /> },
+      { path: '/dpharm-faculty', element: <Dpharm /> },
+      { path: '/contact', element: <Contact /> },
 
       {
-        path: "/academics",
+        path: '/academics',
         element: <Academics />,
         children: [
-          { path: "dpharm-syllabus", element: <DPharmSyllabus /> },
-          { path: "bpharm-syllabus", element: <BPharmSyllabus /> },
-          { path: "scholarship", element: <Scholarship /> },
+          { path: 'dpharm-syllabus', element: <DPharmSyllabus /> },
+          { path: 'bpharm-syllabus', element: <BPharmSyllabus /> },
+          { path: 'scholarship', element: <Scholarship /> },
         ],
       },
     ],
