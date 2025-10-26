@@ -1,3 +1,5 @@
+"use client"
+
 import { Link, useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { ChevronDown, Menu, X } from "lucide-react"
@@ -33,13 +35,13 @@ export default function CareCornerNav() {
       <a href="https://aems.vmpkp.com/aemsedudc/StudentFee/feescollectionthruprn">
         <div className="w-full bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 text-white overflow-hidden">
           <div className="whitespace-nowrap py-2 sm:py-3">
-<p className="inline-block text-lg sm:text-xl md:text-2xl font-thin animate-marquee whitespace-nowrap"> Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online </p>
+            <p className="inline-block text-lg sm:text-xl md:text-2xl font-thin animate-marquee whitespace-nowrap"> Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online </p>
           </div>
         </div>
       </a>
 
       {/* 🔹 Navbar */}
-      <nav className="bg-white shadow-sm border-b">
+      <nav className="bg-white shadow-sm">
         <div className="max-w-8xl mx-auto px-3 sm:px-4 md:px-6 lg:px-16">
           <div className="flex items-center justify-between h-auto py-3 sm:py-4 md:py-6 lg:py-8">
             {/* 🔸 Logo Section */}
@@ -64,7 +66,7 @@ export default function CareCornerNav() {
             </div>
 
             {/* 🔸 Desktop Menu */}
-            <div className="hidden lg:flex items-center gap-6 ml-4">
+            <div className="hidden lg:flex items-center gap-5 ml-4">
               <NavLink to="/" onClick={closeAllDropdowns}>Home</NavLink>
               <NavLink to="/about" onClick={closeAllDropdowns}>About</NavLink>
 
@@ -72,14 +74,14 @@ export default function CareCornerNav() {
               <div className="relative">
                 <button
                   onClick={() => setIsTeamOpen(!isTeamOpen)}
-                  className="flex items-center gap-1 text-gray-700 hover:text-blue-600 text-xl"
+                  className="flex items-center gap-1 text-gray-700 hover:text-blue-600"
                 >
                   YNP Team <ChevronDown className="w-4 h-4" />
                 </button>
 
                 {isTeamOpen && (
                   <div className="absolute left-0 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg z-50 p-3 space-y-2">
-                    <ul className="space-y-2 text-gray-700 text-xl">
+                    <ul className="space-y-2 text-sm text-gray-700">
                       <li><Link to="/ynp-team/board-of-trustees" onClick={closeAllDropdowns}>Board of Trustees</Link></li>
                       <li><Link to="/ynp-team/governing-board" onClick={closeAllDropdowns}>Governing Board</Link></li>
                       <li><Link to="/ynp-team/statutory-bodies" onClick={closeAllDropdowns}>Statutory Bodies</Link></li>
@@ -90,12 +92,12 @@ export default function CareCornerNav() {
                       <li>
                         <button
                           onClick={() => setIsTeachingStaffOpen(!isTeachingStaffOpen)}
-                          className="flex justify-between w-full text-left hover:text-blue-600 text-xl"
+                          className="flex justify-between w-full text-left hover:text-blue-600"
                         >
                           Teaching Staff <ChevronDown className={`w-4 h-4 transition-transform ${isTeachingStaffOpen ? "rotate-180" : ""}`} />
                         </button>
                         {isTeachingStaffOpen && (
-                          <ul className="pl-4 mt-2 space-y-1 text-xl">
+                          <ul className="pl-4 mt-2 space-y-1">
                             <li><Link to="/bpharm-faculty" onClick={closeAllDropdowns}>B.Pharm</Link></li>
                             <li><Link to="/dpharm-faculty" onClick={closeAllDropdowns}>D.Pharm</Link></li>
                           </ul>
@@ -112,14 +114,14 @@ export default function CareCornerNav() {
               <div className="relative">
                 <button
                   onClick={() => setIsAcademicsOpen(!isAcademicsOpen)}
-                  className="flex items-center gap-1 text-gray-700 hover:text-blue-600 text-xl"
+                  className="flex items-center gap-1 text-gray-700 hover:text-blue-600"
                 >
                   Academics <ChevronDown className="w-4 h-4" />
                 </button>
 
                 {isAcademicsOpen && (
                   <div className="absolute left-0 mt-2 w-56 bg-white border border-gray-200 rounded-lg shadow-lg z-50 p-3">
-                    <ul className="space-y-2 text-gray-700 text-xl">
+                    <ul className="space-y-2 text-sm text-gray-700">
                       <li><Link to="/academics/dpharm-syllabus" onClick={closeAllDropdowns}>D.Pharm</Link></li>
                       <li><Link to="/academics/bpharm-syllabus" onClick={closeAllDropdowns}>B.Pharm</Link></li>
                     </ul>
@@ -127,7 +129,7 @@ export default function CareCornerNav() {
                       href="https://res.cloudinary.com/djzzj4s72/image/upload/v1761302367/Screenshot_2025-10-24_at_4.09.15_PM_k4k1uc.png"
                       download
                       onClick={closeAllDropdowns}
-                      className="block mt-3 font-semibold text-gray-800 hover:text-blue-600 text-xl"
+                      className="block mt-3 font-semibold text-sm text-gray-800 hover:text-blue-600"
                     >
                       Scholarship
                     </a>
@@ -194,7 +196,7 @@ export default function CareCornerNav() {
                     href="https://res.cloudinary.com/djzzj4s72/image/upload/v1761302367/Screenshot_2025-10-24_at_4.09.15_PM_k4k1uc.png"
                     download
                     onClick={closeAllDropdowns}
-                    className="block py-1 text-gray-700 hover:text-blue-600 transition text-xl"
+                    className="block py-1 text-gray-700 hover:text-blue-600 transition"
                   >
                     Scholarship
                   </a>
@@ -219,7 +221,7 @@ function NavLink({ to, children, onClick }) {
     <Link
       to={to}
       onClick={onClick}
-      className="text-gray-700 hover:text-blue-600 text-xl transition"
+      className="text-gray-700 hover:text-blue-600 text-sm xl:text-base transition"
     >
       {children}
     </Link>
@@ -231,7 +233,7 @@ function MobileLink({ to, children, onClick }) {
     <Link
       to={to}
       onClick={onClick}
-      className="block py-2 text-gray-700 hover:text-blue-600 transition text-xl"
+      className="block py-2 text-gray-700 text-sm hover:text-blue-600 transition"
     >
       {children}
     </Link>
@@ -243,7 +245,7 @@ function MobileDropdown({ title, children, isOpen, toggle }) {
     <div>
       <button
         onClick={toggle}
-        className="flex items-center justify-between w-full py-2 text-gray-700 hover:text-blue-600 transition text-xl"
+        className="flex items-center justify-between w-full py-2 text-gray-700 hover:text-blue-600 transition"
       >
         {title}
         <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? "rotate-180" : ""}`} />
