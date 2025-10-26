@@ -7,8 +7,8 @@ import OtherFacilities from '../Facilities/OtherFacilities.jsx';
 const Facilities = () => {
   return (
     <>
-    <Instruments/>
     <Labs/>
+    <Instruments/>
     <Classrooms/>
     <OtherFacilities/>
     </>

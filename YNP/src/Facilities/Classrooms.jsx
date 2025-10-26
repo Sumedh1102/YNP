@@ -10,43 +10,22 @@ const ClassroomShowcase = () => {
       name: "Pharmaceutics Laboratory",
       capacity: "60 students",
       description: "Equipped with advanced instruments for formulation, compounding, and dosage design, fostering hands-on pharmaceutical learning.",
-      image: "https://images.unsplash.com/photo-1581091215367-59ab6c2cde1f?w=800&h=600&fit=crop"
+      image: "https://i.postimg.cc/d0GjHGtd/Screenshot-2025-10-26-at-9-48-53-AM.png"
     },
     {
       id: 2,
       name: "Pharmacognosy & Herbal Research Lab",
       capacity: "40 students",
       description: "Dedicated to phytochemical extraction, herbal formulation, and identification of medicinal plant species for research-based learning.",
-      image: "https://images.unsplash.com/photo-1581093588401-22b0baf1b6b0?w=800&h=600&fit=crop"
+      image: "https://i.postimg.cc/J4g3RpGf/Screenshot-2025-10-26-at-9-49-40-AM.png"
     },
     {
       id: 3,
       name: "Computer-Aided Drug Design Lab (CAD-DL)",
       capacity: "50 students",
       description: "AI-integrated systems for molecular modeling, virtual screening, and pharmacokinetic simulation in drug discovery.",
-      image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop"
+      image: "https://i.postimg.cc/q7r37S4t/Screenshot-2025-10-26-at-9-51-25-AM.png"
     },
-    {
-      id: 4,
-      name: "Lecture Hall – Gurukul Block",
-      capacity: "80 students",
-      description: "Spacious digital classrooms with smart boards and interactive displays designed for immersive theoretical learning.",
-      image: "https://images.unsplash.com/photo-1603575448368-362b3ec28e77?w=800&h=600&fit=crop"
-    },
-    {
-      id: 5,
-      name: "Library & E-Resource Center",
-      capacity: "100+ seating",
-      description: "Centralized learning space offering access to journals like IJPER and JAPS with high-speed Wi-Fi and quiet study zones.",
-      image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&h=600&fit=crop"
-    },
-    {
-      id: 6,
-      name: "Seminar Hall & Auditorium",
-      capacity: "200+ attendees",
-      description: "Used for guest lectures, national conferences, and industry conclaves promoting academic discourse and innovation.",
-      image: "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&h=600&fit=crop"
-    }
   ];
 
   const openLightbox = (image) => setLightboxImage(image);
@@ -58,7 +37,7 @@ const ClassroomShowcase = () => {
         {/* Header Section */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-12 gap-4">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 leading-tight">
-            Modern Classrooms & <br />Learning Environments
+            Classrooms 
           </h1>
           <p className="text-gray-600 max-w-xl">
             Explore our state-of-the-art classrooms, laboratories, and digital learning spaces

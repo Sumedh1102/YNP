@@ -10,14 +10,14 @@ const LabsShowcase = () => {
       title: "Pharmaceutics Laboratory",
       focus: "Formulation & Drug Delivery",
       description: "Equipped with modern instruments for developing tablets, capsules, and novel drug delivery systems under controlled environments.",
-      image: "https://images.unsplash.com/photo-1581093588401-22b0baf1b6b0?w=800&h=600&fit=crop"
+      image: "https://i.postimg.cc/C1Vfzt00/Screenshot-2025-10-26-at-9-35-20-AM.png"
     },
     {
       id: 2,
       title: "Pharmaceutical Chemistry Lab",
       focus: "Analytical & Synthetic Chemistry",
       description: "Facilitates synthesis, analysis, and characterization of drug molecules using advanced spectrophotometric and chromatographic techniques.",
-      image: "https://images.unsplash.com/photo-1581092334521-22d38c467f9b?w=800&h=600&fit=crop",
+      image: "https://i.postimg.cc/GmW45NHp/Screenshot-2025-10-26-at-9-35-55-AM.png",
       titleColor: "text-blue-600"
     },
     {
@@ -25,28 +25,28 @@ const LabsShowcase = () => {
       title: "Pharmacognosy Lab",
       focus: "Herbal & Natural Product Research",
       description: "Focuses on identification, extraction, and formulation of herbal medicines — integrating traditional knowledge with modern research.",
-      image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop"
+      image: "https://i.postimg.cc/SKLxtK0k/Screenshot-2025-10-26-at-9-37-23-AM.png"
     },
     {
       id: 4,
       title: "Pharmacology Lab",
       focus: "Drug Action & Toxicology",
       description: "Supports simulation-based experiments for studying drug effects, mechanisms, and pharmacodynamics through ethical and AI-integrated setups.",
-      image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop"
+      image: "https://i.postimg.cc/jjhR4kNV/Screenshot-2025-10-26-at-9-38-02-AM.png"
     },
     {
       id: 5,
       title: "Computer-Aided Drug Design Lab (CAD-DL)",
       focus: "AI-driven Drug Discovery",
       description: "Advanced digital lab featuring molecular modeling, pharmacokinetic analysis, and virtual simulation tools powered by AI algorithms.",
-      image: "https://images.unsplash.com/photo-1614028674026-a65e31bfd27d?w=800&h=600&fit=crop"
+      image: "https://i.postimg.cc/Vv2wNyyD/Screenshot-2025-10-26-at-9-38-40-AM.png"
     },
     {
       id: 6,
       title: "Soil & Water Testing Laboratory",
       focus: "Agro-Pharmacology & Outreach",
       description: "Provides analytical services to local farmers and supports research on soil and water quality for sustainable agricultural practices.",
-      image: "https://images.unsplash.com/photo-1564410267845-9339e32a79b1?w=800&h=600&fit=crop"
+      image: "https://i.postimg.cc/d0JY3mfn/Screenshot-2025-10-26-at-9-39-29-AM.png"
     }
   ];
 
@@ -59,10 +59,10 @@ const LabsShowcase = () => {
         {/* Header Section */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-12 gap-4">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 leading-tight">
-            Laboratories &<br />Research Spaces
+            Laboratories 
           </h1>
           <p className="text-gray-600 max-w-xl">
-            Explore YNP’s modern laboratories designed for innovation, research, and discovery —
+            Explore YNP’s modern laboratories designed for innovation, research, and discovery
             where students learn by experimenting and advancing pharmaceutical science.
           </p>
         </div>

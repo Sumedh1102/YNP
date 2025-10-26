@@ -12,7 +12,7 @@ const FacilitiesShowcase = () => {
       description:
         "A digital and print library providing access to pharmaceutical journals, research databases, and a quiet study environment for students.",
       image:
-        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&h=600&fit=crop",
+        "https://i.postimg.cc/tRnW2hSg/Screenshot-2025-10-26-at-9-54-28-AM.png",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const FacilitiesShowcase = () => {
       description:
         "A fully equipped hall hosting national seminars, guest lectures, and intercollegiate academic events promoting intellectual exchange.",
       image:
-        "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&h=600&fit=crop",
+        "https://i.postimg.cc/1tnn7QKB/Screenshot-2025-10-26-at-9-55-13-AM.png",
       titleColor: "text-blue-600",
     },
     {
@@ -31,7 +31,7 @@ const FacilitiesShowcase = () => {
       description:
         "Separate hostels for boys and girls with hygienic mess, 24×7 security, Wi-Fi, and study-friendly environments ensuring student comfort and safety.",
       image:
-        "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=800&h=600&fit=crop",
+        "https://i.postimg.cc/SQ9YWmsH/Screenshot-2025-10-26-at-9-55-47-AM.png",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const FacilitiesShowcase = () => {
       description:
         "A clean, well-ventilated canteen providing nutritious meals, beverages, and snacks for students and staff throughout the day.",
       image:
-        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop",
+        "https://i.postimg.cc/8zpFQWb2/Screenshot-2025-10-26-at-9-56-19-AM.png",
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ const FacilitiesShowcase = () => {
       description:
         "Indoor and outdoor sports infrastructure including volleyball, badminton, and gym facilities promoting physical health and teamwork.",
       image:
-        "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=800&h=600&fit=crop",
+        "https://i.postimg.cc/Y0B9Xm9V/Screenshot-2025-10-26-at-9-57-09-AM.png",
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ const FacilitiesShowcase = () => {
       description:
         "A curated garden featuring medicinal herbs used for pharmacognostic studies, promoting green learning and environmental sustainability.",
       image:
-        "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&h=600&fit=crop",
+        "https://i.postimg.cc/NfYFmTZ7/Screenshot-2025-10-26-at-9-57-51-AM.png",
     },
   ];
 
@@ -86,13 +86,13 @@ const FacilitiesShowcase = () => {
             <div key={facility.id} className="group cursor-pointer">
               {/* Image */}
               <div
-                className="relative overflow-hidden rounded-3xl mb-4 h-80"
+                className="relative overflow-hidden rounded-3xl mb-4 h-96"
                 onClick={() => openLightbox(facility.image)}
               >
                 <img
                   src={facility.image}
                   alt={facility.title}
-                  className="w-full h-full object-cover transition-transform duration-300"
+                  className="w-full h-96 object-cover transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
               </div>
