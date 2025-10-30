@@ -2,50 +2,51 @@ import React from 'react';
 import { Download } from 'lucide-react';
 
 const StatutoryBodies = () => {
-  const committees = [
-    {
-      id: 1,
-      name: "Anti-Ragging Committee",
-      description: "Ensures the campus is free from ragging and enforces anti-ragging policies.",
-      pdfLink: "https://res.cloudinary.com/djzzj4s72/image/upload/v1761124610/Anti-Ragging_Committee_ampul0.jpg",
-      image: "/images/Anti-Ragging Committee.jpeg"
-    },
-    {
-      id: 2,
-      name: "Grievance & Redressal Committee",
-      description: "Addresses student grievances and ensures a fair and transparent resolution process.",
-      pdfLink: "https://res.cloudinary.com/djzzj4s72/image/upload/v1761124814/Grievance_Redressal_Committee_ufxlf4.jpg",
-      image: "/images/Grievance & Redressal Committee.jpeg"
-    },
-    {
-      id: 3,
-      name: "Entrepreneurship Development Committee",
-      description: "Encourages innovation and entrepreneurship among students through various initiatives.",
-      pdfLink: "https://res.cloudinary.com/djzzj4s72/image/upload/v1761124813/Minutes_of_Entrepreneurship_Development_Committee_l42byl.jpg",
-      image: "/images/Minutes of Entrepreneurship Development Committee.jpeg"
-    },
-    {
-      id: 4,
-      name: "SC/ST Committee",
-      description: "Promotes welfare and support for SC/ST students in academic and campus activities.",
-      pdfLink: "https://res.cloudinary.com/djzzj4s72/image/upload/v1761124814/SC_ST_Committee_ijamfp.jpg",
-      image: "/images/SC-ST Committee.jpeg"
-    },
-    {
-      id: 5,
-      name: "Training & Placement Cell",
-      description: "Facilitates career guidance, internships, and job placement opportunities for students.",
-      pdfLink: "https://res.cloudinary.com/djzzj4s72/image/upload/v1761124814/Training_Placement_Cell_q0jd3f.jpg",
-      image: "/images/Training & Placement Cell.jpeg"
-    },
-    {
-      id: 6,
-      name: "Women Development Cell",
-      description: "Empowers women students and staff through awareness programs and leadership training.",
-      pdfLink: "https://res.cloudinary.com/djzzj4s72/image/upload/v1761124912/Women_Development_Cell_k4wfp9.jpg",
-      image: "/images/Women Development Cell.jpeg"
-    }
-  ];
+ const committees = [
+  {
+    id: 1,
+    name: "Anti-Ragging Committee",
+    description: "Ensures the campus is free from ragging and enforces anti-ragging policies.",
+    pdfLink: "https://i.postimg.cc/VvdHnrv9/Anti-Ragging-Committee-1.jpg",
+    image: "https://i.postimg.cc/VvdHnrv9/Anti-Ragging-Committee-1.jpg"
+  },
+  {
+    id: 2,
+    name: "Grievance & Redressal Committee",
+    description: "Addresses student grievances and ensures a fair and transparent resolution process.",
+    pdfLink: "https://i.postimg.cc/sgSqThcn/Grievance-Redressal-Committee-1.jpg",
+    image: "https://i.postimg.cc/sgSqThcn/Grievance-Redressal-Committee-1.jpg"
+  },
+  {
+    id: 3,
+    name: "Entrepreneurship Development Committee",
+    description: "Encourages innovation and entrepreneurship among students through various initiatives.",
+    pdfLink: "https://i.postimg.cc/sxXbmH69/Minutes-of-Entrepreneurship-Development-Committee-1.jpg",
+    image: "https://i.postimg.cc/sxXbmH69/Minutes-of-Entrepreneurship-Development-Committee-1.jpg"
+  },
+  {
+    id: 4,
+    name: "SC/ST Committee",
+    description: "Promotes welfare and support for SC/ST students in academic and campus activities.",
+    pdfLink: "https://i.postimg.cc/43vCx9Hg/SC-ST-Committee-1.jpg",
+    image: "https://i.postimg.cc/43vCx9Hg/SC-ST-Committee-1.jpg"
+  },
+  {
+    id: 5,
+    name: "Training & Placement Cell",
+    description: "Facilitates career guidance, internships, and job placement opportunities for students.",
+    pdfLink: "https://i.postimg.cc/bNdj9rWH/Training-Placement-Cell-1.jpg",
+    image: "https://i.postimg.cc/bNdj9rWH/Training-Placement-Cell-1.jpg"
+  },
+  {
+    id: 6,
+    name: "Women Development Cell",
+    description: "Empowers women students and staff through awareness programs and leadership training.",
+    pdfLink: "https://i.postimg.cc/LsjSgW7Q/Women-Development-Cell-2.jpg",
+    image: "https://i.postimg.cc/LsjSgW7Q/Women-Development-Cell-2.jpg"
+  }
+];
+
 
   return (
     <div className="bg-white py-16 px-6 md:px-20">
