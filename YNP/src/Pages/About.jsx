@@ -4,9 +4,11 @@ import Timeline from '../About/Timeline.jsx'
 import Committes from '../About/Committes.jsx'  
 import Vision from '../About/Vision.jsx' 
 import Mission from '../About/Mission.jsx'
+import Header from '../About/Header.jsx'
 const a = () => {
   return (
    <>
+   <Header/>
    <Hero/>
    <Vision/>
    <Mission/>

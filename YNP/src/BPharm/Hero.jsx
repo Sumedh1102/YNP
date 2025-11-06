@@ -8,7 +8,7 @@ export default function ArmoniaHero() {
           {/* Logo/Brand */}
           <div className="flex items-center justify-center gap-2 mb-6 sm:mb-8 md:mb-12 text-stone-500">
             <Users className="w-4 h-4 sm:w-5 sm:h-5" />
-            <span className="text-xs sm:text-sm uppercase tracking-wider font-light">YNP College of Pharmacy</span>
+            <span className="text-xs sm:text-sm uppercase tracking-wider font-light">YNP College of Pharmacy, Palghar</span>
           </div>
 
           {/* Main Heading */}
