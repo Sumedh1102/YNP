@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ynpcop.com/sitemap.xml

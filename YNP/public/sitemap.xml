@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- 🌐 Main Pages -->
+  <url>
+    <loc>https://ynpcop.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/facilities</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/studentlife</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 👨‍🏫 YNP Team -->
+  <url>
+    <loc>https://ynpcop.com/ynp-team/board-of-trustees</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/ynp-team/governing-board</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/ynp-team/statutory-bodies</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/ynp-team/chairman-message</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/ynp-team/principal-message</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/bpharm-faculty</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/dpharm-faculty</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/ynp-team/non-teaching-staff</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- 🎓 Academics -->
+  <url>
+    <loc>https://ynpcop.com/academics/dpharm-syllabus</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ynpcop.com/academics/bpharm-syllabus</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 📄 External Resource (not crawled, optional reference) -->
+  <!-- Cloudinary scholarship download file not included in sitemap,
+       since it's hosted externally and not part of ynpcop.com -->
+  
+</urlset>
