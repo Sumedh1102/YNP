@@ -21,6 +21,7 @@ import NonTeachingStaff from './YNP Teams/NonTeachingStaff.jsx';
 import Faculty from './Pages/BpharmF.jsx';
 import Dpharm from './Pages/Dpharm.jsx';
 import './index.css';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -28,6 +29,7 @@ import {
   useLocation,
 } from 'react-router-dom';
 import { useEffect } from 'react';
+import { HelmetProvider } from 'react-helmet-async'; // ✅ Added Helmet Provider
 
 
 // ✅ ScrollToTop must be used inside a route layout
@@ -41,7 +43,7 @@ function ScrollToTop() {
   return null;
 }
 
-// ✅ Create a layout wrapper that includes ScrollToTop + Outlet
+// ✅ Layout wrapper including ScrollToTop + App (main layout)
 function RootLayout() {
   return (
     <>
@@ -51,7 +53,7 @@ function RootLayout() {
   );
 }
 
-// ✅ Define router normally
+// ✅ Define all routes
 const router = createBrowserRouter([
   {
     path: '/',
@@ -93,8 +95,11 @@ const router = createBrowserRouter([
   },
 ]);
 
+// ✅ Render App inside HelmetProvider (so all pages can use Helmet)
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </StrictMode>
 );

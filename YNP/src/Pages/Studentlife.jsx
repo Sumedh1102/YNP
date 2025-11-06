@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import { Helmet } from 'react-helmet-async' // ✅ Import Helmet
 
 const StudentLifeGallery = () => {
   const galleryItems = [
@@ -56,55 +57,76 @@ const StudentLifeGallery = () => {
       title: 'Library & Self-Study Zone',
       alt: 'Students engaged in reading and research in the YNP central library'
     }
-  ];
+  ]
 
-  const [loadedImages, setLoadedImages] = useState({});
+  const [loadedImages, setLoadedImages] = useState({})
 
   const handleImageLoad = (id) => {
-    setLoadedImages((prev) => ({ ...prev, [id]: true }));
-  };
+    setLoadedImages((prev) => ({ ...prev, [id]: true }))
+  }
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header Section */}
-      <div className="bg-white pt-16 px-4">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-medium text-gray-800 mb-2">
-            Student Life at YNP College of Pharmacy
-          </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Beyond classrooms and laboratories, YNP offers a vibrant campus experience filled with 
-            cultural fests, sports, outreach programs, and lifelong friendships.
-          </p>
-        </div>
-      </div>
+    <>
+      <Helmet>
+        <title>Student Life | YNP College of Pharmacy, Palghar</title>
+        <meta
+          name="description"
+          content="Explore student life at YNP College of Pharmacy, Palghar. From labs and lectures to fests, sports, and community service, experience the vibrant life on campus."
+        />
+        <meta
+          name="keywords"
+          content="YNP College of Pharmacy, Palghar, Student Life, Campus Activities, Pharmacy College Events, Cultural Fest, Pharmacy Students"
+        />
+        <meta property="og:title" content="Student Life - YNP College of Pharmacy" />
+        <meta
+          property="og:description"
+          content="Discover the vibrant student life at YNP College of Pharmacy, Palghar — where education meets fun through cultural events, sports, and learning experiences."
+        />
+        <meta property="og:image" content="/images/student-life-gallery.jpg" />
+        <meta property="og:type" content="website" />
+      </Helmet>
 
-      {/* Gallery Grid */}
-      <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-2">
-          {galleryItems.map((item) => (
-            <div
-              key={item.id}
-              className="group bg-white rounded-3xl overflow-hidden transition-all duration-300"
-            >
-              {/* Image Container */}
-              <div className="relative overflow-hidden aspect-[4/3]">
-                {!loadedImages[item.id] && (
-                  <div className="absolute inset-0 flex items-center justify-center" />
-                )}
-                <img
-                  src={item.url}
-                  alt={item.alt}
-                  onLoad={() => handleImageLoad(item.id)}
-                  className="w-full h-full object-cover transition-transform duration-300 rounded-3xl"
-                />
+      <div className="min-h-screen bg-white">
+        {/* Header Section */}
+        <div className="bg-white pt-16 px-4">
+          <div className="max-w-7xl mx-auto text-center">
+            <h1 className="text-4xl md:text-6xl font-medium text-gray-800 mb-2">
+              Student Life at YNP College of Pharmacy
+            </h1>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Beyond classrooms and laboratories, YNP offers a vibrant campus experience filled with 
+              cultural fests, sports, outreach programs, and lifelong friendships.
+            </p>
+          </div>
+        </div>
+
+        {/* Gallery Grid */}
+        <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-2">
+            {galleryItems.map((item) => (
+              <div
+                key={item.id}
+                className="group bg-white rounded-3xl overflow-hidden transition-all duration-300"
+              >
+                {/* Image Container */}
+                <div className="relative overflow-hidden aspect-[4/3]">
+                  {!loadedImages[item.id] && (
+                    <div className="absolute inset-0 flex items-center justify-center" />
+                  )}
+                  <img
+                    src={item.url}
+                    alt={item.alt}
+                    onLoad={() => handleImageLoad(item.id)}
+                    className="w-full h-full object-cover transition-transform duration-300 rounded-3xl"
+                  />
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
-    </div>
-  );
-};
+    </>
+  )
+}
 
-export default StudentLifeGallery;
+export default StudentLifeGallery
