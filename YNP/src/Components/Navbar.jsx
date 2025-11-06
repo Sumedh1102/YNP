@@ -126,7 +126,7 @@ export default function CareCornerNav() {
                       <li><Link to="/academics/bpharm-syllabus" onClick={closeAllDropdowns}>B.Pharm</Link></li>
                     </ul>
                     <a
-                      href="https://res.cloudinary.com/djzzj4s72/image/upload/v1761302367/Screenshot_2025-10-24_at_4.09.15_PM_k4k1uc.png"
+                      href="https://i.postimg.cc/QxMggKn2/Screenshot-2025-11-06-at-7-27-54-PM.png"
                       download
                       onClick={closeAllDropdowns}
                       className="block mt-3 font-semibold text-sm text-gray-800 hover:text-blue-600"
@@ -193,7 +193,7 @@ export default function CareCornerNav() {
                   <MobileLink to="/academics/dpharm-syllabus" onClick={closeAllDropdowns}>D.Pharm</MobileLink>
                   <MobileLink to="/academics/bpharm-syllabus" onClick={closeAllDropdowns}>B.Pharm</MobileLink>
                   <a
-                    href="https://res.cloudinary.com/djzzj4s72/image/upload/v1761302367/Screenshot_2025-10-24_at_4.09.15_PM_k4k1uc.png"
+                    href="https://i.postimg.cc/QxMggKn2/Screenshot-2025-11-06-at-7-27-54-PM.png"
                     download
                     onClick={closeAllDropdowns}
                     className="block py-1 text-gray-700 hover:text-blue-600 transition"
