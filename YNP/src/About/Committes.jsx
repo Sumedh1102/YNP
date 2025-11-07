@@ -4,47 +4,47 @@ import { ChevronLeft, ChevronRight, Download } from 'lucide-react';
 const CommitteesCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const committees = [
+   const committees = [
   {
     id: 1,
     name: "Anti-Ragging Committee",
     description: "Ensures the campus is free from ragging and enforces anti-ragging policies.",
-    pdfLink: "https://i.postimg.cc/VvdHnrv9/Anti-Ragging-Committee-1.jpg",
+    pdfLink: "https://ibb.co/Q7JwHrCF",
     image: "https://i.postimg.cc/VvdHnrv9/Anti-Ragging-Committee-1.jpg"
   },
   {
     id: 2,
     name: "Grievance & Redressal Committee",
     description: "Addresses student grievances and ensures a fair and transparent resolution process.",
-    pdfLink: "https://i.postimg.cc/sgSqThcn/Grievance-Redressal-Committee-1.jpg",
+    pdfLink: "https://ibb.co/zHjSJTcf",
     image: "https://i.postimg.cc/sgSqThcn/Grievance-Redressal-Committee-1.jpg"
   },
   {
     id: 3,
     name: "Entrepreneurship Development Committee",
     description: "Encourages innovation and entrepreneurship among students through various initiatives.",
-    pdfLink: "https://i.postimg.cc/sxXbmH69/Minutes-of-Entrepreneurship-Development-Committee-1.jpg",
+    pdfLink: "https://ibb.co/pjvdjfL2",
     image: "https://i.postimg.cc/sxXbmH69/Minutes-of-Entrepreneurship-Development-Committee-1.jpg"
   },
   {
     id: 4,
     name: "SC/ST Committee",
     description: "Promotes welfare and support for SC/ST students in academic and campus activities.",
-    pdfLink: "https://i.postimg.cc/43vCx9Hg/SC-ST-Committee-1.jpg",
+    pdfLink: "https://ibb.co/F4FXx20Z",
     image: "https://i.postimg.cc/43vCx9Hg/SC-ST-Committee-1.jpg"
   },
   {
     id: 5,
     name: "Training & Placement Cell",
     description: "Facilitates career guidance, internships, and job placement opportunities for students.",
-    pdfLink: "https://i.postimg.cc/bNdj9rWH/Training-Placement-Cell-1.jpg",
+    pdfLink: "https://ibb.co/tT9DkVGN",
     image: "https://i.postimg.cc/bNdj9rWH/Training-Placement-Cell-1.jpg"
   },
   {
     id: 6,
     name: "Women Development Cell",
     description: "Empowers women students and staff through awareness programs and leadership training.",
-    pdfLink: "https://i.postimg.cc/LsjSgW7Q/Women-Development-Cell-2.jpg",
+    pdfLink: "https://ibb.co/1YggPQXd",
     image: "https://i.postimg.cc/LsjSgW7Q/Women-Development-Cell-2.jpg"
   }
 ];
