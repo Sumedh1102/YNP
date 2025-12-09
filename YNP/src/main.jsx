@@ -18,6 +18,7 @@ import ChairmanMessage from './YNP Teams/ChairmanMessage.jsx';
 import PrincipalMessage from './YNP Teams/PrincipalMessage.jsx';
 import TeachingStaff from './YNP Teams/TeachingStaff.jsx';
 import NonTeachingStaff from './YNP Teams/NonTeachingStaff.jsx';
+import FRAFees from './Components/FRAFees.jsx';
 import Faculty from './Pages/BpharmF.jsx';
 import Dpharm from './Pages/Dpharm.jsx';
 import './index.css';
@@ -80,6 +81,7 @@ const router = createBrowserRouter([
       { path: '/studentlife', element: <Studentlife /> },
       { path: '/bpharm-faculty', element: <Faculty /> },
       { path: '/dpharm-faculty', element: <Dpharm /> },
+      { path: '/frafees', element: <FRAFees /> },
       { path: '/contact', element: <Contact /> },
 
       {

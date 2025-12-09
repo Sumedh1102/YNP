@@ -12,7 +12,6 @@ export default function CareCornerNav() {
 
   const location = useLocation()
 
-  // ✅ Close all dropdowns function
   const closeAllDropdowns = () => {
     setIsTeamOpen(false)
     setIsAcademicsOpen(false)
@@ -22,10 +21,10 @@ export default function CareCornerNav() {
     setIsMenuOpen(false)
   }
 
-  // ✅ Scroll to top on route change
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }, [location])
+
 
   return (
     <div>
@@ -33,7 +32,7 @@ export default function CareCornerNav() {
       <a href="https://aems.vmpkp.com/aemsedudc/StudentFee/feescollectionthruprn">
         <div className="w-full bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 text-white overflow-hidden">
           <div className="whitespace-nowrap py-2 sm:py-3">
-            <p className="inline-block text-lg sm:text-xl md:text-2xl font-thin animate-marquee whitespace-nowrap"> Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online </p>
+<p className="inline-block text-lg sm:text-xl md:text-2xl font-thin animate-marquee whitespace-nowrap"> Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pay Fees Online </p>
           </div>
         </div>
       </a>
@@ -131,19 +130,15 @@ export default function CareCornerNav() {
                     >
                       Scholarship
                     </a>
-                    <a
-                      href="https://ibb.co/NnVQ10PT"
-                      download
-                      onClick={closeAllDropdowns}
-                      className="block mt-3 font-semibold text-sm text-gray-800 hover:text-blue-600"
-                    >
-                      FRA Fee Structure
-                    </a>
                   </div>
                 )}
               </div>
 
               <NavLink to="/facilities" onClick={closeAllDropdowns}>Facilities</NavLink>
+
+              {/* ✅ Added Fees Option */}
+             <NavLink to="/frafees" onClick={closeAllDropdowns}>Fees</NavLink>
+
               <NavLink to="/studentlife" onClick={closeAllDropdowns}>Student Life</NavLink>
               <NavLink to="/contact" onClick={closeAllDropdowns}>Contact Us</NavLink>
             </div>
@@ -165,7 +160,6 @@ export default function CareCornerNav() {
                 <MobileLink to="/" onClick={closeAllDropdowns}>Home</MobileLink>
                 <MobileLink to="/about" onClick={closeAllDropdowns}>About</MobileLink>
 
-                {/* Mobile YNP Team */}
                 <MobileDropdown
                   title="YNP Team"
                   isOpen={isTeamMobileOpen}
@@ -177,7 +171,6 @@ export default function CareCornerNav() {
                   <MobileLink to="/ynp-team/chairman-message" onClick={closeAllDropdowns}>Chairman's Message</MobileLink>
                   <MobileLink to="/ynp-team/principal-message" onClick={closeAllDropdowns}>Vice Chairman's Message</MobileLink>
 
-                  {/* Teaching Staff */}
                   <MobileDropdown
                     title="Teaching Staff"
                     isOpen={isTeachingStaffOpen}
@@ -190,7 +183,6 @@ export default function CareCornerNav() {
                   <MobileLink to="/ynp-team/non-teaching-staff" onClick={closeAllDropdowns}>Non-Teaching Staff</MobileLink>
                 </MobileDropdown>
 
-                {/* Mobile Academics */}
                 <MobileDropdown
                   title="Academics"
                   isOpen={isAcademicsMobileOpen}
@@ -206,17 +198,13 @@ export default function CareCornerNav() {
                   >
                     Scholarship
                   </a>
-                   <a
-                      href="https://ibb.co/NnVQ10PT"
-                      download
-                      onClick={closeAllDropdowns}
-                      className="block mt-3 font-semibold text-sm text-gray-800 hover:text-blue-600"
-                    >
-                      FRA Fee Structure
-                    </a>
                 </MobileDropdown>
 
                 <MobileLink to="/facilities" onClick={closeAllDropdowns}>Facilities</MobileLink>
+
+                {/* ✅ Added Fees Option */}
+                <MobileLink to="/fees" onClick={closeAllDropdowns}>Fees</MobileLink>
+
                 <MobileLink to="/studentlife" onClick={closeAllDropdowns}>Student Life</MobileLink>
                 <MobileLink to="/contact" onClick={closeAllDropdowns}>Contact Us</MobileLink>
               </div>
