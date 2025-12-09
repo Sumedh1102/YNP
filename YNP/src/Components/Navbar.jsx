@@ -203,7 +203,7 @@ export default function CareCornerNav() {
                 <MobileLink to="/facilities" onClick={closeAllDropdowns}>Facilities</MobileLink>
 
                 {/* ✅ Added Fees Option */}
-                <MobileLink to="/fees" onClick={closeAllDropdowns}>Fees</MobileLink>
+                <MobileLink to="/frafees" onClick={closeAllDropdowns}>Fees</MobileLink>
 
                 <MobileLink to="/studentlife" onClick={closeAllDropdowns}>Student Life</MobileLink>
                 <MobileLink to="/contact" onClick={closeAllDropdowns}>Contact Us</MobileLink>
