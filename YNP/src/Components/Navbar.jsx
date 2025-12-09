@@ -1,5 +1,3 @@
-"use client"
-
 import { Link, useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { ChevronDown, Menu, X } from "lucide-react"
@@ -133,6 +131,14 @@ export default function CareCornerNav() {
                     >
                       Scholarship
                     </a>
+                    <a
+                      href="https://ibb.co/NnVQ10PT"
+                      download
+                      onClick={closeAllDropdowns}
+                      className="block mt-3 font-semibold text-sm text-gray-800 hover:text-blue-600"
+                    >
+                      FRA Fee Structure
+                    </a>
                   </div>
                 )}
               </div>
@@ -200,6 +206,14 @@ export default function CareCornerNav() {
                   >
                     Scholarship
                   </a>
+                   <a
+                      href="https://ibb.co/NnVQ10PT"
+                      download
+                      onClick={closeAllDropdowns}
+                      className="block mt-3 font-semibold text-sm text-gray-800 hover:text-blue-600"
+                    >
+                      FRA Fee Structure
+                    </a>
                 </MobileDropdown>
 
                 <MobileLink to="/facilities" onClick={closeAllDropdowns}>Facilities</MobileLink>
