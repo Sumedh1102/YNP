@@ -8,6 +8,7 @@ import Desk from '../Components/Desk.jsx'
 import Fees from '../Components/Fees.jsx'
 import Contact from '../Components/Contact.jsx'
 import Merit from '../Components/Merit.jsx'
+import AdmissionSchedule from '../Components/AdmissionSchedule.jsx' 
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
         <Grid />
         <Desk />
         <HContact />
+        <AdmissionSchedule /> 
         <Fees />
         <Merit/>
       </div>
