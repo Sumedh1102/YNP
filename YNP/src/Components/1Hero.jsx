@@ -6,7 +6,7 @@ export default function EducationHero() {
         <div
           className="absolute inset-0 bg-cover bg-center rounded-2xl sm:rounded-3xl"
           style={{
-            backgroundImage: `url('https://i.postimg.cc/WbWhxgRk/Chat-GPT-Image-Nov-6-2025-12-25-27-PM.png')`,
+            backgroundImage: `url('https://i.postimg.cc/9FgHLSKR/image.png')`,
           }}
         >
           {/* Overlay */}
@@ -37,7 +37,7 @@ export default function EducationHero() {
 
         <div className="hidden lg:flex absolute right-10 top-1/2 -translate-y-80 z-20 pointer-events-none">
           <img
-            src="https://i.postimg.cc/pTXmgT6R/Chat-GPT-Image-Nov-6-2025-11-18-32-AM-Photoroom.png"
+            src="https://i.postimg.cc/5yZjv0Bc/image.png"
             alt="Healthcare innovation"
             className="w-full h-full object-cover"
           />

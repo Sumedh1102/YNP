@@ -56,6 +56,12 @@ const StudentLifeGallery = () => {
       url: 'https://i.postimg.cc/PxzvCT2m/image.png',
       title: 'Library & Self-Study Zone',
       alt: 'Students engaged in reading and research in the YNP central library'
+    },
+    {
+      id: 10,
+      url: 'https://i.postimg.cc/yNyW2Lsb/Screenshot-2026-07-04-at-2-09-34-PM.png',
+      title: 'Library & Self-Study Zone',
+      alt: 'Students engaged in reading and research in the YNP central library'
     }
   ]
 

@@ -23,7 +23,7 @@ const trustees = [
     position: "CEO",
     description:
       "CEO, V.M. Patil Krushi Pratishthan, Asangaon. She plays a vital role in shaping the administrative and academic policies that drive the college’s success.",
-    image: "https://i.postimg.cc/qRp71w6w/image.png",
+    image: "https://i.postimg.cc/bwFmk97N/Chat-GPT-Image-Jul-4-2026-02-03-59-PM.png",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const trustees = [
     position: "Finance Director",
     description:
       "Finance Director, V.M. Patil Krushi Pratishthan, Asangaon. Oversees financial planning, budgeting, and transparency across institutional operations.",
-    image: "https://i.postimg.cc/VL9mVn17/image.png",
+    image: "https://i.postimg.cc/Xq75sTFS/image.png",
   },
   {
     id: 5,

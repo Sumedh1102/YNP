@@ -97,6 +97,7 @@ export default function CareCornerNav() {
                           <ul className="pl-4 mt-2 space-y-1">
                             <li><Link to="/bpharm-faculty" onClick={closeAllDropdowns}>B.Pharm</Link></li>
                             <li><Link to="/dpharm-faculty" onClick={closeAllDropdowns}>D.Pharm</Link></li>
+                            <li><Link to="/ynp-team/guest-faculty" onClick={closeAllDropdowns}>Guest Faculty</Link></li>
                           </ul>
                         )}
                       </li>
@@ -178,6 +179,7 @@ export default function CareCornerNav() {
                   >
                     <MobileLink to="/bpharm-faculty" onClick={closeAllDropdowns}>B.Pharm</MobileLink>
                     <MobileLink to="/dpharm-faculty" onClick={closeAllDropdowns}>D.Pharm</MobileLink>
+                    <MobileLink to="/ynp-team/guest-faculty" onClick={closeAllDropdowns}>Guest Faculty</MobileLink>
                   </MobileDropdown>
 
                   <MobileLink to="/ynp-team/non-teaching-staff" onClick={closeAllDropdowns}>Non-Teaching Staff</MobileLink>

@@ -18,20 +18,6 @@ const facultyMembers = [
 
   // 👨‍🏫 Associate Professors
   {
-    id: 2,
-    name: 'Mr. Jidnesh Bhuvaneshwar Dharmameher',
-    role: 'Associate Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/rFD26w3F/Screenshot-2025-10-24-at-3-04-09-PM-Photoroom.png'
-  },
-  {
-    id: 3,
-    name: 'Mr. Surendra Bhuraram Choudhary',
-    role: 'Associate Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/0Qjc6bpr/Screenshot-2025-10-24-at-3-04-54-PM-Photoroom.png'
-  },
-  {
     id: 4,
     name: 'Mr. Shailesh Ram Kokani',
     role: 'Associate Professor',
@@ -137,6 +123,27 @@ const facultyMembers = [
     role: 'Assistant Professor',
     qualification: 'Pharm D',
     image: 'https://i.postimg.cc/fyyDMYbS/Screenshot-2025-10-27-at-10-32-49-AM-Photoroom.png'
+  },
+  {
+    id: 20,
+    name: 'Mr. Avinash Gadhekar',
+    role: 'Assistant Professor',
+    qualification: 'Master\u2019s in Pharmacy',
+    image: 'https://i.postimg.cc/C1Q02Q6J/image.png'
+  },
+  {
+    id: 21,
+    name: 'Mr. Sagar Raje',
+    role: 'Assistant Professor',
+    qualification: 'Master\u2019s in Pharmacy',
+    image: 'https://i.postimg.cc/3JpygXdf/image.png'
+  },
+  {
+    id: 22,
+    name: 'Mr. Shubham Gadhire',
+    role: 'Assistant Professor',
+    qualification: 'Master\u2019s in Pharmacy',
+    image: 'https://i.postimg.cc/kXx4V7pZ/image.png'
   }
 ];
 

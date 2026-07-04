@@ -26,6 +26,13 @@ const ClassroomShowcase = () => {
       description: "AI-integrated systems for molecular modeling, virtual screening, and pharmacokinetic simulation in drug discovery.",
       image: "https://i.postimg.cc/q7r37S4t/Screenshot-2025-10-26-at-9-51-25-AM.png"
     },
+    {
+      id: 4,
+      name: "Computer-Aided Drug Design Lab (CAD-DL)",
+      capacity: "50 students",
+      description: "AI-integrated systems for molecular modeling, virtual screening, and pharmacokinetic simulation in drug discovery.",
+      image: "https://i.postimg.cc/QCW4d94G/Screenshot-2026-07-04-at-1-58-47-PM.png"
+    },
   ];
 
   const openLightbox = (image) => setLightboxImage(image);

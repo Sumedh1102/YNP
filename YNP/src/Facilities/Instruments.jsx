@@ -47,6 +47,34 @@ const InstrumentShowcase = () => {
       department: "CAD–DL Lab",
       type: "Computational Modelling System",
       image: "https://i.postimg.cc/767dN5j9/Screenshot-2025-10-26-at-9-45-45-AM.png"
+    },
+    {
+      id: 7,
+      name: "AI–Integrated Drug Design Workstation",
+      department: "CAD–DL Lab",
+      type: "Computational Modelling System",
+      image: "https://i.postimg.cc/d19QS3mr/Screenshot-2026-07-03-at-9-30-56-PM.png"
+    },
+    {
+      id: 8,
+      name: "AI–Integrated Drug Design Workstation",
+      department: "CAD–DL Lab",
+      type: "Computational Modelling System",
+      image: "https://i.postimg.cc/nL4nCrW1/Screenshot-2026-07-03-at-9-31-09-PM.png"
+    },
+    {
+      id: 9,
+      name: "AI–Integrated Drug Design Workstation",
+      department: "CAD–DL Lab",
+      type: "Computational Modelling System",
+      image: "https://i.postimg.cc/J0n86qzF/Screenshot-2026-07-03-at-9-31-18-PM.png"
+    },
+    {
+      id: 10,
+      name: "AI–Integrated Drug Design Workstation",
+      department: "CAD–DL Lab",
+      type: "Computational Modelling System",
+      image: "https://i.postimg.cc/RVW9wX8M/Screenshot-2026-07-03-at-9-31-27-PM.png"
     }
   ];
 

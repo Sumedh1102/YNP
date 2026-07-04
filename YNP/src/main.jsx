@@ -17,6 +17,7 @@ import StatutoryBodies from './YNP Teams/StatutoryBodies.jsx';
 import ChairmanMessage from './YNP Teams/ChairmanMessage.jsx';
 import PrincipalMessage from './YNP Teams/PrincipalMessage.jsx';
 import TeachingStaff from './YNP Teams/TeachingStaff.jsx';
+import GuestFaculty from './YNP Teams/GuestFaculty.jsx';
 import NonTeachingStaff from './YNP Teams/NonTeachingStaff.jsx';
 import FRAFees from './Components/FRAFees.jsx';
 import Faculty from './Pages/BpharmF.jsx';
@@ -73,6 +74,7 @@ const router = createBrowserRouter([
           { path: 'chairman-message', element: <ChairmanMessage /> },
           { path: 'principal-message', element: <PrincipalMessage /> },
           { path: 'teaching-staff', element: <TeachingStaff /> },
+          { path: 'guest-faculty', element: <GuestFaculty /> },
           { path: 'non-teaching-staff', element: <NonTeachingStaff /> },
         ],
       },

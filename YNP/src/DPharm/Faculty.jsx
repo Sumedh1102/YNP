@@ -32,32 +32,25 @@ const DPharmFacultySection = () => {
       image: 'https://i.postimg.cc/rpsqpNY4/Screenshot-2025-10-24-at-3-11-11-PM-Photoroom.png',
     },
     {
-      id: 5,
-      name: 'Miss. Anjali Bansh Gopal Singh',
-      role: 'Lecturer',
-      qualification: 'Bachelor’s in Pharmacy',
-      image: 'https://i.postimg.cc/yxB5DV8B/Screenshot-2025-10-24-at-3-12-12-PM-Photoroom.png',
-    },
-    {
-      id: 6,
-      name: 'Miss. Priyanka Rajendra Wadile',
-      role: 'Lecturer',
-      qualification: 'Bachelor’s in Pharmacy',
-      image: 'https://i.postimg.cc/bYTV6fvN/Screenshot-2025-10-24-at-3-12-58-PM-Photoroom.png',
-    },
-    {
-      id: 7,
-      name: 'Mr. Yash Suresh Patil',
-      role: 'Lecturer',
-      qualification: 'Bachelor’s in Pharmacy',
-      image: 'https://i.postimg.cc/DzrP81JS/Screenshot-2025-10-24-at-3-14-08-PM-Photoroom.png',
-    },
-    {
       id: 8,
-      name: 'Miss. Tanvi Ishwarlal Ambire',
+      name: 'Miss. Tanvi Ishwarlal Ambhire',
       role: 'Lecturer',
-      qualification: 'Bachelor’s in Pharmacy',
+      qualification: 'Bachelor\'s in Pharmacy',
       image: 'https://i.postimg.cc/1zsN72XG/Screenshot-2025-10-24-at-3-15-27-PM-Photoroom.png',
+    },
+    {
+      id: 9,
+      name: 'Miss. Priyanshi Tiwari',
+      role: 'Lecturer',
+      qualification: 'Bachelor\'s in Pharmacy',
+      image: 'https://i.postimg.cc/SxJvTKbH/image.png',
+    },
+    {
+      id: 10,
+      name: 'Miss. Akanksha Patil',
+      role: 'Lecturer',
+      qualification: 'Bachelor\'s in Pharmacy',
+      image: 'https://i.postimg.cc/JnmKLrvf/image.png',
     },
   ];
 

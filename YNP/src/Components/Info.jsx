@@ -52,12 +52,15 @@ export default function HealthcareHero() {
               <div className="space-y-5 md:space-y-7 text-gray-700 text-sm md:text-base">
                 <div className="flex justify-between items-center">
                   <span className="font-medium">Monday - Friday</span>
-                  <span className="text-gray-600">9:00 AM - 5:00 PM</span>
+                  <span className="text-gray-600">9:30 AM - 4:00 PM</span>
                 </div>
 
                 <div className="flex justify-between items-center">
                   <span className="font-medium">Saturday</span>
-                  <span className="text-gray-600">9:00 AM - 1:00 PM</span>
+                  <span className="text-gray-600">Alternate Saturday off
+
+
+                  </span>
                 </div>
 
                 <div className="flex justify-between items-center">

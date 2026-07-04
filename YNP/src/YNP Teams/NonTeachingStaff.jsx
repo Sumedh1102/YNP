@@ -60,6 +60,20 @@ const NonTeachingStaffSection = () => {
     image: 'https://i.postimg.cc/VkKW3zjs/Screenshot-2025-10-26-at-10-12-17-AM.png'
   },
   {
+    id: 10,
+    name: 'Ms. Neha Pagdhare',
+    role: 'Lab Technician',
+    qualification: 'DMLT',
+    image: 'https://i.postimg.cc/d0DZZzd7/image.png'
+  },
+  {
+    id: 11,
+    name: 'Mr. Vikas Bhoye',
+    role: 'Lab Assistant',
+    qualification: 'B.Sc. Chemistry',
+    image: 'https://i.postimg.cc/W32K7wNj/image.png'
+  },
+  {
     id: 4,
     name: 'Mr. Hitesh Patil',
     role: 'Lab Attendant',
