@@ -25,18 +25,18 @@ const DPharmFacultySection = () => {
       image: 'https://i.postimg.cc/cJmJbJtc/Screenshot-2025-10-24-at-2-55-49-PM-Photoroom.png',
     },
     {
+      id: 8,
+      name: 'Miss. Tanvi Ishwarlal Ambhire',
+      role: 'Assistant Professor',
+      qualification: 'Master’s in Pharmacy',
+      image: '/faculty/tanvi-ambhire.jpg',
+    },
+    {
       id: 4,
       name: 'Miss. Snevika Vikram Dhodi',
       role: 'Lecturer',
       qualification: 'Bachelor’s in Pharmacy',
       image: 'https://i.postimg.cc/rpsqpNY4/Screenshot-2025-10-24-at-3-11-11-PM-Photoroom.png',
-    },
-    {
-      id: 8,
-      name: 'Miss. Tanvi Ishwarlal Ambhire',
-      role: 'Lecturer',
-      qualification: 'Bachelor\'s in Pharmacy',
-      image: 'https://i.postimg.cc/1zsN72XG/Screenshot-2025-10-24-at-3-15-27-PM-Photoroom.png',
     },
     {
       id: 9,

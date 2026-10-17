@@ -12,7 +12,6 @@ import Studentlife from './Pages/Studentlife.jsx';
 import Contact from './Pages/Contact.jsx';
 import YnpTeam from './Pages/YNPteams.jsx';
 import BoardOfTrustees from './YNP Teams/BoardOfTrustees.jsx';
-import GoverningBoard from './YNP Teams/GoverningBoard.jsx';
 import StatutoryBodies from './YNP Teams/StatutoryBodies.jsx';
 import ChairmanMessage from './YNP Teams/ChairmanMessage.jsx';
 import PrincipalMessage from './YNP Teams/PrincipalMessage.jsx';
@@ -27,6 +26,7 @@ import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
+  Navigate,
   Outlet,
   useLocation,
 } from 'react-router-dom';
@@ -69,7 +69,8 @@ const router = createBrowserRouter([
         element: <YnpTeam />,
         children: [
           { path: 'board-of-trustees', element: <BoardOfTrustees /> },
-          { path: 'governing-board', element: <GoverningBoard /> },
+          // Governing Body now lives under Statutory Bodies; keep old links working
+          { path: 'governing-board', element: <Navigate to="/ynp-team/statutory-bodies" replace /> },
           { path: 'statutory-bodies', element: <StatutoryBodies /> },
           { path: 'chairman-message', element: <ChairmanMessage /> },
           { path: 'principal-message', element: <PrincipalMessage /> },

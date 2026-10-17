@@ -48,32 +48,11 @@ const facultyMembers = [
     image: 'https://i.postimg.cc/cJmJbJtc/Screenshot-2025-10-24-at-2-55-49-PM-Photoroom.png'
   },
   {
-    id: 8,
-    name: 'Miss Pranita Prabhakar Patil',
-    role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/rsqNLsfL/Screenshot-2025-10-24-at-2-54-33-PM-Photoroom.png'
-  },
-  {
     id: 9,
     name: 'Mr. Prathamesh Ravindra Thakare',
     role: 'Assistant Professor',
     qualification: 'Master’s in Pharmacy',
     image: 'https://i.postimg.cc/DwPpJVbB/Screenshot-2025-10-24-at-2-48-55-PM-Photoroom.png'
-  },
-  {
-    id: 10,
-    name: 'Miss Gauri Vijay Patil',
-    role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/zvwKtNNc/Screenshot-2025-10-24-at-2-49-49-PM-Photoroom.png'
-  },
-  {
-    id: 11,
-    name: 'Miss Srushti Shankar Gode',
-    role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/yxNs5XCd/Screenshot-2025-10-24-at-2-51-00-PM-Photoroom.png'
   },
   {
     id: 12,
@@ -128,7 +107,7 @@ const facultyMembers = [
     id: 20,
     name: 'Mr. Avinash Gadhekar',
     role: 'Assistant Professor',
-    qualification: 'Master\u2019s in Pharmacy',
+    qualification: 'Pharm D',
     image: 'https://i.postimg.cc/C1Q02Q6J/image.png'
   },
   {
@@ -144,6 +123,13 @@ const facultyMembers = [
     role: 'Assistant Professor',
     qualification: 'Master\u2019s in Pharmacy',
     image: 'https://i.postimg.cc/kXx4V7pZ/image.png'
+  },
+  {
+    id: 23,
+    name: 'Ms. Krutisha Rane',
+    role: 'Assistant Professor',
+    qualification: 'Master\u2019s in Pharmacy',
+    image: '/faculty/krutisha-rane.jpg'
   }
 ];
 

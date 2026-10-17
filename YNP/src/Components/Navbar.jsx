@@ -80,7 +80,6 @@ export default function CareCornerNav() {
                   <div className="absolute left-0 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg z-50 p-3 space-y-2">
                     <ul className="space-y-2 text-sm text-gray-700">
                       <li><Link to="/ynp-team/board-of-trustees" onClick={closeAllDropdowns}>Board of Trustees</Link></li>
-                      <li><Link to="/ynp-team/governing-board" onClick={closeAllDropdowns}>Governing Board</Link></li>
                       <li><Link to="/ynp-team/statutory-bodies" onClick={closeAllDropdowns}>Statutory Bodies</Link></li>
                       <li><Link to="/ynp-team/chairman-message" onClick={closeAllDropdowns}>Chairman's Message</Link></li>
                       <li><Link to="/ynp-team/principal-message" onClick={closeAllDropdowns}>Vice Chairman's Message</Link></li>
@@ -167,7 +166,6 @@ export default function CareCornerNav() {
                   toggle={() => setIsTeamMobileOpen(!isTeamMobileOpen)}
                 >
                   <MobileLink to="/ynp-team/board-of-trustees" onClick={closeAllDropdowns}>Board of Trustees</MobileLink>
-                  <MobileLink to="/ynp-team/governing-board" onClick={closeAllDropdowns}>Governing Board</MobileLink>
                   <MobileLink to="/ynp-team/statutory-bodies" onClick={closeAllDropdowns}>Statutory Bodies</MobileLink>
                   <MobileLink to="/ynp-team/chairman-message" onClick={closeAllDropdowns}>Chairman's Message</MobileLink>
                   <MobileLink to="/ynp-team/principal-message" onClick={closeAllDropdowns}>Vice Chairman's Message</MobileLink>

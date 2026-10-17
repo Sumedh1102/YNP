@@ -35,11 +35,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ynpcop.com/ynp-team/governing-board</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ynpcop.com/ynp-team/statutory-bodies</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
