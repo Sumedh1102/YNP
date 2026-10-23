@@ -37,7 +37,7 @@ const AppointmentCTA = () => {
           {/* Left Image Section */}
           <div className="w-full md:w-1/2">
             <img
-              src="https://ynpbpharm.in/assets/img/gallery/gallery-3.jpg"
+              src="/images/campus/outreach-group.jpg"
               alt="YNP College Faculty Consultation"
               className="w-full h-full object-cover rounded-t-xl md:rounded-l-xl md:rounded-tr-none"
             />

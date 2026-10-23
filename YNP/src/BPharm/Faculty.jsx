@@ -13,7 +13,7 @@ const facultyMembers = [
     name: 'Dr. Sanket Dharashivkar',
     role: 'Principal',
     qualification: 'PhD, Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/rmTqM2xV/Screenshot-2025-10-24-at-3-03-18-PM-Photoroom.png'
+    image: '/faculty/sanket-dharashivkar.jpg'
   },
 
   // 👨‍🏫 Associate Professors
@@ -22,14 +22,13 @@ const facultyMembers = [
     name: 'Mr. Shailesh Ram Kokani',
     role: 'Associate Professor',
     qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/1t1DSXvQ/Screenshot-2025-10-24-at-3-07-12-PM-Photoroom.png'
+    image: '/faculty/shailesh-kokani.jpg'
   },
   {
     id: 5,
     name: 'Mr. Mahesh Mohan Dharashivkar',
     role: 'Associate Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/sD8DDH7Q/Screenshot-2025-10-27-at-10-32-03-AM-Photoroom.png'
+    qualification: 'Master’s in Pharmacy'
   },
 
   // 👩‍🔬 Assistant Professors
@@ -38,91 +37,86 @@ const facultyMembers = [
     name: 'Mr. Rohidas Ramesh Khanjode',
     role: 'Assistant Professor',
     qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/PrQ3RsrP/Screenshot-2025-10-24-at-3-05-56-PM-Photoroom.png'
+    image: '/faculty/rohidas-khanjode.jpg'
   },
   {
     id: 7,
     name: 'Miss Samali Suhas Raut',
     role: 'Assistant Professor',
     qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/cJmJbJtc/Screenshot-2025-10-24-at-2-55-49-PM-Photoroom.png'
+    image: '/faculty/samali-raut.jpg'
   },
   {
     id: 9,
     name: 'Mr. Prathamesh Ravindra Thakare',
     role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/DwPpJVbB/Screenshot-2025-10-24-at-2-48-55-PM-Photoroom.png'
+    qualification: 'Master’s in Pharmacy'
   },
   {
     id: 12,
     name: 'Miss Neha Satish Gosalkar',
     role: 'Assistant Professor',
     qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/G3ZbzDgf/Screenshot-2025-10-24-at-2-51-54-PM-Photoroom.png'
+    image: '/faculty/neha-gosalkar.jpg'
   },
   {
     id: 13,
     name: 'Miss Aarti Ashok Chaugle',
     role: 'Assistant Professor',
     qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/FzjF0svd/Screenshot-2025-10-24-at-2-56-59-PM-Photoroom.png'
+    image: '/faculty/aarti-chaugle.jpg'
   },
   {
     id: 14,
     name: 'Mr. Kunal Kishor Pawar',
     role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/8CsYqKjY/Screenshot-2025-10-24-at-2-53-04-PM-Photoroom.png'
+    qualification: 'Master’s in Pharmacy'
   },
   {
     id: 15,
     name: 'Mr. Rishikesh Kamlesh Jaiswal',
     role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/2SMqM82h/Screenshot-2025-10-27-at-10-28-56-AM-Photoroom.png'
+    qualification: 'Master’s in Pharmacy'
   },
   {
     id: 16,
     name: 'Mr. Prithviraj Santosh Bhakde',
     role: 'Assistant Professor',
     qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/mZjPRSmk/Screenshot-2025-10-27-at-10-30-02-AM-Photoroom.png'
+    image: '/faculty/prithviraj-bhakde.jpg'
   },
   {
     id: 17,
     name: 'Mrs. Dhanashri Rajkumar Kadam',
     role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy',
-    image: 'https://i.postimg.cc/5t8tr5HX/Screenshot-2025-10-27-at-10-30-50-AM-Photoroom.png'
+    qualification: 'Master’s in Pharmacy'
   },
   {
     id: 18,
     name: 'Dr. Tushar Bendga',
     role: 'Assistant Professor',
-    qualification: 'Pharm D',
-    image: 'https://i.postimg.cc/fyyDMYbS/Screenshot-2025-10-27-at-10-32-49-AM-Photoroom.png'
+    qualification: 'Pharm D'
   },
   {
     id: 20,
     name: 'Mr. Avinash Gadhekar',
     role: 'Assistant Professor',
     qualification: 'Pharm D',
-    image: 'https://i.postimg.cc/C1Q02Q6J/image.png'
+    image: '/faculty/avinash-gadhekar.jpg'
   },
   {
     id: 21,
     name: 'Mr. Sagar Raje',
     role: 'Assistant Professor',
     qualification: 'Master\u2019s in Pharmacy',
-    image: 'https://i.postimg.cc/3JpygXdf/image.png'
+    image: '/faculty/sagar-raje.jpg'
   },
   {
     id: 22,
     name: 'Mr. Shubham Gadhire',
     role: 'Assistant Professor',
     qualification: 'Master\u2019s in Pharmacy',
-    image: 'https://i.postimg.cc/kXx4V7pZ/image.png'
+    image: '/faculty/shubham-gadhire.jpg'
   },
   {
     id: 23,
@@ -130,6 +124,12 @@ const facultyMembers = [
     role: 'Assistant Professor',
     qualification: 'Master\u2019s in Pharmacy',
     image: '/faculty/krutisha-rane.jpg'
+  },
+  {
+    id: 24,
+    name: 'Mr. Sudarshan Ahire',
+    role: 'Assistant Professor',
+    qualification: 'Master’s in Pharmacy'
   }
 ];
 
@@ -162,9 +162,9 @@ const facultyMembers = [
               {/* Faculty Image */}
               <div className="relative">
                 <img
-                  src={faculty.image}
+                  src={faculty.image || '/images/ynp-logo.png'}
                   alt={faculty.name}
-                  className="w-full h-96 object-cover object-center rounded-3xl bg-gray-200"
+                  className={`w-full h-96 rounded-3xl bg-gray-200 ${faculty.image ? 'object-cover object-center' : 'object-contain p-12'}`}
                 />
               </div>
 

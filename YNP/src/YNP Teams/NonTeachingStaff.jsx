@@ -7,78 +7,72 @@ const NonTeachingStaffSection = () => {
     id: 6,
     name: 'Mr. Ashish Patil',
     role: 'Office Superintendent',
-    qualification: 'B.Sc',
-    image: 'https://i.postimg.cc/W3grbVqK/Screenshot-2025-10-26-at-10-13-33-AM.png'
+    qualification: 'B.Sc'
   },
   {
     id: 8,
     name: 'Ms. Pooja Machhi',
     role: 'Accountant',
-    qualification: 'B.Com',
-    image: 'https://i.postimg.cc/N0r2ptDj/Screenshot-2025-10-26-at-10-14-50-AM.png'
+    qualification: 'B.Com'
   },
   {
     id: 7,
     name: 'Ms. Samruddhi Bhoir',
     role: 'Senior Clerk',
-    qualification: 'M.Com',
-    image: 'https://i.postimg.cc/661w5Ztp/Screenshot-2025-10-26-at-10-19-13-AM.png'
+    qualification: 'M.Com'
   },
   {
     id: 9,
     name: 'Ms. Riya Kore',
     role: 'Jr. Clerk',
-    qualification: 'B.Com',
-    image: 'https://i.postimg.cc/WpKLPPw3/Screenshot-2025-10-26-at-10-20-20-AM.png'
+    qualification: 'B.Com'
   },
   {
     id: 5,
     name: 'Mrs. Sunita Machhi',
     role: 'Librarian',
-    qualification: 'M.Lib',
-    image: 'https://i.postimg.cc/0N6DFDkb/Screenshot-2025-10-26-at-10-13-12-AM.png'
+    qualification: 'M.Lib'
+  },
+  {
+    id: 12,
+    name: 'Mr. Manoj Ghulam',
+    role: 'Librarian'
   },
   {
     id: 2,
     name: 'Mr. Vivek Medha',
     role: 'Store Keeper',
-    qualification: 'B.Sc. Chemistry, B.Ed',
-    image: 'https://i.postimg.cc/RF6d7262/Screenshot-2025-10-26-at-10-11-25-AM.png'
+    qualification: 'B.Sc. Chemistry, B.Ed'
   },
   {
     id: 1,
     name: 'Mr. Kanchan Chambre',
     role: 'Lab Assistant',
-    qualification: 'B.Sc. Chemistry',
-    image: 'https://i.postimg.cc/QCcqP5qb/Screenshot-2025-10-26-at-10-11-56-AM.png'
+    qualification: 'B.Sc. Chemistry'
   },
   {
     id: 3,
     name: 'Mr. Rajesh Dhadapa',
     role: 'Lab Assistant',
-    qualification: 'B.Sc. Chemistry',
-    image: 'https://i.postimg.cc/VkKW3zjs/Screenshot-2025-10-26-at-10-12-17-AM.png'
+    qualification: 'B.Sc. Chemistry'
   },
   {
     id: 10,
     name: 'Ms. Neha Pagdhare',
     role: 'Lab Technician',
-    qualification: 'DMLT',
-    image: 'https://i.postimg.cc/d0DZZzd7/image.png'
+    qualification: 'DMLT'
   },
   {
     id: 11,
     name: 'Mr. Vikas Bhoye',
     role: 'Lab Assistant',
-    qualification: 'B.Sc. Chemistry',
-    image: 'https://i.postimg.cc/W32K7wNj/image.png'
+    qualification: 'B.Sc. Chemistry'
   },
   {
     id: 4,
     name: 'Mr. Hitesh Patil',
     role: 'Lab Attendant',
-    qualification: 'B.Sc. Chemistry',
-    image: 'https://i.postimg.cc/gkdyjxD4/Screenshot-2025-10-26-at-10-12-39-AM.png'
+    qualification: 'B.Sc. Chemistry'
   }
 ];
 
@@ -105,9 +99,9 @@ const NonTeachingStaffSection = () => {
               {/* Staff Image */}
               <div className="relative">
                 <img
-                  src={staff.image || 'https://via.placeholder.com/300x300.png?text=Staff+Image'}
+                  src={staff.image || '/images/ynp-logo.png'}
                   alt={staff.name}
-                  className="w-full h-96 object-top object-cover rounded-3xl bg-gray-200"
+                  className={`w-full h-96 rounded-3xl bg-gray-200 ${staff.image ? 'object-top object-cover' : 'object-contain p-12'}`}
                 />
               </div>
 

@@ -5,61 +5,61 @@ const StudentLifeGallery = () => {
   const galleryItems = [
     {
       id: 1,
-      url: 'https://i.postimg.cc/fyGCMwL6/Events.png',
+      url: '/images/campus/events-group.jpg',
       title: 'Orientation & Induction Program',
       alt: 'New students attending YNP College of Pharmacy induction ceremony'
     },
     {
       id: 2,
-      url: 'https://i.postimg.cc/qRxRhxdD/image.png',
+      url: '/images/campus/outreach-group.jpg',
       title: 'Pharmaceutics Lab Practice',
       alt: 'Students performing experiments in pharmaceutics laboratory'
     },
     {
       id: 3,
-      url: 'https://i.postimg.cc/x1ywpZpQ/Whats-App-Image-2025-06-09-at-2-31-27-PM-1.jpg',
+      url: '/images/campus/cultural-event.jpg',
       title: 'Research Presentation & Poster Session',
       alt: 'Students presenting pharmaceutical research at academic event'
     },
     {
       id: 4,
-      url: 'https://i.postimg.cc/5N8TjGVw/image.png',
+      url: '/images/campus/parade.jpg',
       title: 'Cultural Festival – “PharmVision”',
       alt: 'Students performing during annual cultural and technical fest'
     },
     {
       id: 5,
-      url: 'https://i.postimg.cc/1RqYYT48/image.png',
+      url: '/images/campus/awareness-rally.jpg',
       title: 'Sports & Fitness Activities',
       alt: 'Students participating in outdoor sports and games'
     },
     {
       id: 6,
-      url: 'https://i.postimg.cc/VN2Wqf9f/image.png',
+      url: '/images/campus/blood-donation.jpg',
       title: 'Community Health Camp',
       alt: 'YNP pharmacy students volunteering in rural medical outreach'
     },
     {
       id: 7,
-      url: 'https://i.postimg.cc/Sxs6H2D4/image.png',
+      url: '/images/campus/campus-front.jpg',
       title: 'Campus Life & Friendships',
       alt: 'Students relaxing and enjoying time on campus grounds'
     },
     {
       id: 8,
-      url: 'https://i.postimg.cc/SQfcs7Pj/image.png',
+      url: '/images/campus/band-performance.jpg',
       title: 'Guest Lectures & Seminars',
       alt: 'Students attending an expert talk in the seminar hall'
     },
     {
       id: 9,
-      url: 'https://i.postimg.cc/PxzvCT2m/image.png',
+      url: '/images/campus/morning-assembly.jpg',
       title: 'Library & Self-Study Zone',
       alt: 'Students engaged in reading and research in the YNP central library'
     },
     {
       id: 10,
-      url: 'https://i.postimg.cc/yNyW2Lsb/Screenshot-2026-07-04-at-2-09-34-PM.png',
+      url: '/images/campus/campus-atrium.jpg',
       title: 'Library & Self-Study Zone',
       alt: 'Students engaged in reading and research in the YNP central library'
     }

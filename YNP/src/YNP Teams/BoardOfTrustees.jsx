@@ -23,7 +23,7 @@ const trustees = [
     position: "CEO",
     description:
       "CEO, V.M. Patil Krushi Pratishthan, Asangaon. She plays a vital role in shaping the administrative and academic policies that drive the college’s success.",
-    image: "https://i.postimg.cc/bwFmk97N/Chat-GPT-Image-Jul-4-2026-02-03-59-PM.png",
+    image: "/trustees/trupti-patil.jpg",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const trustees = [
     position: "Finance Director",
     description:
       "Finance Director, V.M. Patil Krushi Pratishthan, Asangaon. Oversees financial planning, budgeting, and transparency across institutional operations.",
-    image: "https://i.postimg.cc/Xq75sTFS/image.png",
+    image: "/trustees/lumesh-desai.jpg",
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const trustees = [
     position: "Secretary",
     description:
       "Secretary, V.M. Patil Krushi Pratishthan, Asangaon. He contributes to institutional coordination, documentation, and policy execution.",
-    image: "https://i.postimg.cc/k4TQnBxw/Whats-App-Image-2025-10-24-at-1-16-12-PM.jpg",
+    image: "/trustees/vilas-raut.jpg",
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const trustees = [
     position: " Joint Secretary",
     description:
       " Joint Secretary, V.M. Patil Krushi Pratishthan, Asangaon. He plays a key role in ensuring effective administrative coordination, managing institutional documentation, and supporting the implementation of organizational policies and initiatives.",
-    image: "https://i.postimg.cc/SRZZjmMS/image.png",
+    image: "/trustees/akshay-patil.jpg",
   },
 ];
 

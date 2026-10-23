@@ -12,7 +12,7 @@ const FacilitiesShowcase = () => {
       description:
         "A digital and print library providing access to pharmaceutical journals, research databases, and a quiet study environment for students.",
       image:
-        "https://i.postimg.cc/tRnW2hSg/Screenshot-2025-10-26-at-9-54-28-AM.png",
+        "/images/campus/morning-assembly.jpg",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const FacilitiesShowcase = () => {
       description:
         "A fully equipped hall hosting national seminars, guest lectures, and intercollegiate academic events promoting intellectual exchange.",
       image:
-        "https://i.postimg.cc/1tnn7QKB/Screenshot-2025-10-26-at-9-55-13-AM.png",
+        "/images/campus/cultural-event.jpg",
       titleColor: "text-blue-600",
     },
     {
@@ -31,7 +31,7 @@ const FacilitiesShowcase = () => {
       description:
         "Separate hostels for boys and girls with hygienic mess, 24×7 security, Wi-Fi, and study-friendly environments ensuring student comfort and safety.",
       image:
-        "https://i.postimg.cc/SQ9YWmsH/Screenshot-2025-10-26-at-9-55-47-AM.png",
+        "/images/campus/campus-front.jpg",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const FacilitiesShowcase = () => {
       description:
         "A clean, well-ventilated canteen providing nutritious meals, beverages, and snacks for students and staff throughout the day.",
       image:
-        "https://i.postimg.cc/8zpFQWb2/Screenshot-2025-10-26-at-9-56-19-AM.png",
+        "/images/campus/campus-atrium.jpg",
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ const FacilitiesShowcase = () => {
       description:
         "Indoor and outdoor sports infrastructure including volleyball, badminton, and gym facilities promoting physical health and teamwork.",
       image:
-        "https://i.postimg.cc/Y0B9Xm9V/Screenshot-2025-10-26-at-9-57-09-AM.png",
+        "/images/campus/band-performance.jpg",
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ const FacilitiesShowcase = () => {
       description:
         "A curated garden featuring medicinal herbs used for pharmacognostic studies, promoting green learning and environmental sustainability.",
       image:
-        "https://i.postimg.cc/NfYFmTZ7/Screenshot-2025-10-26-at-9-57-51-AM.png",
+        "/images/campus/awareness-rally.jpg",
     },
   ];
 

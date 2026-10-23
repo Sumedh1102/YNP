@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import dissolutionApparatus from '../assets/dissolution_apparatus.png';
 
 export default function MedicalServicesGrid() {
   const services = [
@@ -21,21 +22,21 @@ export default function MedicalServicesGrid() {
     {
       id: 3,
       title: 'State of Art Facilities',
-      image: 'https://i.postimg.cc/FKVSF7j6/image.png',
+      image: dissolutionApparatus,
       hasIcon: false,
       link: '/facilities'
     },
     {
       id: 4,
       title: 'Experienced Faculty',
-      image: 'https://i.postimg.cc/ncQJNL9g/Whats-App-Image-2025-10-24-at-2-30-45-PM.jpg',
+      image: '/images/campus/events-group.jpg',
       hasIcon: false,
       link: '/bpharm-faculty'
     },
     {
       id: 5,
       title: 'Student Life At YNPCOP',
-      image: 'https://i.postimg.cc/1XfZJWPS/Screenshot-2025-10-25-at-11-55-36-PM.png',
+      image: '/images/campus/cultural-group.jpg',
       hasIcon: false,
       link: '/studentlife'
     }

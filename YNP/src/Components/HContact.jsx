@@ -70,7 +70,7 @@ export default function HealthcareSection() {
           <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden mt-6 md:mt-8 lg:mt-0">
             <div className="w-full h-64 sm:h-96 md:h-[500px] lg:h-[800px]">
               <img
-                src="https://i.postimg.cc/HnysxhfP/image.png"
+                src="/images/campus/campus-atrium.jpg"
                 alt="Students in laboratory"
                 className="w-full h-full object-cover"
               />

@@ -1,5 +1,9 @@
 import { X } from 'lucide-react';
 import { useState } from 'react';
+import uvSpectrophotometer from '../assets/uv_spectrophotometer.png';
+import dissolutionApparatus from '../assets/dissolution_apparatus.png';
+import disintegrationTester from '../assets/disintegration_tester.png';
+import friabilityTester from '../assets/friability_tester.png';
 
 const InstrumentShowcase = () => {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -10,7 +14,7 @@ const InstrumentShowcase = () => {
       name: "UV–Visible Spectrophotometer",
       department: "Pharmaceutical Chemistry Lab",
       type: "Analytical Instrument",
-      image: "https://i.postimg.cc/50T9XQLC/Screenshot-2025-10-26-at-9-42-19-AM.png",
+      image: uvSpectrophotometer,
       color: "text-blue-600"
     },
     {
@@ -18,63 +22,63 @@ const InstrumentShowcase = () => {
       name: "Digital Dissolution Test Apparatus",
       department: "Pharmaceutics Laboratory",
       type: "Drug Release Testing",
-      image: "https://i.postimg.cc/vHW8mBBL/Screenshot-2025-10-26-at-9-42-56-AM.png"
+      image: dissolutionApparatus
     },
     {
       id: 3,
       name: "Tablet Compression Machine",
       department: "Pharmaceutical Technology Lab",
       type: "Formulation Equipment",
-      image: "https://i.postimg.cc/JhdMFHT6/Screenshot-2025-10-26-at-9-43-30-AM.png"
+      image: disintegrationTester
     },
     {
       id: 4,
       name: "Laminar Air Flow Chamber",
       department: "Microbiology Lab",
       type: "Sterile Preparation Unit",
-      image: "https://i.postimg.cc/wjqzTQZ2/Screenshot-2025-10-26-at-9-44-10-AM.png"
+      image: friabilityTester
     },
     {
       id: 5,
       name: "High Performance Thin Layer Chromatography (HPTLC)",
       department: "Pharmacognosy Lab",
       type: "Phytochemical Analysis",
-      image: "https://i.postimg.cc/SRbF06W0/Screenshot-2025-10-26-at-9-44-43-AM.png"
+      image: "/images/campus/campus-front.jpg"
     },
     {
       id: 6,
       name: "AI–Integrated Drug Design Workstation",
       department: "CAD–DL Lab",
       type: "Computational Modelling System",
-      image: "https://i.postimg.cc/767dN5j9/Screenshot-2025-10-26-at-9-45-45-AM.png"
+      image: "/images/campus/campus-atrium.jpg"
     },
     {
       id: 7,
       name: "AI–Integrated Drug Design Workstation",
       department: "CAD–DL Lab",
       type: "Computational Modelling System",
-      image: "https://i.postimg.cc/d19QS3mr/Screenshot-2026-07-03-at-9-30-56-PM.png"
+      image: "/images/campus/campus-aerial.jpg"
     },
     {
       id: 8,
       name: "AI–Integrated Drug Design Workstation",
       department: "CAD–DL Lab",
       type: "Computational Modelling System",
-      image: "https://i.postimg.cc/nL4nCrW1/Screenshot-2026-07-03-at-9-31-09-PM.png"
+      image: "/images/campus/morning-assembly.jpg"
     },
     {
       id: 9,
       name: "AI–Integrated Drug Design Workstation",
       department: "CAD–DL Lab",
       type: "Computational Modelling System",
-      image: "https://i.postimg.cc/J0n86qzF/Screenshot-2026-07-03-at-9-31-18-PM.png"
+      image: "/images/campus/parade.jpg"
     },
     {
       id: 10,
       name: "AI–Integrated Drug Design Workstation",
       department: "CAD–DL Lab",
       type: "Computational Modelling System",
-      image: "https://i.postimg.cc/RVW9wX8M/Screenshot-2026-07-03-at-9-31-27-PM.png"
+      image: "/images/campus/events-group.jpg"
     }
   ];
 

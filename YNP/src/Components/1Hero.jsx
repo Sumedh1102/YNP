@@ -6,7 +6,7 @@ export default function EducationHero() {
         <div
           className="absolute inset-0 bg-cover bg-center rounded-2xl sm:rounded-3xl"
           style={{
-            backgroundImage: `url('https://i.postimg.cc/9FgHLSKR/image.png')`,
+            backgroundImage: `url('/images/campus/campus-front.jpg')`,
           }}
         >
           {/* Overlay */}
@@ -33,14 +33,6 @@ export default function EducationHero() {
             capable professionals who contribute meaningfully to the well-being of society through dedication and
             integrity.
           </p>
-        </div>
-
-        <div className="hidden lg:flex absolute right-10 top-1/2 -translate-y-80 z-20 pointer-events-none">
-          <img
-            src="https://i.postimg.cc/5yZjv0Bc/image.png"
-            alt="Healthcare innovation"
-            className="w-full h-full object-cover"
-          />
         </div>
       </div>
     </div>

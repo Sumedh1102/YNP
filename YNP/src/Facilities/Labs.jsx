@@ -1,5 +1,9 @@
 import { X } from 'lucide-react';
 import { useState } from 'react';
+import uvSpectrophotometer from '../assets/uv_spectrophotometer.png';
+import dissolutionApparatus from '../assets/dissolution_apparatus.png';
+import disintegrationTester from '../assets/disintegration_tester.png';
+import friabilityTester from '../assets/friability_tester.png';
 
 const LabsShowcase = () => {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -10,14 +14,14 @@ const LabsShowcase = () => {
       title: "Pharmaceutics Laboratory",
       focus: "Formulation & Drug Delivery",
       description: "Equipped with modern instruments for developing tablets, capsules, and novel drug delivery systems under controlled environments.",
-      image: "https://i.postimg.cc/C1Vfzt00/Screenshot-2025-10-26-at-9-35-20-AM.png"
+      image: dissolutionApparatus
     },
     {
       id: 2,
       title: "Pharmaceutical Chemistry Lab",
       focus: "Analytical & Synthetic Chemistry",
       description: "Facilitates synthesis, analysis, and characterization of drug molecules using advanced spectrophotometric and chromatographic techniques.",
-      image: "https://i.postimg.cc/GmW45NHp/Screenshot-2025-10-26-at-9-35-55-AM.png",
+      image: uvSpectrophotometer,
       titleColor: "text-blue-600"
     },
     {
@@ -25,28 +29,28 @@ const LabsShowcase = () => {
       title: "Pharmacognosy Lab",
       focus: "Herbal & Natural Product Research",
       description: "Focuses on identification, extraction, and formulation of herbal medicines — integrating traditional knowledge with modern research.",
-      image: "https://i.postimg.cc/SKLxtK0k/Screenshot-2025-10-26-at-9-37-23-AM.png"
+      image: disintegrationTester
     },
     {
       id: 4,
       title: "Pharmacology Lab",
       focus: "Drug Action & Toxicology",
       description: "Supports simulation-based experiments for studying drug effects, mechanisms, and pharmacodynamics through ethical and AI-integrated setups.",
-      image: "https://i.postimg.cc/jjhR4kNV/Screenshot-2025-10-26-at-9-38-02-AM.png"
+      image: friabilityTester
     },
     {
       id: 5,
       title: "Computer-Aided Drug Design Lab (CAD-DL)",
       focus: "AI-driven Drug Discovery",
       description: "Advanced digital lab featuring molecular modeling, pharmacokinetic analysis, and virtual simulation tools powered by AI algorithms.",
-      image: "https://i.postimg.cc/Vv2wNyyD/Screenshot-2025-10-26-at-9-38-40-AM.png"
+      image: "/images/campus/campus-atrium.jpg"
     },
     {
       id: 6,
       title: "Soil & Water Testing Laboratory",
       focus: "Agro-Pharmacology & Outreach",
       description: "Provides analytical services to local farmers and supports research on soil and water quality for sustainable agricultural practices.",
-      image: "https://i.postimg.cc/d0JY3mfn/Screenshot-2025-10-26-at-9-39-29-AM.png"
+      image: "/images/campus/awareness-rally.jpg"
     }
   ];
 
