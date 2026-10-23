@@ -7,31 +7,36 @@ const NonTeachingStaffSection = () => {
     id: 6,
     name: 'Mr. Ashish Patil',
     role: 'Office Superintendent',
-    qualification: 'B.Sc'
+    qualification: 'B.Sc',
+    image: '/staff/ashish-patil.jpg'
   },
   {
     id: 8,
     name: 'Ms. Pooja Machhi',
     role: 'Accountant',
-    qualification: 'B.Com'
+    qualification: 'B.Com',
+    image: '/staff/pooja-machhi.jpg'
   },
   {
     id: 7,
     name: 'Ms. Samruddhi Bhoir',
     role: 'Senior Clerk',
-    qualification: 'M.Com'
+    qualification: 'M.Com',
+    image: '/staff/samruddhi-bhoir.jpg'
   },
   {
     id: 9,
     name: 'Ms. Riya Kore',
     role: 'Jr. Clerk',
-    qualification: 'B.Com'
+    qualification: 'B.Com',
+    image: '/staff/riya-kore.jpg'
   },
   {
     id: 5,
     name: 'Mrs. Sunita Machhi',
     role: 'Librarian',
-    qualification: 'M.Lib'
+    qualification: 'M.Lib',
+    image: '/staff/sunita-machhi.jpg'
   },
   {
     id: 12,
@@ -42,37 +47,43 @@ const NonTeachingStaffSection = () => {
     id: 2,
     name: 'Mr. Vivek Medha',
     role: 'Store Keeper',
-    qualification: 'B.Sc. Chemistry, B.Ed'
+    qualification: 'B.Sc. Chemistry, B.Ed',
+    image: '/staff/vivek-medha.jpg'
   },
   {
     id: 1,
     name: 'Mr. Kanchan Chambre',
     role: 'Lab Assistant',
-    qualification: 'B.Sc. Chemistry'
+    qualification: 'B.Sc. Chemistry',
+    image: '/staff/kanchan-chambre.jpg'
   },
   {
     id: 3,
     name: 'Mr. Rajesh Dhadapa',
     role: 'Lab Assistant',
-    qualification: 'B.Sc. Chemistry'
+    qualification: 'B.Sc. Chemistry',
+    image: '/staff/rajesh-dhadapa.jpg'
   },
   {
     id: 10,
     name: 'Ms. Neha Pagdhare',
     role: 'Lab Technician',
-    qualification: 'DMLT'
+    qualification: 'DMLT',
+    image: '/staff/neha-pagdhare.jpg'
   },
   {
     id: 11,
     name: 'Mr. Vikas Bhoye',
     role: 'Lab Assistant',
-    qualification: 'B.Sc. Chemistry'
+    qualification: 'B.Sc. Chemistry',
+    image: '/staff/vikas-bhoye.jpg'
   },
   {
     id: 4,
     name: 'Mr. Hitesh Patil',
     role: 'Lab Attendant',
-    qualification: 'B.Sc. Chemistry'
+    qualification: 'B.Sc. Chemistry',
+    image: '/staff/hitesh-patil.jpg'
   }
 ];
 

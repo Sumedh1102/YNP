@@ -36,18 +36,21 @@ const DPharmFacultySection = () => {
       name: 'Miss. Snevika Vikram Dhodi',
       role: 'Lecturer',
       qualification: 'Bachelor’s in Pharmacy',
+      image: '/faculty/snevika-dhodi.jpg',
     },
     {
       id: 9,
       name: 'Miss. Priyanshi Tiwari',
       role: 'Lecturer',
       qualification: 'Bachelor\'s in Pharmacy',
+      image: '/faculty/priyanshi-tiwari.jpg',
     },
     {
       id: 10,
       name: 'Miss. Akanksha Patil',
       role: 'Lecturer',
       qualification: 'Bachelor\'s in Pharmacy',
+      image: '/faculty/akanksha-patil.jpg',
     },
   ];
 

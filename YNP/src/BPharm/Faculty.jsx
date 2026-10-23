@@ -95,7 +95,8 @@ const facultyMembers = [
     id: 18,
     name: 'Dr. Tushar Bendga',
     role: 'Assistant Professor',
-    qualification: 'Pharm D'
+    qualification: 'Pharm D',
+    image: '/faculty/tushar-bendga.jpg'
   },
   {
     id: 20,
@@ -129,7 +130,8 @@ const facultyMembers = [
     id: 24,
     name: 'Mr. Sudarshan Ahire',
     role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy'
+    qualification: 'Master’s in Pharmacy',
+    image: '/faculty/sudarshan-ahire.jpg'
   }
 ];
 
