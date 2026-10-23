@@ -7,7 +7,7 @@ const trustees = [
     position: "Chairman",
     description:
       "Chairman, V.M. Patil Krushi Pratishthan, Asangaon. Mr. Milind Patil provides strategic leadership and vision for the institution’s growth, ensuring the highest standards of education and governance.",
-    image: "https://i.postimg.cc/mgh2qhry/Whats-App-Image-2025-10-23-at-11-57-16-AM.jpg",
+    image: "/trustees/milind-patil.jpg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const trustees = [
     position: "Vice Chairman",
     description:
       "Vice Chairman, V.M. Patil Krushi Pratishthan, Asangaon. A dedicated educationist committed to institutional excellence and continuous improvement.",
-    image: "https://i.postimg.cc/KzGWq3G9/image.png",
+    image: "/trustees/vikas-patil.jpg",
   },
   {
     id: 3,

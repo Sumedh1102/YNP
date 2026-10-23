@@ -7,7 +7,7 @@ const LeadershipMessagesSection = () => {
       name: "Milind Patil",
       position: "Chairman",
       location: "YNP College of Pharmacy",
-      image: "https://i.postimg.cc/mgh2qhry/Whats-App-Image-2025-10-23-at-11-57-16-AM.jpg",
+      image: "/trustees/milind-patil.jpg",
       quote: "At YNP College of Pharmacy, we are committed to nurturing young minds to become competent and ethical pharmacists. Our focus is on quality education, research, and community service."
     },
     {
@@ -15,7 +15,7 @@ const LeadershipMessagesSection = () => {
       name: "Vikas Patil",
       position: "Vice Chairman",
       location: "YNP College of Pharmacy",
-      image: "https://i.postimg.cc/KzGWq3G9/image.png",
+      image: "/trustees/vikas-patil.jpg",
       quote: "We strive to provide an environment that encourages innovation, critical thinking, and professional growth. Our vision is to shape the future of pharmacy education in India."
     },
         {

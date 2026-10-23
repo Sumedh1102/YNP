@@ -4,7 +4,7 @@ const chairman = {
   name: "Mr. Vikas Madhukar Patil",
   designation: "Vice Chairman",
   message: "At YNP College of Pharmacy, our Vice Chairman serves as an invaluable pillar of support and leadership, contributing to the institution's growth and success with unwavering dedication and expertise. With a keen understanding of the evolving landscape of pharmaceutical education, our Vice Chairman plays a pivotal role in shaping strategic initiatives and fostering collaborative partnerships. Their visionary approach and commitment to excellence inspire innovation and drive progress throughout the institution.",
-  image: "https://i.postimg.cc/KzGWq3G9/image.png",
+  image: "/trustees/vikas-patil.jpg",
   signature: "https://via.placeholder.com/150x50/ffffff/000000?text=Signature"
 };
 
