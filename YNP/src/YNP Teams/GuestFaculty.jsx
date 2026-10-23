@@ -6,13 +6,11 @@ const GuestFacultySection = () => {
       id: 1,
       name: 'Ms. Shruti Patil',
       role: 'Guest Faculty',
-      image: 'https://i.postimg.cc/LsfYVjCp/image.png',
     },
     {
       id: 2,
       name: 'Ms. Sayali Patil',
       role: 'Guest Faculty',
-      image: 'https://i.postimg.cc/BbFVSYNh/image.png',
     },
   ];
 
@@ -39,9 +37,9 @@ const GuestFacultySection = () => {
               {/* Faculty Image */}
               <div className="relative">
                 <img
-                  src={faculty.image}
+                  src={faculty.image || '/images/ynp-logo.png'}
                   alt={faculty.name}
-                  className="w-full h-96 object-cover object-top rounded-3xl bg-gray-200"
+                  className={`w-full h-96 rounded-3xl bg-gray-200 ${faculty.image ? 'object-cover object-top' : 'object-contain p-12'}`}
                 />
               </div>
 

@@ -8,21 +8,21 @@ const DPharmFacultySection = () => {
       name: 'Dr. Sanket Dharashivkar',
       role: 'Principal',
       qualification: 'PhD, Master’s in Pharmacy',
-      image: 'https://i.postimg.cc/rmTqM2xV/Screenshot-2025-10-24-at-3-03-18-PM-Photoroom.png',
+      image: '/faculty/sanket-dharashivkar.jpg',
     },
     {
       id: 2,
       name: 'Mr. Shailesh Ram Kokani',
       role: 'Head of Department',
       qualification: 'Master’s in Pharmacy',
-      image: 'https://i.postimg.cc/1t1DSXvQ/Screenshot-2025-10-24-at-3-07-12-PM-Photoroom.png',
+      image: '/faculty/shailesh-kokani.jpg',
     },
     {
       id: 3,
       name: 'Miss. Samali Suhas Raut',
       role: 'Assistant Professor',
       qualification: 'Master’s in Pharmacy',
-      image: 'https://i.postimg.cc/cJmJbJtc/Screenshot-2025-10-24-at-2-55-49-PM-Photoroom.png',
+      image: '/faculty/samali-raut.jpg',
     },
     {
       id: 8,
@@ -36,21 +36,18 @@ const DPharmFacultySection = () => {
       name: 'Miss. Snevika Vikram Dhodi',
       role: 'Lecturer',
       qualification: 'Bachelor’s in Pharmacy',
-      image: 'https://i.postimg.cc/rpsqpNY4/Screenshot-2025-10-24-at-3-11-11-PM-Photoroom.png',
     },
     {
       id: 9,
       name: 'Miss. Priyanshi Tiwari',
       role: 'Lecturer',
       qualification: 'Bachelor\'s in Pharmacy',
-      image: 'https://i.postimg.cc/SxJvTKbH/image.png',
     },
     {
       id: 10,
       name: 'Miss. Akanksha Patil',
       role: 'Lecturer',
       qualification: 'Bachelor\'s in Pharmacy',
-      image: 'https://i.postimg.cc/JnmKLrvf/image.png',
     },
   ];
 
@@ -77,9 +74,9 @@ const DPharmFacultySection = () => {
               {/* Faculty Image */}
               <div className="relative">
                 <img
-                  src={faculty.image}
+                  src={faculty.image || '/images/ynp-logo.png'}
                   alt={faculty.name}
-                  className="w-full h-96 object-cover rounded-3xl bg-gray-200"
+                  className={`w-full h-96 rounded-3xl bg-gray-200 ${faculty.image ? 'object-cover' : 'object-contain p-12'}`}
                 />
               </div>
 

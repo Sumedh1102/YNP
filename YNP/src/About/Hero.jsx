@@ -32,7 +32,7 @@ export default function AboutFirmHero() {
         {/* Right Column - Image */}
         <div className="relative h-64 sm:h-80 md:h-96 lg:h-[700px] flex items-center justify-center p-4 sm:p-6 md:p-8">
           <img
-            src="https://i.postimg.cc/xj3mVsvx/image.png"
+            src="/images/campus/campus-atrium.jpg"
             alt="Professional portrait of a woman in business attire"
             className="object-cover w-full h-full rounded-3xl"
           />

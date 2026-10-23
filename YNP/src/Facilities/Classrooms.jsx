@@ -1,5 +1,6 @@
 import { X } from 'lucide-react';
 import { useState } from 'react';
+import disintegrationTester from '../assets/disintegration_tester.png';
 
 const ClassroomShowcase = () => {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -10,28 +11,28 @@ const ClassroomShowcase = () => {
       name: "Pharmaceutics Laboratory",
       capacity: "60 students",
       description: "Equipped with advanced instruments for formulation, compounding, and dosage design, fostering hands-on pharmaceutical learning.",
-      image: "https://i.postimg.cc/d0GjHGtd/Screenshot-2025-10-26-at-9-48-53-AM.png"
+      image: disintegrationTester
     },
     {
       id: 2,
       name: "Pharmacognosy & Herbal Research Lab",
       capacity: "40 students",
       description: "Dedicated to phytochemical extraction, herbal formulation, and identification of medicinal plant species for research-based learning.",
-      image: "https://i.postimg.cc/J4g3RpGf/Screenshot-2025-10-26-at-9-49-40-AM.png"
+      image: "/images/campus/outreach-group.jpg"
     },
     {
       id: 3,
       name: "Computer-Aided Drug Design Lab (CAD-DL)",
       capacity: "50 students",
       description: "AI-integrated systems for molecular modeling, virtual screening, and pharmacokinetic simulation in drug discovery.",
-      image: "https://i.postimg.cc/q7r37S4t/Screenshot-2025-10-26-at-9-51-25-AM.png"
+      image: "/images/campus/campus-atrium.jpg"
     },
     {
       id: 4,
       name: "Computer-Aided Drug Design Lab (CAD-DL)",
       capacity: "50 students",
       description: "AI-integrated systems for molecular modeling, virtual screening, and pharmacokinetic simulation in drug discovery.",
-      image: "https://i.postimg.cc/QCW4d94G/Screenshot-2026-07-04-at-1-58-47-PM.png"
+      image: "/images/campus/campus-aerial.jpg"
     },
   ];
 
