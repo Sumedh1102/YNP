@@ -77,7 +77,8 @@ const facultyMembers = [
     id: 15,
     name: 'Mr. Rishikesh Kamlesh Jaiswal',
     role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy'
+    qualification: 'Master’s in Pharmacy',
+    image: '/faculty/rishikesh-jaiswal.jpg'
   },
   {
     id: 16,

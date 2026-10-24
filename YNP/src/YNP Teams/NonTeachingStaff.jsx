@@ -41,7 +41,8 @@ const NonTeachingStaffSection = () => {
   {
     id: 12,
     name: 'Mr. Manoj Ghulam',
-    role: 'Librarian'
+    role: 'Librarian',
+    image: '/staff/manoj-ghulam.jpg'
   },
   {
     id: 2,
