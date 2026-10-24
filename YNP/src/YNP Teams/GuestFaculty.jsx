@@ -8,12 +8,6 @@ const GuestFacultySection = () => {
       role: 'Guest Faculty',
       image: '/faculty/shruti-patil.jpg',
     },
-    {
-      id: 2,
-      name: 'Ms. Sayali Patil',
-      role: 'Guest Faculty',
-      image: '/faculty/sayali-patil.jpg',
-    },
   ];
 
   return (

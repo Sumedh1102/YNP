@@ -28,7 +28,8 @@ const facultyMembers = [
     id: 5,
     name: 'Mr. Mahesh Mohan Dharashivkar',
     role: 'Associate Professor',
-    qualification: 'Master’s in Pharmacy'
+    qualification: 'Master’s in Pharmacy',
+    image: '/faculty/mahesh-dharashivkar.jpg'
   },
 
   // 👩‍🔬 Assistant Professors
@@ -89,7 +90,8 @@ const facultyMembers = [
     id: 17,
     name: 'Mrs. Dhanashri Rajkumar Kadam',
     role: 'Assistant Professor',
-    qualification: 'Master’s in Pharmacy'
+    qualification: 'Master’s in Pharmacy',
+    image: '/faculty/dhanashri-kadam.jpg'
   },
   {
     id: 18,

@@ -20,16 +20,23 @@ const DPharmFacultySection = () => {
     {
       id: 3,
       name: 'Miss. Samali Suhas Raut',
-      role: 'Assistant Professor',
+      role: 'Senior Lecturer',
       qualification: 'Master’s in Pharmacy',
       image: '/faculty/samali-raut.jpg',
     },
     {
       id: 8,
       name: 'Miss. Tanvi Ishwarlal Ambhire',
-      role: 'Assistant Professor',
+      role: 'Senior Lecturer',
       qualification: 'Master’s in Pharmacy',
       image: '/faculty/tanvi-ambhire.jpg',
+    },
+    {
+      id: 11,
+      name: 'Ms. Krutisha Rane',
+      role: 'Senior Lecturer',
+      qualification: 'Master’s in Pharmacy',
+      image: '/faculty/krutisha-rane.jpg',
     },
     {
       id: 4,

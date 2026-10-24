@@ -13,7 +13,7 @@ const NonTeachingStaffSection = () => {
   {
     id: 8,
     name: 'Ms. Pooja Machhi',
-    role: 'Accountant',
+    role: 'Cashier',
     qualification: 'B.Com',
     image: '/staff/pooja-machhi.jpg'
   },
@@ -46,7 +46,7 @@ const NonTeachingStaffSection = () => {
   {
     id: 2,
     name: 'Mr. Vivek Medha',
-    role: 'Store Keeper',
+    role: 'Lab Assistant',
     qualification: 'B.Sc. Chemistry, B.Ed',
     image: '/staff/vivek-medha.jpg'
   },
@@ -66,8 +66,8 @@ const NonTeachingStaffSection = () => {
   },
   {
     id: 10,
-    name: 'Ms. Neha Pagdhare',
-    role: 'Lab Technician',
+    name: 'Mrs. Neha Pagdhare',
+    role: 'Lab Assistant',
     qualification: 'DMLT',
     image: '/staff/neha-pagdhare.jpg'
   },
@@ -81,9 +81,38 @@ const NonTeachingStaffSection = () => {
   {
     id: 4,
     name: 'Mr. Hitesh Patil',
-    role: 'Lab Attendant',
+    role: 'Lab Assistant',
     qualification: 'B.Sc. Chemistry',
     image: '/staff/hitesh-patil.jpg'
+  },
+  {
+    id: 13,
+    name: 'Mr. Prashant Dumada',
+    role: 'Lab Technician'
+  },
+  {
+    id: 14,
+    name: 'Mr. Tushar Dubla',
+    role: 'Lab Technician',
+    image: '/staff/tushar-dubla.jpg'
+  },
+  {
+    id: 15,
+    name: 'Ms. Sejal Chaudhary',
+    role: 'Lab Technician',
+    image: '/staff/sejal-chaudhary.jpg'
+  },
+  {
+    id: 16,
+    name: 'Ms. Sayali Patil',
+    role: 'Lab Technician',
+    image: '/staff/sayali-patil.jpg'
+  },
+  {
+    id: 17,
+    name: 'Ms. Shrutika Patil',
+    role: 'Lab Technician',
+    image: '/staff/shrutika-patil.jpg'
   }
 ];
 
